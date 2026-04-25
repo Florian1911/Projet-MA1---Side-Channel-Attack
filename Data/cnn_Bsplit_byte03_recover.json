@@ -1,0 +1,38 @@
+{
+  "model": "cnn_Bsplit_byte03.keras",
+  "stats_npz": "cnn_Bsplit_byte03.npz",
+  "attack_npz": "unknown_B_attack10k.npz",
+  "byte": 3,
+  "best_shift": 8,
+  "recovered_key_byte": 135,
+  "margin": 1.7503171993084834,
+  "top5": [
+    {
+      "rank": 1,
+      "key": 135,
+      "score": -55404.80877317335
+    },
+    {
+      "rank": 2,
+      "key": 148,
+      "score": -55406.559090372655
+    },
+    {
+      "rank": 3,
+      "key": 26,
+      "score": -55406.61728212589
+    },
+    {
+      "rank": 4,
+      "key": 221,
+      "score": -55406.84107866528
+    },
+    {
+      "rank": 5,
+      "key": 4,
+      "score": -55406.90085269397
+    }
+  ],
+  "true_key_byte": 94,
+  "true_rank": 254
+}

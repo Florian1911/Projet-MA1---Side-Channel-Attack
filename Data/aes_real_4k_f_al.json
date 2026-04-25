@@ -1,0 +1,28 @@
+{
+  "input": "aes_real_4k_f.npz",
+  "output": "aes_real_4k_f_al.npz",
+  "center": 2849,
+  "window": 180,
+  "max_shift": 80,
+  "iters": 2,
+  "ref": "median",
+  "mode": "hw_template",
+  "shift_mean_abs": 62.0645,
+  "shift_p95_abs": 137.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 46.8955,
+      "lag_p95_abs": 79.0,
+      "score_mean": 0.2977808713912964,
+      "delta_mean_abs": 46.8955
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 22.6885,
+      "lag_p95_abs": 73.0,
+      "score_mean": 0.3360224664211273,
+      "delta_mean_abs": 22.6885
+    }
+  ]
+}

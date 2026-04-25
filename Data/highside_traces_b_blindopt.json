@@ -1,0 +1,471 @@
+{
+  "npz": "highside_traces_b_nokey.npz",
+  "n_traces": 1000,
+  "cal_ratio": 0.5,
+  "decim": 1,
+  "agg_quantile": 99.0,
+  "cand_peaks": 10,
+  "min_sep": 8,
+  "poi_per_byte": 2,
+  "combo_cands": 8,
+  "recovered_key_hex": "A74D7A54C41F16FCE6239FEB71D5A566",
+  "recovered_key": [
+    167,
+    77,
+    122,
+    84,
+    196,
+    31,
+    22,
+    252,
+    230,
+    35,
+    159,
+    235,
+    113,
+    213,
+    165,
+    102
+  ],
+  "poi_global_per_byte": [
+    837,
+    1352,
+    355,
+    767,
+    1113,
+    1172,
+    1644,
+    5,
+    407,
+    802,
+    447,
+    784,
+    591,
+    971,
+    1045,
+    1759
+  ],
+  "bytes": [
+    {
+      "byte": 0,
+      "top_key": 167,
+      "top_key_hex": "A7",
+      "poi_samples": [
+        837,
+        195
+      ],
+      "cand_peaks_samples": [
+        1118,
+        675,
+        128,
+        1273,
+        827,
+        837,
+        1090,
+        195,
+        327,
+        883
+      ],
+      "margin_cal": 0.08358364807196167,
+      "margin_eval": 0.006209967584318077,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.17415008311136548
+    },
+    {
+      "byte": 1,
+      "top_key": 77,
+      "top_key_hex": "4D",
+      "poi_samples": [
+        1352,
+        104
+      ],
+      "cand_peaks_samples": [
+        1352,
+        1371,
+        1979,
+        924,
+        974,
+        104,
+        1209,
+        277,
+        1722,
+        1807
+      ],
+      "margin_cal": 0.08984072129320375,
+      "margin_eval": 0.023219859816920957,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.19898404842782247
+    },
+    {
+      "byte": 2,
+      "top_key": 122,
+      "top_key_hex": "7A",
+      "poi_samples": [
+        355,
+        1021
+      ],
+      "cand_peaks_samples": [
+        11,
+        1068,
+        1704,
+        355,
+        338,
+        1965,
+        311,
+        1021,
+        1164,
+        1879
+      ],
+      "margin_cal": 0.04078235378390402,
+      "margin_eval": 0.0426720281685741,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.24212760290124233
+    },
+    {
+      "byte": 3,
+      "top_key": 84,
+      "top_key_hex": "54",
+      "poi_samples": [
+        767,
+        429
+      ],
+      "cand_peaks_samples": [
+        1077,
+        767,
+        1570,
+        392,
+        984,
+        44,
+        1191,
+        429,
+        517,
+        1610
+      ],
+      "margin_cal": 0.07999574479539379,
+      "margin_eval": 0.003152437250298734,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.19228078554207764
+    },
+    {
+      "byte": 4,
+      "top_key": 196,
+      "top_key_hex": "C4",
+      "poi_samples": [
+        1113,
+        1679
+      ],
+      "cand_peaks_samples": [
+        1113,
+        1170,
+        534,
+        1679,
+        761,
+        1426,
+        1235,
+        1561,
+        207,
+        431
+      ],
+      "margin_cal": 0.08723582167782074,
+      "margin_eval": 0.0361241103205312,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.21668134542306805
+    },
+    {
+      "byte": 5,
+      "top_key": 31,
+      "top_key_hex": "1F",
+      "poi_samples": [
+        1172,
+        1194
+      ],
+      "cand_peaks_samples": [
+        299,
+        1882,
+        628,
+        1172,
+        1194,
+        354,
+        588,
+        422,
+        1409,
+        43
+      ],
+      "margin_cal": 0.03772484397209719,
+      "margin_eval": 0.01819367066544189,
+      "agree_top1_cal_eval": true,
+      "score_eval_top1": 0.1936597339376646
+    },
+    {
+      "byte": 6,
+      "top_key": 22,
+      "top_key_hex": "16",
+      "poi_samples": [
+        1644,
+        856
+      ],
+      "cand_peaks_samples": [
+        1888,
+        1644,
+        946,
+        428,
+        856,
+        1170,
+        177,
+        1929,
+        1051,
+        1570
+      ],
+      "margin_cal": 0.07093078702137562,
+      "margin_eval": 0.018847117879870312,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.18521351828211974
+    },
+    {
+      "byte": 7,
+      "top_key": 252,
+      "top_key_hex": "FC",
+      "poi_samples": [
+        5,
+        553
+      ],
+      "cand_peaks_samples": [
+        1276,
+        5,
+        1753,
+        299,
+        553,
+        810,
+        1800,
+        1785,
+        203,
+        233
+      ],
+      "margin_cal": 0.08241450898123051,
+      "margin_eval": 0.024761454961092805,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.20124555561089527
+    },
+    {
+      "byte": 8,
+      "top_key": 230,
+      "top_key_hex": "E6",
+      "poi_samples": [
+        407,
+        329
+      ],
+      "cand_peaks_samples": [
+        407,
+        1349,
+        329,
+        897,
+        1622,
+        383,
+        1892,
+        1642,
+        1968,
+        300
+      ],
+      "margin_cal": 0.047017728413565024,
+      "margin_eval": 0.03567775651225527,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.20464174766640836
+    },
+    {
+      "byte": 9,
+      "top_key": 35,
+      "top_key_hex": "23",
+      "poi_samples": [
+        802,
+        711
+      ],
+      "cand_peaks_samples": [
+        1607,
+        241,
+        802,
+        711,
+        128,
+        1585,
+        120,
+        1291,
+        1232,
+        880
+      ],
+      "margin_cal": 0.010373968813846446,
+      "margin_eval": 0.13818307024688278,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.3243301293034411
+    },
+    {
+      "byte": 10,
+      "top_key": 159,
+      "top_key_hex": "9F",
+      "poi_samples": [
+        447,
+        1590
+      ],
+      "cand_peaks_samples": [
+        1475,
+        1031,
+        1863,
+        394,
+        667,
+        41,
+        447,
+        1590,
+        1684,
+        581
+      ],
+      "margin_cal": 0.010330155299065058,
+      "margin_eval": 0.12455473667824396,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.28371373051667004
+    },
+    {
+      "byte": 11,
+      "top_key": 235,
+      "top_key_hex": "EB",
+      "poi_samples": [
+        784,
+        219
+      ],
+      "cand_peaks_samples": [
+        665,
+        784,
+        188,
+        117,
+        1361,
+        546,
+        219,
+        683,
+        380,
+        1050
+      ],
+      "margin_cal": 0.0878841689632043,
+      "margin_eval": 0.04696377111768074,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.250147597819086
+    },
+    {
+      "byte": 12,
+      "top_key": 113,
+      "top_key_hex": "71",
+      "poi_samples": [
+        591,
+        804
+      ],
+      "cand_peaks_samples": [
+        1627,
+        77,
+        1974,
+        1304,
+        303,
+        591,
+        552,
+        804,
+        172,
+        996
+      ],
+      "margin_cal": 0.10701747053058897,
+      "margin_eval": 0.03314426726479017,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.24309211777361095
+    },
+    {
+      "byte": 13,
+      "top_key": 213,
+      "top_key_hex": "D5",
+      "poi_samples": [
+        971,
+        1363
+      ],
+      "cand_peaks_samples": [
+        971,
+        1699,
+        20,
+        129,
+        461,
+        1186,
+        1363,
+        3,
+        1373,
+        539
+      ],
+      "margin_cal": 0.043116689915838946,
+      "margin_eval": 0.09794630454401954,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.2841727779219724
+    },
+    {
+      "byte": 14,
+      "top_key": 165,
+      "top_key_hex": "A5",
+      "poi_samples": [
+        1045,
+        696
+      ],
+      "cand_peaks_samples": [
+        1045,
+        696,
+        1119,
+        1675,
+        1962,
+        1805,
+        661,
+        952,
+        1240,
+        1700
+      ],
+      "margin_cal": 0.04104568713667023,
+      "margin_eval": 0.08584233801239632,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.30626627664076467
+    },
+    {
+      "byte": 15,
+      "top_key": 102,
+      "top_key_hex": "66",
+      "poi_samples": [
+        1759,
+        1086
+      ],
+      "cand_peaks_samples": [
+        1385,
+        1932,
+        1482,
+        1059,
+        317,
+        1759,
+        1086,
+        1105,
+        1629,
+        359
+      ],
+      "margin_cal": 0.12230880496787433,
+      "margin_eval": 0.00587340454535315,
+      "agree_top1_cal_eval": false,
+      "score_eval_top1": 0.1862145291435843
+    }
+  ],
+  "blind": true,
+  "true_key_hex": "2B7E151628AED2A6ABF7158809CF4F3C",
+  "byte_match_count": 0,
+  "byte_match_vector": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

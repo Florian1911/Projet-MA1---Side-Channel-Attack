@@ -1,0 +1,97 @@
+{
+  "name": "strict_blind_B_cfg1_full_ranks",
+  "config": {
+    "decim": 4,
+    "coarse_top": 8,
+    "coarse_min_sep": 10,
+    "refine_radius": 8,
+    "score_percentile": 90.0
+  },
+  "rank1_count": 0,
+  "mean_rank": 130.4375,
+  "median_rank": 121.5,
+  "ranks": [
+    50,
+    61,
+    193,
+    57,
+    199,
+    118,
+    125,
+    21,
+    185,
+    100,
+    84,
+    68,
+    232,
+    184,
+    215,
+    195
+  ],
+  "bytes": [
+    {
+      "byte": 0,
+      "true_rank": 50
+    },
+    {
+      "byte": 1,
+      "true_rank": 61
+    },
+    {
+      "byte": 2,
+      "true_rank": 193
+    },
+    {
+      "byte": 3,
+      "true_rank": 57
+    },
+    {
+      "byte": 4,
+      "true_rank": 199
+    },
+    {
+      "byte": 5,
+      "true_rank": 118
+    },
+    {
+      "byte": 6,
+      "true_rank": 125
+    },
+    {
+      "byte": 7,
+      "true_rank": 21
+    },
+    {
+      "byte": 8,
+      "true_rank": 185
+    },
+    {
+      "byte": 9,
+      "true_rank": 100
+    },
+    {
+      "byte": 10,
+      "true_rank": 84
+    },
+    {
+      "byte": 11,
+      "true_rank": 68
+    },
+    {
+      "byte": 12,
+      "true_rank": 232
+    },
+    {
+      "byte": 13,
+      "true_rank": 184
+    },
+    {
+      "byte": 14,
+      "true_rank": 215
+    },
+    {
+      "byte": 15,
+      "true_rank": 195
+    }
+  ]
+}

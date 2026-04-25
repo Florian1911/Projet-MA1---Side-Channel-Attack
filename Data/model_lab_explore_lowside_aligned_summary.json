@@ -1,0 +1,80 @@
+{
+  "npz": "dataset_lowside_aligned.npz",
+  "splits": 6,
+  "calib_ratio": 0.6,
+  "rows": [
+    {
+      "source": "traces",
+      "preproc": "none",
+      "strategy": "fixed_hw",
+      "rank1_mean": 0.0,
+      "rank5_mean": 0.0,
+      "mean_rank": 146.14583333333334
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "strategy": "fixed_hdpt",
+      "rank1_mean": 0.0,
+      "rank5_mean": 0.3333333333333333,
+      "mean_rank": 114.60416666666667
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "strategy": "byte_best_model_window",
+      "rank1_mean": 0.16666666666666666,
+      "rank5_mean": 0.3333333333333333,
+      "mean_rank": 129.36458333333334
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "strategy": "byte_top2_model_fusion",
+      "rank1_mean": 0.0,
+      "rank5_mean": 0.3333333333333333,
+      "mean_rank": 132.64583333333334
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "strategy": "fixed_hw",
+      "rank1_mean": 0.0,
+      "rank5_mean": 0.0,
+      "mean_rank": 130.84375
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "strategy": "fixed_hdpt",
+      "rank1_mean": 0.16666666666666666,
+      "rank5_mean": 0.3333333333333333,
+      "mean_rank": 109.19791666666667
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "strategy": "byte_best_model_window",
+      "rank1_mean": 0.0,
+      "rank5_mean": 0.16666666666666666,
+      "mean_rank": 131.71875
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "strategy": "byte_top2_model_fusion",
+      "rank1_mean": 0.0,
+      "rank5_mean": 0.16666666666666666,
+      "mean_rank": 134.3125
+    }
+  ],
+  "best": {
+    "source": "traces",
+    "preproc": "center_detrend",
+    "strategy": "fixed_hdpt",
+    "rank1_mean": 0.16666666666666666,
+    "rank5_mean": 0.3333333333333333,
+    "mean_rank": 109.19791666666667
+  },
+  "notes": "rank means are averaged over bytes and splits (scaled to /16)."
+}

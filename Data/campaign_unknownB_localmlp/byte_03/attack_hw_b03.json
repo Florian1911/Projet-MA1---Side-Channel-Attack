@@ -1,0 +1,11 @@
+{
+  "input": "unknown_B_attack15k_nokey_inv.npz",
+  "output": "campaign_unknownB_localmlp/byte_03/attack_hw_b03.npz",
+  "byte": 3,
+  "key": 0,
+  "window_start": 3690,
+  "window_end": 3968,
+  "window_center": 3840,
+  "window_len": 278,
+  "snr_max": 0.001635837731813264
+}

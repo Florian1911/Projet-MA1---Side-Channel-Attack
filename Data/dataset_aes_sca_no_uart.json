@@ -1,0 +1,14 @@
+{
+  "mode": "no_uart_prng_deterministic",
+  "n_traces": 1000,
+  "num_samples": 2000,
+  "timebase": 8,
+  "pre_trigger_samples": 200,
+  "trigger_threshold_mv_probe": 1000,
+  "probe_att_trig": 10,
+  "probe_att_meas": 1,
+  "dt_ns": 80.0,
+  "label_definition": "SBox(plaintext[0] xor key[0])",
+  "prng": "xorshift32",
+  "prng_seed": 305419896
+}

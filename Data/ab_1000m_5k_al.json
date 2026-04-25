@@ -1,0 +1,35 @@
+{
+  "input": "ab_1000m_5k_raw.npz",
+  "output": "ab_1000m_5k_al.npz",
+  "center": 1700,
+  "window": 220,
+  "max_shift": 20,
+  "iters": 3,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 18.1608,
+  "shift_p95_abs": 41.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 10.8954,
+      "lag_p95_abs": 20.0,
+      "score_mean": 0.4516978859901428,
+      "delta_mean_abs": 10.8954
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 8.1918,
+      "lag_p95_abs": 17.0,
+      "score_mean": 0.6981990933418274,
+      "delta_mean_abs": 8.1918
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 4.6252,
+      "lag_p95_abs": 13.0,
+      "score_mean": 0.7123017311096191,
+      "delta_mean_abs": 4.6252
+    }
+  ]
+}

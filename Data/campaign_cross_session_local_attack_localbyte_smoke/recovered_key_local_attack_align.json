@@ -1,0 +1,130 @@
+{
+  "workdir_models": "campaign_cross_session_local_same_attack",
+  "attack_dataset": "attack_unknown_20k.npz",
+  "outdir": "campaign_cross_session_local_attack_localbyte_smoke",
+  "bytes": [
+    0,
+    1,
+    2
+  ],
+  "align_window": 220,
+  "align_max_shift": 12,
+  "align_iters": 2,
+  "recover_max_shift": 160,
+  "recovered_key": [
+    84,
+    114,
+    132
+  ],
+  "recovered_key_hex_partial": "547284",
+  "details": [
+    {
+      "byte": 0,
+      "recovered": 84,
+      "best_shift": -135,
+      "margin": 117.70703125,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 84,
+          "score": -35337.84765625
+        },
+        {
+          "rank": 2,
+          "key": 221,
+          "score": -35455.5546875
+        },
+        {
+          "rank": 3,
+          "key": 54,
+          "score": -35464.625
+        },
+        {
+          "rank": 4,
+          "key": 193,
+          "score": -35467.18359375
+        },
+        {
+          "rank": 5,
+          "key": 31,
+          "score": -35480.73046875
+        }
+      ],
+      "window_center": 91,
+      "align_shift_mean_abs": 7.3543,
+      "align_shift_p95_abs": 17.0
+    },
+    {
+      "byte": 1,
+      "recovered": 114,
+      "best_shift": -139,
+      "margin": 75.203125,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 114,
+          "score": -34943.8203125
+        },
+        {
+          "rank": 2,
+          "key": 166,
+          "score": -35019.0234375
+        },
+        {
+          "rank": 3,
+          "key": 26,
+          "score": -35021.75390625
+        },
+        {
+          "rank": 4,
+          "key": 115,
+          "score": -35026.9609375
+        },
+        {
+          "rank": 5,
+          "key": 233,
+          "score": -35029.421875
+        }
+      ],
+      "window_center": 1663,
+      "align_shift_mean_abs": 7.5296,
+      "align_shift_p95_abs": 17.0
+    },
+    {
+      "byte": 2,
+      "recovered": 132,
+      "best_shift": 7,
+      "margin": 38.3359375,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 132,
+          "score": -35080.32421875
+        },
+        {
+          "rank": 2,
+          "key": 230,
+          "score": -35118.66015625
+        },
+        {
+          "rank": 3,
+          "key": 200,
+          "score": -35121.65625
+        },
+        {
+          "rank": 4,
+          "key": 40,
+          "score": -35139.53125
+        },
+        {
+          "rank": 5,
+          "key": 119,
+          "score": -35140.40625
+        }
+      ],
+      "window_center": 1524,
+      "align_shift_mean_abs": 7.4217,
+      "align_shift_p95_abs": 17.0
+    }
+  ]
+}

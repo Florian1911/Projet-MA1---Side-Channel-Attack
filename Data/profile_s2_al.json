@@ -1,0 +1,10 @@
+{
+  "input": "profile_s2.npz",
+  "output": "profile_s2_al.npz",
+  "align_shift": -42,
+  "align_score": 0.028969830700761465,
+  "align_key_guess": 43,
+  "align_byte": 0,
+  "align_max_shift": 120,
+  "n_traces_saved": 29958
+}

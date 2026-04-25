@@ -1,0 +1,20 @@
+{
+  "dataset": "exp_082_sbox_s1337/byte_04/profile_b04.npz",
+  "n_total": 28984,
+  "n_train": 20290,
+  "n_val": 4347,
+  "n_test": 4347,
+  "n_classes": 256,
+  "poi": 700,
+  "h1": 1024,
+  "h2": 512,
+  "dropout": 0.2,
+  "epochs": 100,
+  "batch_size": 256,
+  "lr": 0.001,
+  "l2": 1e-05,
+  "patience": 15,
+  "best_val_acc1": 0.005291005291005291,
+  "test_acc1": 0.0027605244996549345,
+  "test_acc5": 0.017943409247757072
+}

@@ -1,0 +1,48 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# IDE and local machine state
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+*.elf
+*.elf.in
+*.o
+*.a
+*.so
+
+# Large experiment datasets and model artifacts
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.keras
+*.onnx
+*.bin
+
+# Local generated/temporary experiment outputs
+tmp*/
+Data/tmp_*
+
+# Large/reference documents that should not live in Git history
+*.pdf
+
+# OS noise
+.DS_Store
+Thumbs.db

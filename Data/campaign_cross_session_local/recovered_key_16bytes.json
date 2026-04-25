@@ -1,0 +1,590 @@
+{
+  "profile_dataset": "profile_merged_multisession_local.npz",
+  "profile_datasets_input": [
+    "profile_merged_multisession_local.npz"
+  ],
+  "attack_dataset": "attack_unknown_20k_aligned_dbg.npz",
+  "profile_key": [
+    43,
+    126,
+    21,
+    22,
+    40,
+    174,
+    210,
+    166,
+    171,
+    247,
+    21,
+    136,
+    9,
+    207,
+    79,
+    60
+  ],
+  "recovered_key": [
+    84,
+    114,
+    230,
+    192,
+    109,
+    35,
+    47,
+    101,
+    234,
+    120,
+    27,
+    109,
+    108,
+    1,
+    96,
+    78
+  ],
+  "recovered_key_hex": "5472E6C06D232F65EA781B6D6C01604E",
+  "details": [
+    {
+      "byte": 0,
+      "recovered": 84,
+      "best_shift": 3,
+      "margin": 138.8828125,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 84,
+          "score": -35554.95703125
+        },
+        {
+          "rank": 2,
+          "key": 153,
+          "score": -35693.83984375
+        },
+        {
+          "rank": 3,
+          "key": 54,
+          "score": -35707.23828125
+        },
+        {
+          "rank": 4,
+          "key": 193,
+          "score": -35716.09765625
+        },
+        {
+          "rank": 5,
+          "key": 181,
+          "score": -35721.73046875
+        }
+      ],
+      "window_center": 91
+    },
+    {
+      "byte": 1,
+      "recovered": 114,
+      "best_shift": 133,
+      "margin": 80.47265625,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 114,
+          "score": -34750.515625
+        },
+        {
+          "rank": 2,
+          "key": 115,
+          "score": -34830.98828125
+        },
+        {
+          "rank": 3,
+          "key": 166,
+          "score": -34835.62890625
+        },
+        {
+          "rank": 4,
+          "key": 26,
+          "score": -34838.63671875
+        },
+        {
+          "rank": 5,
+          "key": 16,
+          "score": -34848.34375
+        }
+      ],
+      "window_center": 1663
+    },
+    {
+      "byte": 2,
+      "recovered": 230,
+      "best_shift": 118,
+      "margin": 52.92578125,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 230,
+          "score": -34796.33984375
+        },
+        {
+          "rank": 2,
+          "key": 132,
+          "score": -34849.265625
+        },
+        {
+          "rank": 3,
+          "key": 119,
+          "score": -34850.8984375
+        },
+        {
+          "rank": 4,
+          "key": 40,
+          "score": -34854.94921875
+        },
+        {
+          "rank": 5,
+          "key": 200,
+          "score": -34867.9453125
+        }
+      ],
+      "window_center": 1524
+    },
+    {
+      "byte": 3,
+      "recovered": 192,
+      "best_shift": -83,
+      "margin": 48.640625,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 192,
+          "score": -34879.8359375
+        },
+        {
+          "rank": 2,
+          "key": 118,
+          "score": -34928.4765625
+        },
+        {
+          "rank": 3,
+          "key": 69,
+          "score": -34929.64453125
+        },
+        {
+          "rank": 4,
+          "key": 38,
+          "score": -34939.37890625
+        },
+        {
+          "rank": 5,
+          "key": 49,
+          "score": -34950.1171875
+        }
+      ],
+      "window_center": 1873
+    },
+    {
+      "byte": 4,
+      "recovered": 109,
+      "best_shift": 128,
+      "margin": 101.5703125,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 109,
+          "score": -34829.30859375
+        },
+        {
+          "rank": 2,
+          "key": 155,
+          "score": -34930.87890625
+        },
+        {
+          "rank": 3,
+          "key": 235,
+          "score": -34933.98828125
+        },
+        {
+          "rank": 4,
+          "key": 218,
+          "score": -34941.984375
+        },
+        {
+          "rank": 5,
+          "key": 255,
+          "score": -34944.0625
+        }
+      ],
+      "window_center": 1023
+    },
+    {
+      "byte": 5,
+      "recovered": 35,
+      "best_shift": -34,
+      "margin": 60.24609375,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 35,
+          "score": -35077.56640625
+        },
+        {
+          "rank": 2,
+          "key": 84,
+          "score": -35137.8125
+        },
+        {
+          "rank": 3,
+          "key": 188,
+          "score": -35139.08984375
+        },
+        {
+          "rank": 4,
+          "key": 32,
+          "score": -35142.56640625
+        },
+        {
+          "rank": 5,
+          "key": 3,
+          "score": -35144.75390625
+        }
+      ],
+      "window_center": 851
+    },
+    {
+      "byte": 6,
+      "recovered": 47,
+      "best_shift": -26,
+      "margin": 53.4921875,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 47,
+          "score": -34992.11328125
+        },
+        {
+          "rank": 2,
+          "key": 229,
+          "score": -35045.60546875
+        },
+        {
+          "rank": 3,
+          "key": 170,
+          "score": -35048.40234375
+        },
+        {
+          "rank": 4,
+          "key": 243,
+          "score": -35049.4921875
+        },
+        {
+          "rank": 5,
+          "key": 131,
+          "score": -35054.4453125
+        }
+      ],
+      "window_center": 1859
+    },
+    {
+      "byte": 7,
+      "recovered": 101,
+      "best_shift": -81,
+      "margin": 79.46484375,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 101,
+          "score": -34906.05078125
+        },
+        {
+          "rank": 2,
+          "key": 235,
+          "score": -34985.515625
+        },
+        {
+          "rank": 3,
+          "key": 197,
+          "score": -34986.8203125
+        },
+        {
+          "rank": 4,
+          "key": 144,
+          "score": -34996.32421875
+        },
+        {
+          "rank": 5,
+          "key": 7,
+          "score": -35005.94921875
+        }
+      ],
+      "window_center": 633
+    },
+    {
+      "byte": 8,
+      "recovered": 234,
+      "best_shift": -83,
+      "margin": 46.9765625,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 234,
+          "score": -34912.0
+        },
+        {
+          "rank": 2,
+          "key": 101,
+          "score": -34958.9765625
+        },
+        {
+          "rank": 3,
+          "key": 68,
+          "score": -34963.37890625
+        },
+        {
+          "rank": 4,
+          "key": 75,
+          "score": -34970.62890625
+        },
+        {
+          "rank": 5,
+          "key": 195,
+          "score": -34971.77734375
+        }
+      ],
+      "window_center": 1640
+    },
+    {
+      "byte": 9,
+      "recovered": 120,
+      "best_shift": -37,
+      "margin": 56.6484375,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 120,
+          "score": -35061.328125
+        },
+        {
+          "rank": 2,
+          "key": 91,
+          "score": -35117.9765625
+        },
+        {
+          "rank": 3,
+          "key": 61,
+          "score": -35120.1875
+        },
+        {
+          "rank": 4,
+          "key": 102,
+          "score": -35122.70703125
+        },
+        {
+          "rank": 5,
+          "key": 138,
+          "score": -35126.48828125
+        }
+      ],
+      "window_center": 1454
+    },
+    {
+      "byte": 10,
+      "recovered": 27,
+      "best_shift": -47,
+      "margin": 33.35546875,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 27,
+          "score": -34950.70703125
+        },
+        {
+          "rank": 2,
+          "key": 254,
+          "score": -34984.0625
+        },
+        {
+          "rank": 3,
+          "key": 240,
+          "score": -34986.57421875
+        },
+        {
+          "rank": 4,
+          "key": 40,
+          "score": -34989.39453125
+        },
+        {
+          "rank": 5,
+          "key": 86,
+          "score": -34994.2109375
+        }
+      ],
+      "window_center": 1500
+    },
+    {
+      "byte": 11,
+      "recovered": 109,
+      "best_shift": 109,
+      "margin": 90.38671875,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 109,
+          "score": -34837.81640625
+        },
+        {
+          "rank": 2,
+          "key": 95,
+          "score": -34928.203125
+        },
+        {
+          "rank": 3,
+          "key": 118,
+          "score": -34930.51953125
+        },
+        {
+          "rank": 4,
+          "key": 32,
+          "score": -34932.2734375
+        },
+        {
+          "rank": 5,
+          "key": 66,
+          "score": -34932.296875
+        }
+      ],
+      "window_center": 1135
+    },
+    {
+      "byte": 12,
+      "recovered": 108,
+      "best_shift": 119,
+      "margin": 46.921875,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 108,
+          "score": -34867.20703125
+        },
+        {
+          "rank": 2,
+          "key": 100,
+          "score": -34914.12890625
+        },
+        {
+          "rank": 3,
+          "key": 55,
+          "score": -34917.16796875
+        },
+        {
+          "rank": 4,
+          "key": 200,
+          "score": -34935.04296875
+        },
+        {
+          "rank": 5,
+          "key": 82,
+          "score": -34941.35546875
+        }
+      ],
+      "window_center": 245
+    },
+    {
+      "byte": 13,
+      "recovered": 1,
+      "best_shift": -12,
+      "margin": 49.69140625,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 1,
+          "score": -35078.06640625
+        },
+        {
+          "rank": 2,
+          "key": 252,
+          "score": -35127.7578125
+        },
+        {
+          "rank": 3,
+          "key": 197,
+          "score": -35132.71484375
+        },
+        {
+          "rank": 4,
+          "key": 235,
+          "score": -35137.2265625
+        },
+        {
+          "rank": 5,
+          "key": 199,
+          "score": -35144.484375
+        }
+      ],
+      "window_center": 1068
+    },
+    {
+      "byte": 14,
+      "recovered": 96,
+      "best_shift": -94,
+      "margin": 61.74609375,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 96,
+          "score": -34881.92578125
+        },
+        {
+          "rank": 2,
+          "key": 13,
+          "score": -34943.671875
+        },
+        {
+          "rank": 3,
+          "key": 255,
+          "score": -34946.49609375
+        },
+        {
+          "rank": 4,
+          "key": 104,
+          "score": -34967.40625
+        },
+        {
+          "rank": 5,
+          "key": 84,
+          "score": -34971.55078125
+        }
+      ],
+      "window_center": 1755
+    },
+    {
+      "byte": 15,
+      "recovered": 78,
+      "best_shift": 23,
+      "margin": 114.4296875,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 78,
+          "score": -34962.29296875
+        },
+        {
+          "rank": 2,
+          "key": 118,
+          "score": -35076.72265625
+        },
+        {
+          "rank": 3,
+          "key": 5,
+          "score": -35079.6015625
+        },
+        {
+          "rank": 4,
+          "key": 155,
+          "score": -35079.93359375
+        },
+        {
+          "rank": 5,
+          "key": 79,
+          "score": -35086.1796875
+        }
+      ],
+      "window_center": 1314
+    }
+  ]
+}

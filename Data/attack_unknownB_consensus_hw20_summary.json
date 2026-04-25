@@ -1,0 +1,300 @@
+{
+  "npz": "unknown_B_20k_aligned_nokey.npz",
+  "poi_json": "poi_consensus_multisession.json",
+  "n_list": [
+    20000
+  ],
+  "recovered_key": [
+    44,
+    169,
+    56,
+    10,
+    229,
+    177,
+    211,
+    140,
+    28,
+    210,
+    219,
+    11,
+    185,
+    165,
+    210,
+    72
+  ],
+  "recovered_key_hex": "2CA9380AE5B1D38C1CD2DB0BB9A5D248",
+  "poi_half_window": 20,
+  "stable_count_vs_n": [
+    16
+  ],
+  "median_margin_vs_n": [
+    0.0008200768325837583
+  ],
+  "bytes": [
+    {
+      "byte": 0,
+      "poi": 2333,
+      "recovered_key": 44,
+      "recovered_key_hex": "2C",
+      "score": 0.028646961052583162,
+      "top1_over_n": [
+        44
+      ],
+      "margin_over_n": [
+        0.002698901317545351
+      ]
+    },
+    {
+      "byte": 1,
+      "poi": 2233,
+      "recovered_key": 169,
+      "recovered_key_hex": "A9",
+      "score": 0.02754921323430442,
+      "top1_over_n": [
+        169
+      ],
+      "margin_over_n": [
+        0.0002345480413874189
+      ]
+    },
+    {
+      "byte": 2,
+      "poi": 2121,
+      "recovered_key": 56,
+      "recovered_key_hex": "38",
+      "score": 0.03073120344744277,
+      "top1_over_n": [
+        56
+      ],
+      "margin_over_n": [
+        0.0023675872195917
+      ]
+    },
+    {
+      "byte": 3,
+      "poi": 2133,
+      "recovered_key": 10,
+      "recovered_key_hex": "0A",
+      "score": 0.03053581157385113,
+      "top1_over_n": [
+        10
+      ],
+      "margin_over_n": [
+        0.005483430494354898
+      ]
+    },
+    {
+      "byte": 4,
+      "poi": 2433,
+      "recovered_key": 229,
+      "recovered_key_hex": "E5",
+      "score": 0.02596681631059466,
+      "top1_over_n": [
+        229
+      ],
+      "margin_over_n": [
+        0.00028602816818637175
+      ]
+    },
+    {
+      "byte": 5,
+      "poi": 2277,
+      "recovered_key": 177,
+      "recovered_key_hex": "B1",
+      "score": 0.027544713205542807,
+      "top1_over_n": [
+        177
+      ],
+      "margin_over_n": [
+        0.0007411284008558214
+      ]
+    },
+    {
+      "byte": 6,
+      "poi": 2222,
+      "recovered_key": 211,
+      "recovered_key_hex": "D3",
+      "score": 0.026763150354312842,
+      "top1_over_n": [
+        211
+      ],
+      "margin_over_n": [
+        0.0010402324264442674
+      ]
+    },
+    {
+      "byte": 7,
+      "poi": 2073,
+      "recovered_key": 140,
+      "recovered_key_hex": "8C",
+      "score": 0.027079445679012402,
+      "top1_over_n": [
+        140
+      ],
+      "margin_over_n": [
+        0.0008872705805563208
+      ]
+    },
+    {
+      "byte": 8,
+      "poi": 772,
+      "recovered_key": 28,
+      "recovered_key_hex": "1C",
+      "score": 0.02714396935951346,
+      "top1_over_n": [
+        28
+      ],
+      "margin_over_n": [
+        0.0006273304542316685
+      ]
+    },
+    {
+      "byte": 9,
+      "poi": 3395,
+      "recovered_key": 210,
+      "recovered_key_hex": "D2",
+      "score": 0.02601122900387263,
+      "top1_over_n": [
+        210
+      ],
+      "margin_over_n": [
+        0.0003406038724990783
+      ]
+    },
+    {
+      "byte": 10,
+      "poi": 2947,
+      "recovered_key": 219,
+      "recovered_key_hex": "DB",
+      "score": 0.02829835204130154,
+      "top1_over_n": [
+        219
+      ],
+      "margin_over_n": [
+        0.0007528830846111959
+      ]
+    },
+    {
+      "byte": 11,
+      "poi": 2420,
+      "recovered_key": 11,
+      "recovered_key_hex": "0B",
+      "score": 0.026277475620911563,
+      "top1_over_n": [
+        11
+      ],
+      "margin_over_n": [
+        0.0009525350665209875
+      ]
+    },
+    {
+      "byte": 12,
+      "poi": 2129,
+      "recovered_key": 185,
+      "recovered_key_hex": "B9",
+      "score": 0.025530288602777645,
+      "top1_over_n": [
+        185
+      ],
+      "margin_over_n": [
+        3.074647537636144e-05
+      ]
+    },
+    {
+      "byte": 13,
+      "poi": 2341,
+      "recovered_key": 165,
+      "recovered_key_hex": "A5",
+      "score": 0.028155924199518362,
+      "top1_over_n": [
+        165
+      ],
+      "margin_over_n": [
+        0.0003241999439058639
+      ]
+    },
+    {
+      "byte": 14,
+      "poi": 1231,
+      "recovered_key": 210,
+      "recovered_key_hex": "D2",
+      "score": 0.026984402342829047,
+      "top1_over_n": [
+        210
+      ],
+      "margin_over_n": [
+        0.0009277251299374088
+      ]
+    },
+    {
+      "byte": 15,
+      "poi": 1888,
+      "recovered_key": 72,
+      "recovered_key_hex": "48",
+      "score": 0.036644877169311446,
+      "top1_over_n": [
+        72
+      ],
+      "margin_over_n": [
+        0.012167932025451463
+      ]
+    }
+  ],
+  "true_key_hex": "A73CD15E924BF8166DE027B9417FC38A",
+  "rank1_count_vs_n": [
+    0
+  ],
+  "rank5_count_vs_n": [
+    0
+  ],
+  "ranks_per_byte_vs_n": {
+    "b00": [
+      177
+    ],
+    "b01": [
+      24
+    ],
+    "b02": [
+      189
+    ],
+    "b03": [
+      102
+    ],
+    "b04": [
+      194
+    ],
+    "b05": [
+      35
+    ],
+    "b06": [
+      141
+    ],
+    "b07": [
+      211
+    ],
+    "b08": [
+      191
+    ],
+    "b09": [
+      210
+    ],
+    "b10": [
+      110
+    ],
+    "b11": [
+      173
+    ],
+    "b12": [
+      126
+    ],
+    "b13": [
+      253
+    ],
+    "b14": [
+      76
+    ],
+    "b15": [
+      234
+    ]
+  }
+}

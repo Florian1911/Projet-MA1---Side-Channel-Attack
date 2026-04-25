@@ -1,0 +1,11 @@
+{
+  "input": "attack_unknown_20k_aligned_dbg.npz",
+  "output": "campaign_cross_session_local/byte_07/attack_hw_b07.npz",
+  "byte": 7,
+  "key": 0,
+  "window_start": 533,
+  "window_end": 733,
+  "window_center": 633,
+  "window_len": 200,
+  "snr_max": 0.004449191999275972
+}

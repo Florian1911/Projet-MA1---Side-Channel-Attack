@@ -1,0 +1,35 @@
+{
+  "input": "known_k3_5k_raw.npz",
+  "output": "known_k3_5k_al.npz",
+  "center": 1475,
+  "window": 220,
+  "max_shift": 20,
+  "iters": 3,
+  "ref": "median",
+  "mode": "hw_template",
+  "shift_mean_abs": 15.6418,
+  "shift_p95_abs": 41.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 10.8464,
+      "lag_p95_abs": 20.0,
+      "score_mean": 0.18752416968345642,
+      "delta_mean_abs": 10.8464
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 5.1998,
+      "lag_p95_abs": 19.0,
+      "score_mean": 0.19543355703353882,
+      "delta_mean_abs": 5.1998
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 3.2868,
+      "lag_p95_abs": 17.0,
+      "score_mean": 0.19841454923152924,
+      "delta_mean_abs": 3.2868
+    }
+  ]
+}

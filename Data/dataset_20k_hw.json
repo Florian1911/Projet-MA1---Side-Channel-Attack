@@ -1,0 +1,11 @@
+{
+  "input": "dataset_20k.npz",
+  "output": "dataset_20k_hw.npz",
+  "byte": 0,
+  "key": 43,
+  "window_start": 1,
+  "window_end": 201,
+  "window_center": 101,
+  "window_len": 200,
+  "snr_max": 0.018263804466972757
+}

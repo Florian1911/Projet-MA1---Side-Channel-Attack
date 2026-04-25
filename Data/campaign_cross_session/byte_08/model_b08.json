@@ -1,0 +1,20 @@
+{
+  "dataset": "campaign_cross_session/byte_08/profile_hw_b08.npz",
+  "n_total": 89860,
+  "n_train": 62902,
+  "n_val": 13479,
+  "n_test": 13479,
+  "n_classes": 9,
+  "poi": 200,
+  "h1": 256,
+  "h2": 128,
+  "dropout": 0.1,
+  "epochs": 120,
+  "batch_size": 256,
+  "lr": 0.001,
+  "l2": 1e-05,
+  "patience": 20,
+  "best_val_acc1": 0.2679724015134654,
+  "test_acc1": 0.2689368647525781,
+  "test_acc5": 0.9338229839008828
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "attack_20k_knownkey_al44_hw.npz",
+  "n_total": 19932,
+  "n_train": 13954,
+  "n_val": 2989,
+  "n_test": 2989,
+  "n_classes": 9,
+  "poi": 200,
+  "h1": 256,
+  "h2": 128,
+  "dropout": 0.1,
+  "epochs": 100,
+  "batch_size": 256,
+  "lr": 0.001,
+  "l2": 1e-05,
+  "patience": 20,
+  "best_val_acc1": 0.25125460020073603,
+  "test_acc1": 0.2602877216460355,
+  "test_acc5": 0.9233857477417197
+}

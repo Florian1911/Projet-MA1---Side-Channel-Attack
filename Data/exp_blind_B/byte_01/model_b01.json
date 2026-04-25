@@ -1,0 +1,20 @@
+{
+  "dataset": "exp_blind_B/byte_01/profile_b01.npz",
+  "n_total": 18984,
+  "n_train": 13290,
+  "n_val": 2847,
+  "n_test": 2847,
+  "n_classes": 9,
+  "poi": 300,
+  "h1": 256,
+  "h2": 128,
+  "dropout": 0.1,
+  "epochs": 80,
+  "batch_size": 256,
+  "lr": 0.001,
+  "l2": 1e-05,
+  "patience": 15,
+  "best_val_acc1": 0.2557077625570776,
+  "test_acc1": 0.23990165086055498,
+  "test_acc5": 0.9199157007376185
+}

@@ -1,0 +1,35 @@
+{
+  "input": "blind_082_20k_raw.npz",
+  "output": "blind_082_20k_al.npz",
+  "center": 1700,
+  "window": 220,
+  "max_shift": 20,
+  "iters": 3,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 25.1644,
+  "shift_p95_abs": 47.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 11.50045,
+      "lag_p95_abs": 20.0,
+      "score_mean": 0.677557110786438,
+      "delta_mean_abs": 11.50045
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 9.46705,
+      "lag_p95_abs": 17.0,
+      "score_mean": 0.7755988240242004,
+      "delta_mean_abs": 9.46705
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 6.8575,
+      "lag_p95_abs": 17.0,
+      "score_mean": 0.782091498374939,
+      "delta_mean_abs": 6.8575
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "input": "attack_newkey_20k_aligned.npz",
+  "output": "attack_newkey_20k_hw.npz",
+  "byte": 0,
+  "key": 145,
+  "window_start": 441,
+  "window_end": 641,
+  "window_center": 541,
+  "window_len": 200,
+  "snr_max": 0.019034662770703894
+}

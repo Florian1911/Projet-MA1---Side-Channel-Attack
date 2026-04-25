@@ -1,0 +1,500 @@
+{
+  "bytes": [
+    {
+      "byte": 0,
+      "center": 877,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 244,
+          "score": -56150.32681961854
+        },
+        {
+          "key": 0,
+          "score": -56188.54963387284
+        },
+        {
+          "key": 255,
+          "score": -56232.16417784734
+        },
+        {
+          "key": 144,
+          "score": -56283.924574726174
+        },
+        {
+          "key": 85,
+          "score": -56286.248369039036
+        }
+      ]
+    },
+    {
+      "byte": 1,
+      "center": 369,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 180,
+          "score": -35807.612226367
+        },
+        {
+          "key": 159,
+          "score": -35810.43312948942
+        },
+        {
+          "key": 93,
+          "score": -35836.124066352844
+        },
+        {
+          "key": 170,
+          "score": -35864.444780528545
+        },
+        {
+          "key": 55,
+          "score": -35869.43538606167
+        }
+      ]
+    },
+    {
+      "byte": 2,
+      "center": 651,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 130,
+          "score": -35597.67457288504
+        },
+        {
+          "key": 125,
+          "score": -35606.17734378576
+        },
+        {
+          "key": 191,
+          "score": -35613.628074765205
+        },
+        {
+          "key": 97,
+          "score": -35644.84899020195
+        },
+        {
+          "key": 144,
+          "score": -35658.13993489742
+        }
+      ]
+    },
+    {
+      "byte": 3,
+      "center": 930,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 126,
+          "score": -35774.45279842615
+        },
+        {
+          "key": 14,
+          "score": -35787.93061673641
+        },
+        {
+          "key": 227,
+          "score": -35800.27712118626
+        },
+        {
+          "key": 152,
+          "score": -35801.12064880133
+        },
+        {
+          "key": 10,
+          "score": -35804.74814045429
+        }
+      ]
+    },
+    {
+      "byte": 4,
+      "center": 245,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 103,
+          "score": -36334.85703971982
+        },
+        {
+          "key": 148,
+          "score": -36336.509925186634
+        },
+        {
+          "key": 141,
+          "score": -36340.9346499145
+        },
+        {
+          "key": 211,
+          "score": -36344.443125635386
+        },
+        {
+          "key": 162,
+          "score": -36359.17256087065
+        }
+      ]
+    },
+    {
+      "byte": 5,
+      "center": 889,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 12,
+          "score": -35880.396342396736
+        },
+        {
+          "key": 22,
+          "score": -35910.19267439842
+        },
+        {
+          "key": 44,
+          "score": -35923.80509454012
+        },
+        {
+          "key": 94,
+          "score": -35933.352154910564
+        },
+        {
+          "key": 84,
+          "score": -35934.54694402218
+        }
+      ]
+    },
+    {
+      "byte": 6,
+      "center": 1073,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 27,
+          "score": -35719.722713410854
+        },
+        {
+          "key": 232,
+          "score": -35737.56114202738
+        },
+        {
+          "key": 5,
+          "score": -35749.04893416166
+        },
+        {
+          "key": 236,
+          "score": -35753.82581192255
+        },
+        {
+          "key": 64,
+          "score": -35754.465819358826
+        }
+      ]
+    },
+    {
+      "byte": 7,
+      "center": 703,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 6,
+          "score": -35634.62134236097
+        },
+        {
+          "key": 65,
+          "score": -35713.84882551432
+        },
+        {
+          "key": 88,
+          "score": -35732.048677265644
+        },
+        {
+          "key": 118,
+          "score": -35736.146883904934
+        },
+        {
+          "key": 242,
+          "score": -35748.00007420778
+        }
+      ]
+    },
+    {
+      "byte": 8,
+      "center": 1097,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 78,
+          "score": -35868.41227558255
+        },
+        {
+          "key": 105,
+          "score": -35874.34985345602
+        },
+        {
+          "key": 18,
+          "score": -35885.71764296293
+        },
+        {
+          "key": 202,
+          "score": -35890.07862409949
+        },
+        {
+          "key": 99,
+          "score": -35891.08372044563
+        }
+      ]
+    },
+    {
+      "byte": 9,
+      "center": 367,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 92,
+          "score": -35881.71590012312
+        },
+        {
+          "key": 74,
+          "score": -35882.75331705809
+        },
+        {
+          "key": 190,
+          "score": -35906.97125154734
+        },
+        {
+          "key": 59,
+          "score": -35929.68082731962
+        },
+        {
+          "key": 146,
+          "score": -35942.42434346676
+        }
+      ]
+    },
+    {
+      "byte": 10,
+      "center": 328,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 180,
+          "score": -35896.25481361151
+        },
+        {
+          "key": 38,
+          "score": -35916.28984349966
+        },
+        {
+          "key": 7,
+          "score": -35917.52877551317
+        },
+        {
+          "key": 193,
+          "score": -35922.37306368351
+        },
+        {
+          "key": 184,
+          "score": -35943.88632285595
+        }
+      ]
+    },
+    {
+      "byte": 11,
+      "center": 846,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 189,
+          "score": -35683.04986870289
+        },
+        {
+          "key": 237,
+          "score": -35718.34402769804
+        },
+        {
+          "key": 136,
+          "score": -35743.6791869998
+        },
+        {
+          "key": 250,
+          "score": -35745.70400637388
+        },
+        {
+          "key": 235,
+          "score": -35751.85529136658
+        }
+      ]
+    },
+    {
+      "byte": 12,
+      "center": 349,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 255,
+          "score": -35690.785726606846
+        },
+        {
+          "key": 145,
+          "score": -35715.6844984293
+        },
+        {
+          "key": 142,
+          "score": -35724.93234652281
+        },
+        {
+          "key": 210,
+          "score": -35758.63528102636
+        },
+        {
+          "key": 224,
+          "score": -35760.506689071655
+        }
+      ]
+    },
+    {
+      "byte": 13,
+      "center": 1014,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 33,
+          "score": -35452.344556868076
+        },
+        {
+          "key": 55,
+          "score": -35458.232638955116
+        },
+        {
+          "key": 24,
+          "score": -35499.68378776312
+        },
+        {
+          "key": 128,
+          "score": -35508.16553580761
+        },
+        {
+          "key": 255,
+          "score": -35511.63426309824
+        }
+      ]
+    },
+    {
+      "byte": 14,
+      "center": 1108,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 175,
+          "score": -35721.706448316574
+        },
+        {
+          "key": 32,
+          "score": -35734.337056577206
+        },
+        {
+          "key": 15,
+          "score": -35737.089380025864
+        },
+        {
+          "key": 31,
+          "score": -35748.94142770767
+        },
+        {
+          "key": 84,
+          "score": -35754.55833685398
+        }
+      ]
+    },
+    {
+      "byte": 15,
+      "center": 100,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "hw",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 248,
+          "score": -35752.502525269985
+        },
+        {
+          "key": 162,
+          "score": -35768.51925218105
+        },
+        {
+          "key": 87,
+          "score": -35772.94746285677
+        },
+        {
+          "key": 187,
+          "score": -35781.08988773823
+        },
+        {
+          "key": 249,
+          "score": -35800.133629500866
+        }
+      ]
+    }
+  ]
+}

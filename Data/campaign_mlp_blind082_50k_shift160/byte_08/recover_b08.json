@@ -1,0 +1,35 @@
+{
+  "model": "campaign_mlp_blind082_50k_shift160/byte_08/model_b08.npz",
+  "dataset": "campaign_mlp_blind082_50k_shift160/byte_08/attack_hw_b08.npz",
+  "byte": 8,
+  "best_shift": -77,
+  "recovered_key_byte": 161,
+  "margin": 1427.890625,
+  "top5": [
+    {
+      "rank": 1,
+      "key": 161,
+      "score": -230602.15625
+    },
+    {
+      "rank": 2,
+      "key": 254,
+      "score": -232030.046875
+    },
+    {
+      "rank": 3,
+      "key": 43,
+      "score": -232510.875
+    },
+    {
+      "rank": 4,
+      "key": 255,
+      "score": -232515.21875
+    },
+    {
+      "rank": 5,
+      "key": 250,
+      "score": -232554.53125
+    }
+  ]
+}

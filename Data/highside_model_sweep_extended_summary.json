@@ -1,0 +1,1518 @@
+{
+  "dataset": "dataset_aes_sca_highside.npz",
+  "key_hex": "2B7E151628AED2A6ABF7158809CF4F3C",
+  "rows": [
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 111.75,
+      "recovered_key_hex": "85038B32A8390A68C8CEE97D90E0079E"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 101.9375,
+      "recovered_key_hex": "FF1100707DFB6A5FF8B7D99244F60807"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 110.4375,
+      "recovered_key_hex": "FF359EB4136675E4F9293067ACC66FEF"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 151.3125,
+      "recovered_key_hex": "AAB317F09EF2A0D8EBAAC58E9AE6C3D2"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 128.4375,
+      "recovered_key_hex": "53EF5239D435F6AA79C1BC195A1F396C"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 123.875,
+      "recovered_key_hex": "DC66C91A94B979B691554EDC0B47D18A"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 118.5,
+      "recovered_key_hex": "090F439638A4656A984B42E928F25E1F"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 115.4375,
+      "recovered_key_hex": "AADFCF6C0BF2AB5B6579E55D63E451D9"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 136.125,
+      "recovered_key_hex": "59627BDD61C1E4B49E62307BCAE1362C"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 149.75,
+      "recovered_key_hex": "D1EAE893BE4F3497D3FE8AC187C1FCB0"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 163.3125,
+      "recovered_key_hex": "B1504098DE6B59096302AA0CEAB162FF"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 146.8125,
+      "recovered_key_hex": "5E9E5D8A07E79E6D470390F9854B35DB"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hw_sbox",
+      "rank1_count": 1,
+      "rank5_count": 3,
+      "mean_rank": 92.25,
+      "recovered_key_hex": "B69DCEFE8BB1399AB925616228F33A3C"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 180.4375,
+      "recovered_key_hex": "99BBEE8B24CF35278B01B3E682CD517B"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 130.25,
+      "recovered_key_hex": "B4FA44A3CB03BC46F3D93C45B33BE75D"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 102.1875,
+      "recovered_key_hex": "94B2D9CC9E8A028578F0DBB025ABB0FB"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 130.875,
+      "recovered_key_hex": "663CC3D56269C2FF29022FB705A0CA0E"
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 164.375,
+      "recovered_key_hex": "EB3A5DDBD301CEF1A7F05908588D20BA"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 114.875,
+      "recovered_key_hex": "8503AD3258390A68C8CEE97D9029079E"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 100.625,
+      "recovered_key_hex": "FF1165707DFB6A5FF8B7D9AA44F6483D"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 113.1875,
+      "recovered_key_hex": "FF359EB413665FE4F9293067ACC6E2EF"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 147.1875,
+      "recovered_key_hex": "AAB312F09EF2A0D8EBAAC58E9AE6C3D2"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 128.0,
+      "recovered_key_hex": "533B5239D435F64579C1BC195A1F396C"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 119.5625,
+      "recovered_key_hex": "DC66C91A94B979B69155D6DC0B47D18A"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 121.8125,
+      "recovered_key_hex": "092E429638A4F86A984B424828F2C81F"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 114.4375,
+      "recovered_key_hex": "AADFCF6C0BF2AB5B6579E55DEBE451D9"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 132.3125,
+      "recovered_key_hex": "59627BDD61C5C2B49E62307BCAE1362C"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 148.9375,
+      "recovered_key_hex": "D1EAE86CBEA1CB97D3FE8AC187C1FCB0"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 167.25,
+      "recovered_key_hex": "B1504098DE6B59096302AA0CEAB162FF"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 149.125,
+      "recovered_key_hex": "5E9E5D8A07E7986D470390F9854B35DB"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hw_sbox",
+      "rank1_count": 1,
+      "rank5_count": 3,
+      "mean_rank": 91.125,
+      "recovered_key_hex": "B641CEFE8BB1399AB936E66228F32B3C"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 177.9375,
+      "recovered_key_hex": "99BBEE8B24CF35278B01B3E682CD517B"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 128.0625,
+      "recovered_key_hex": "B4FA44A3CB031746F3D93C45B33BE75D"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 101.8125,
+      "recovered_key_hex": "94B2D9CC9E8A028587F024B025AB86FB"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 136.5625,
+      "recovered_key_hex": "663CC3D5DE69C2FF29024FB705A0CA0E"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 158.0,
+      "recovered_key_hex": "EB3A5DDBD301CEF16DF059A5588D20BA"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 115.5625,
+      "recovered_key_hex": "DF71D67746AD4368BE55D700E8B2F0A0"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 120.5,
+      "recovered_key_hex": "75611105120B8F7511AFB6BAC4F62C89"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 135.8125,
+      "recovered_key_hex": "44D312E225B59DCB52ED4BFCE08D9D32"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 130.3125,
+      "recovered_key_hex": "9191C2201FA5D198ADFCF0FCEA97C3C5"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 156.25,
+      "recovered_key_hex": "CA2432AF40C4CAAEE632B28DE5331F9A"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 140.25,
+      "recovered_key_hex": "D13CBCE38721B9607163287AED899D6A"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 118.25,
+      "recovered_key_hex": "FD76626FD727E338004B392B9EEC2090"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 122.25,
+      "recovered_key_hex": "CB510FBC7E9C455DBE43A74EDC96A03B"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 145.5,
+      "recovered_key_hex": "4362723CA8DC84BD8FA2A30F24207E48"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 110.0625,
+      "recovered_key_hex": "273ECAB6A9A7C99BA7D1D6E1E0A68BC2"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 144.875,
+      "recovered_key_hex": "20C132C85E3634C9BF572EEA5833256E"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 1,
+      "rank5_count": 1,
+      "mean_rank": 107.6875,
+      "recovered_key_hex": "38165872C0917EA650DBCC51CFE120B6"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 117.125,
+      "recovered_key_hex": "6259ED5DB77DEB9C004B2B3798843AB3"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 136.9375,
+      "recovered_key_hex": "A7BBEED0DE3591DF7E433E2BCE77E612"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 132.9375,
+      "recovered_key_hex": "493896AD60B27E95699096B72451E738"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 132.875,
+      "recovered_key_hex": "4F0E958FABD967E6AA26B7D11CC5BBD2"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 143.875,
+      "recovered_key_hex": "8BF305AE5D4543CF07EF69AF49F9B8D1"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 116.75,
+      "recovered_key_hex": "AB5F9C5A4B0223B0E6B2BAC65B0FF3A3"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 113.125,
+      "recovered_key_hex": "DF71D6775FAD435B9255F37FE8B2F0A0"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 127.6875,
+      "recovered_key_hex": "75610005850B8F7511AF8ABAC4F62C24"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 132.5,
+      "recovered_key_hex": "44D312E8A3B59DCB52ED37BDE0992D54"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 133.75,
+      "recovered_key_hex": "9191C6DF1F5AD167ADAEF4FCF9973C3A"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 161.1875,
+      "recovered_key_hex": "742432AF40C473D1E632B2262D331F9A"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 138.25,
+      "recovered_key_hex": "D16371E38721636071852870ED899D6A"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 136.0625,
+      "recovered_key_hex": "FD76626FD7B3BBE0004B392B9EEC2090"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 112.5625,
+      "recovered_key_hex": "CB0050BC2381455D3243A74EF2C0A03B"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 148.25,
+      "recovered_key_hex": "EE62B63CB3DC41BD8FAC370F24209F77"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 102.4375,
+      "recovered_key_hex": "D9C7CA8BA9A7899B80BD93E11F958BC2"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 142.375,
+      "recovered_key_hex": "20C1A2C85ED234C96157A2EA58336234"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 1,
+      "rank5_count": 1,
+      "mean_rank": 106.1875,
+      "recovered_key_hex": "38165872C0537EA650DBADAF6BE170CC"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 116.3125,
+      "recovered_key_hex": "2559EDA6E97DEB9C004B2B0B98843AB3"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 124.9375,
+      "recovered_key_hex": "A7E7EED0DE3591607E433E2B92DDE612"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 151.75,
+      "recovered_key_hex": "471059AD08607695699096B73F42E738"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 134.6875,
+      "recovered_key_hex": "B00E95D1AB8EB78F6B8AD9D1E3C5BBD2"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 134.0625,
+      "recovered_key_hex": "EFF5D9AE5D4543CF07EF82AF49F93DD1"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 111.0625,
+      "recovered_key_hex": "ABCB8E5AB80223B0D5F4BA4B140FF3A3"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 143.125,
+      "recovered_key_hex": "7E93A9A7418418E77AFC717D20BF5BDE"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 2,
+      "mean_rank": 137.6875,
+      "recovered_key_hex": "9837D17A301E228328DB88CDAD6AA623"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 121.1875,
+      "recovered_key_hex": "7C56DB9A67438525240324EE654F16C1"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 151.375,
+      "recovered_key_hex": "CAF29BDFC604B8D5D7C9F3B0A4000790"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 167.5625,
+      "recovered_key_hex": "62D9A768F9C43F459C3C6919D666A288"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 124.8125,
+      "recovered_key_hex": "51BC08AC3AECC5B009A2432E449408D3"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 95.1875,
+      "recovered_key_hex": "0953905AC9E3B30519200F7204E15B61"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 125.5625,
+      "recovered_key_hex": "B99B9D5335DE653B30F10118B676F283"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 122.9375,
+      "recovered_key_hex": "6217045D3B6ABA86CF080B1E91E1B67D"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 135.3125,
+      "recovered_key_hex": "BCEA6B42A55C8632D195E43C10EBF589"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 132.5625,
+      "recovered_key_hex": "7414B4C2F2D70755960218A40DD95B7B"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 136.9375,
+      "recovered_key_hex": "BEEE17A7A045F383F1C2F4B58502B585"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 116.25,
+      "recovered_key_hex": "8685B0FA99BF399EB25A682DE41FBEE5"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 146.9375,
+      "recovered_key_hex": "02F7D02A6C2AAE3D74E5B39BB6768A2D"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 134.375,
+      "recovered_key_hex": "02691FA0C2F1CD4FA9A0D5B68017925A"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 126.625,
+      "recovered_key_hex": "BE8B48CAE3E54BB33ABA961AFA5FF589"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 139.9375,
+      "recovered_key_hex": "17B38C0D54A57013ED1ED9C00E65BCCD"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 123.5,
+      "recovered_key_hex": "26BC772DE8D34005254F8163B14B20CB"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 145.375,
+      "recovered_key_hex": "7E93A9A74184184B1FFC717DCCF85BF1"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 139.0,
+      "recovered_key_hex": "98AE377A301E22E828DB88CDAD6AA623"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 133.9375,
+      "recovered_key_hex": "7C56DBA241438525240324EE9C4F16C1"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 148.6875,
+      "recovered_key_hex": "CA22C0DFC604BFD528B3F3B0A4FFF886"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 170.3125,
+      "recovered_key_hex": "625A306866E63F459CE78C19E919E441"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 121.0625,
+      "recovered_key_hex": "51BC08AC3AECC5B01DA2432E44B632D3"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 104.5,
+      "recovered_key_hex": "98109014C9A4B305282038F10FFA5B61"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 117.6875,
+      "recovered_key_hex": "B99B9DAD350F655E30F10118B676F294"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 2,
+      "mean_rank": 96.4375,
+      "recovered_key_hex": "6217045D3B6AE03B73080B1E91DAB67D"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 126.8125,
+      "recovered_key_hex": "BCEA9442CACD86CD8128E4EDA8EBA076"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 128.25,
+      "recovered_key_hex": "74DDB4C2F2D7C655E6DC18A40DD95B7B"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 154.625,
+      "recovered_key_hex": "BEEE17A72B45F397F1C2F4B521022085"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 104.5,
+      "recovered_key_hex": "0E85B0FE9948EC9E285A682DE41FBEE5"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 141.0,
+      "recovered_key_hex": "02DBD02A6C1EAE3DA5819248B676262D"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 136.5,
+      "recovered_key_hex": "029A1FA0DCF13A4FEEA0D54F8017925A"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 124.375,
+      "recovered_key_hex": "BF8B48CAE3EC4B7FC4B4B6E4FAD4EF89"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 146.0,
+      "recovered_key_hex": "17B38CCAF7A5707DDA33D9C00ED8CE6A"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 126.875,
+      "recovered_key_hex": "26BC997D4AD34036414FCF63AB4B20D9"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 111.75,
+      "recovered_key_hex": "85038B32A8390A68C8CEE97D90E0079E"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 101.9375,
+      "recovered_key_hex": "FF1100707DFB6A5FF8B7D99244F60807"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 110.4375,
+      "recovered_key_hex": "FF359EB4136675E4F9293067ACC66FEF"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 151.3125,
+      "recovered_key_hex": "AAB317F09EF2A0D8EBAAC58E9AE6C3D2"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 128.4375,
+      "recovered_key_hex": "53EF5239D435F6AA79C1BC195A1F396C"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 123.875,
+      "recovered_key_hex": "DC66C91A94B979B691554EDC0B47D18A"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 118.5,
+      "recovered_key_hex": "090F439638A4656A984B42E928F25E1F"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 115.4375,
+      "recovered_key_hex": "AADFCF6C0BF2AB5B6579E55D63E451D9"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 136.125,
+      "recovered_key_hex": "59627BDD61C1E4B49E62307BCAE1362C"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 149.75,
+      "recovered_key_hex": "D1EAE893BE4F3497D3FE8AC187C1FCB0"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 163.3125,
+      "recovered_key_hex": "B1504098DE6B59096302AA0CEAB162FF"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 146.8125,
+      "recovered_key_hex": "5E9E5D8A07E79E6D470390F9854B35DB"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hw_sbox",
+      "rank1_count": 1,
+      "rank5_count": 3,
+      "mean_rank": 92.25,
+      "recovered_key_hex": "B69DCEFE8BB1399AB925616228F33A3C"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 180.4375,
+      "recovered_key_hex": "99BBEE8B24CF35278B01B3E682CD517B"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 130.25,
+      "recovered_key_hex": "B4FA44A3CB03BC46F3D93C45B33BE75D"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 102.1875,
+      "recovered_key_hex": "94B2D9CC9E8A028578F0DBB025ABB0FB"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 130.875,
+      "recovered_key_hex": "663CC3D56269C2FF29022FB705A0CA0E"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 164.375,
+      "recovered_key_hex": "EB3A5DDBD301CEF1A7F05908588D20BA"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 114.875,
+      "recovered_key_hex": "8503AD3258390A68C8CEE97D9029079E"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 100.625,
+      "recovered_key_hex": "FF1165707DFB6A5FF8B7D9AA44F6483D"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 113.1875,
+      "recovered_key_hex": "FF359EB413665FE4F9293067ACC6E2EF"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 147.1875,
+      "recovered_key_hex": "AAB312F09EF2A0D8EBAAC58E9AE6C3D2"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 128.0,
+      "recovered_key_hex": "533B5239D435F64579C1BC195A1F396C"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 119.5625,
+      "recovered_key_hex": "DC66C91A94B979B69155D6DC0B47D18A"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 121.8125,
+      "recovered_key_hex": "092E429638A4F86A984B424828F2C81F"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 114.4375,
+      "recovered_key_hex": "AADFCF6C0BF2AB5B6579E55DEBE451D9"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 132.3125,
+      "recovered_key_hex": "59627BDD61C5C2B49E62307BCAE1362C"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 148.9375,
+      "recovered_key_hex": "D1EAE86CBEA1CB97D3FE8AC187C1FCB0"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 167.25,
+      "recovered_key_hex": "B1504098DE6B59096302AA0CEAB162FF"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 149.125,
+      "recovered_key_hex": "5E9E5D8A07E7986D470390F9854B35DB"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hw_sbox",
+      "rank1_count": 1,
+      "rank5_count": 3,
+      "mean_rank": 91.125,
+      "recovered_key_hex": "B641CEFE8BB1399AB936E66228F32B3C"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 177.9375,
+      "recovered_key_hex": "99BBEE8B24CF35278B01B3E682CD517B"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 128.0625,
+      "recovered_key_hex": "B4FA44A3CB031746F3D93C45B33BE75D"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 101.8125,
+      "recovered_key_hex": "94B2D9CC9E8A028587F024B025AB86FB"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 136.5625,
+      "recovered_key_hex": "663CC3D5DE69C2FF29024FB705A0CA0E"
+    },
+    {
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 158.0,
+      "recovered_key_hex": "EB3A5DDBD301CEF16DF059A5588D20BA"
+    }
+  ],
+  "best_overall": {
+    "source": "traces",
+    "preproc": "center_detrend",
+    "n_traces": 1000,
+    "model": "hw_sbox",
+    "rank1_count": 1,
+    "rank5_count": 3,
+    "mean_rank": 91.125,
+    "recovered_key_hex": "B641CEFE8BB1399AB936E66228F32B3C"
+  },
+  "best_by_model": {
+    "hw_sbox": {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hw_sbox",
+      "rank1_count": 1,
+      "rank5_count": 3,
+      "mean_rank": 91.125,
+      "recovered_key_hex": "B641CEFE8BB1399AB936E66228F32B3C"
+    },
+    "hd_pt": {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 2,
+      "mean_rank": 137.6875,
+      "recovered_key_hex": "9837D17A301E228328DB88CDAD6AA623"
+    },
+    "hd_inout": {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 2,
+      "mean_rank": 96.4375,
+      "recovered_key_hex": "6217045D3B6AE03B73080B1E91DAB67D"
+    },
+    "hw_in": {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 102.1875,
+      "recovered_key_hex": "94B2D9CC9E8A028578F0DBB025ABB0FB"
+    },
+    "bit0": {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 163.3125,
+      "recovered_key_hex": "B1504098DE6B59096302AA0CEAB162FF"
+    },
+    "bit7": {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 1,
+      "rank5_count": 1,
+      "mean_rank": 106.1875,
+      "recovered_key_hex": "38165872C0537EA650DBADAF6BE170CC"
+    }
+  }
+}

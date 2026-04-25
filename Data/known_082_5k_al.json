@@ -1,0 +1,35 @@
+{
+  "input": "known_082_5k_raw.npz",
+  "output": "known_082_5k_al.npz",
+  "center": 1729,
+  "window": 220,
+  "max_shift": 20,
+  "iters": 3,
+  "ref": "median",
+  "mode": "hw_template",
+  "shift_mean_abs": 18.1452,
+  "shift_p95_abs": 42.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 10.6636,
+      "lag_p95_abs": 19.0,
+      "score_mean": 0.42102372646331787,
+      "delta_mean_abs": 10.6636
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 8.1726,
+      "lag_p95_abs": 17.0,
+      "score_mean": 0.6828187108039856,
+      "delta_mean_abs": 8.1726
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 4.9882,
+      "lag_p95_abs": 17.0,
+      "score_mean": 0.7027981281280518,
+      "delta_mean_abs": 4.9882
+    }
+  ]
+}

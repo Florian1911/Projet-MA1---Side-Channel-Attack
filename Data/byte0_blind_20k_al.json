@@ -1,0 +1,35 @@
+{
+  "input": "byte0_blind_20k_raw.npz",
+  "output": "byte0_blind_20k_al.npz",
+  "center": 1700,
+  "window": 220,
+  "max_shift": 20,
+  "iters": 3,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 15.8029,
+  "shift_p95_abs": 38.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 10.26135,
+      "lag_p95_abs": 19.0,
+      "score_mean": 0.1520439237356186,
+      "delta_mean_abs": 10.26135
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 5.55725,
+      "lag_p95_abs": 19.0,
+      "score_mean": 0.1849234402179718,
+      "delta_mean_abs": 5.55725
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 5.0734,
+      "lag_p95_abs": 20.0,
+      "score_mean": 0.20537294447422028,
+      "delta_mean_abs": 5.0734
+    }
+  ]
+}

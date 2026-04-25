@@ -1,0 +1,263 @@
+{
+  "oracle_blend": {
+    "mean_rank": 82.3125,
+    "median_rank": 60.5,
+    "rank1_count": 0,
+    "rank_le_5": 2,
+    "rank_le_10": 2,
+    "rank_le_50": 6,
+    "bytes": [
+      {
+        "byte": 0,
+        "pick": "C",
+        "rank": 2,
+        "rank_C": 2,
+        "rank_C2": 8
+      },
+      {
+        "byte": 1,
+        "pick": "C2",
+        "rank": 239,
+        "rank_C": 252,
+        "rank_C2": 239
+      },
+      {
+        "byte": 2,
+        "pick": "C",
+        "rank": 122,
+        "rank_C": 122,
+        "rank_C2": 183
+      },
+      {
+        "byte": 3,
+        "pick": "C2",
+        "rank": 42,
+        "rank_C": 155,
+        "rank_C2": 42
+      },
+      {
+        "byte": 4,
+        "pick": "C2",
+        "rank": 5,
+        "rank_C": 19,
+        "rank_C2": 5
+      },
+      {
+        "byte": 5,
+        "pick": "C",
+        "rank": 54,
+        "rank_C": 54,
+        "rank_C2": 118
+      },
+      {
+        "byte": 6,
+        "pick": "C2",
+        "rank": 105,
+        "rank_C": 166,
+        "rank_C2": 105
+      },
+      {
+        "byte": 7,
+        "pick": "C",
+        "rank": 57,
+        "rank_C": 57,
+        "rank_C2": 111
+      },
+      {
+        "byte": 8,
+        "pick": "C2",
+        "rank": 108,
+        "rank_C": 195,
+        "rank_C2": 108
+      },
+      {
+        "byte": 9,
+        "pick": "C",
+        "rank": 37,
+        "rank_C": 37,
+        "rank_C2": 68
+      },
+      {
+        "byte": 10,
+        "pick": "C",
+        "rank": 34,
+        "rank_C": 34,
+        "rank_C2": 111
+      },
+      {
+        "byte": 11,
+        "pick": "C",
+        "rank": 49,
+        "rank_C": 49,
+        "rank_C2": 242
+      },
+      {
+        "byte": 12,
+        "pick": "C2",
+        "rank": 111,
+        "rank_C": 214,
+        "rank_C2": 111
+      },
+      {
+        "byte": 13,
+        "pick": "C2",
+        "rank": 64,
+        "rank_C": 255,
+        "rank_C2": 64
+      },
+      {
+        "byte": 14,
+        "pick": "C",
+        "rank": 221,
+        "rank_C": 221,
+        "rank_C2": 249
+      },
+      {
+        "byte": 15,
+        "pick": "C",
+        "rank": 67,
+        "rank_C": 67,
+        "rank_C2": 201
+      }
+    ]
+  },
+  "margin_blend": {
+    "mean_rank": 107.5,
+    "median_rank": 86.0,
+    "rank1_count": 0,
+    "rank_le_5": 2,
+    "rank_le_10": 2,
+    "rank_le_50": 6,
+    "bytes": [
+      {
+        "byte": 0,
+        "pick": "C",
+        "rank": 2,
+        "top1_key": 0,
+        "gap_C": 19.150220043957233,
+        "gap_C2": 17.054897248744965
+      },
+      {
+        "byte": 1,
+        "pick": "C",
+        "rank": 252,
+        "top1_key": 159,
+        "gap_C": 60.16986262798309,
+        "gap_C2": 2.412977695465088
+      },
+      {
+        "byte": 2,
+        "pick": "C",
+        "rank": 122,
+        "top1_key": 144,
+        "gap_C": 35.95602107048035,
+        "gap_C2": 0.028964519500732422
+      },
+      {
+        "byte": 3,
+        "pick": "C2",
+        "rank": 42,
+        "top1_key": 123,
+        "gap_C": 27.554351925849915,
+        "gap_C2": 59.923317551612854
+      },
+      {
+        "byte": 4,
+        "pick": "C2",
+        "rank": 5,
+        "top1_key": 213,
+        "gap_C": 3.280170261859894,
+        "gap_C2": 34.43359076976776
+      },
+      {
+        "byte": 5,
+        "pick": "C2",
+        "rank": 118,
+        "top1_key": 189,
+        "gap_C": 8.517048925161362,
+        "gap_C2": 26.08254051208496
+      },
+      {
+        "byte": 6,
+        "pick": "C",
+        "rank": 166,
+        "top1_key": 253,
+        "gap_C": 60.53702148795128,
+        "gap_C2": 23.044663548469543
+      },
+      {
+        "byte": 7,
+        "pick": "C",
+        "rank": 57,
+        "top1_key": 6,
+        "gap_C": 23.03449934720993,
+        "gap_C2": 5.757981300354004
+      },
+      {
+        "byte": 8,
+        "pick": "C2",
+        "rank": 108,
+        "top1_key": 102,
+        "gap_C": 7.660088360309601,
+        "gap_C2": 28.89118003845215
+      },
+      {
+        "byte": 9,
+        "pick": "C",
+        "rank": 37,
+        "top1_key": 92,
+        "gap_C": 5.734591990709305,
+        "gap_C2": 0.14305973052978516
+      },
+      {
+        "byte": 10,
+        "pick": "C",
+        "rank": 34,
+        "top1_key": 171,
+        "gap_C": 5.028560787439346,
+        "gap_C2": 3.4990439414978027
+      },
+      {
+        "byte": 11,
+        "pick": "C",
+        "rank": 49,
+        "top1_key": 189,
+        "gap_C": 112.42342326045036,
+        "gap_C2": 47.06078004837036
+      },
+      {
+        "byte": 12,
+        "pick": "C",
+        "rank": 214,
+        "top1_key": 172,
+        "gap_C": 33.77721309661865,
+        "gap_C2": 24.798388481140137
+      },
+      {
+        "byte": 13,
+        "pick": "C2",
+        "rank": 64,
+        "top1_key": 250,
+        "gap_C": 4.428925156593323,
+        "gap_C2": 13.33848762512207
+      },
+      {
+        "byte": 14,
+        "pick": "C2",
+        "rank": 249,
+        "top1_key": 159,
+        "gap_C": 64.89270779490471,
+        "gap_C2": 65.16982442140579
+      },
+      {
+        "byte": 15,
+        "pick": "C2",
+        "rank": 201,
+        "top1_key": 248,
+        "gap_C": 9.142940163612366,
+        "gap_C2": 41.769069254398346
+      }
+    ],
+    "recovered_key_hex": "00 9F 90 7B D5 BD FD 06 66 5C AB BD AC FA 9F F8"
+  }
+}

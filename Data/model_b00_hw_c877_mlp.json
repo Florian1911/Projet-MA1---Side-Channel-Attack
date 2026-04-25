@@ -1,0 +1,20 @@
+{
+  "dataset": "profile_b00_hw_c877.npz",
+  "n_total": 5000,
+  "n_train": 3500,
+  "n_val": 750,
+  "n_test": 750,
+  "n_classes": 9,
+  "poi": 300,
+  "h1": 256,
+  "h2": 128,
+  "dropout": 0.1,
+  "epochs": 100,
+  "batch_size": 256,
+  "lr": 0.001,
+  "l2": 1e-05,
+  "patience": 20,
+  "best_val_acc1": 0.25066666666666665,
+  "test_acc1": 0.22666666666666666,
+  "test_acc5": 0.9013333333333333
+}

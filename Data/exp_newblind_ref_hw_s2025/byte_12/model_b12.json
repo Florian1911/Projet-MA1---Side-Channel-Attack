@@ -1,0 +1,20 @@
+{
+  "dataset": "exp_newblind_ref_hw_s2025/byte_12/profile_b12.npz",
+  "n_total": 28984,
+  "n_train": 20290,
+  "n_val": 4347,
+  "n_test": 4347,
+  "n_classes": 9,
+  "poi": 800,
+  "h1": 768,
+  "h2": 384,
+  "dropout": 0.1,
+  "epochs": 120,
+  "batch_size": 256,
+  "lr": 0.001,
+  "l2": 1e-05,
+  "patience": 20,
+  "best_val_acc1": 0.2776627559236255,
+  "test_acc1": 0.26570048309178745,
+  "test_acc5": 0.9273061881757534
+}

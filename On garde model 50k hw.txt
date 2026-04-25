@@ -1,0 +1,110 @@
+On garde : model_50k_hw_mlp.npz
+model_50k_hw_mlp_cpa839.npz (moins bon)
+
+Fonctionne uniquement sur 1 octet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19900/20000 | overflow=0
+20000/20000 | overflow=0
+Dataset sauvegardé dans attack_newkey_20k.npz
+florian-msi@Florian-Fedora:~/Documents/Projet MA1 - Side Channel Attack/Data$ python3 fix_alignment.py --in attack_newkey_20k.npz --out attack_newkey_20k_aligned.npz --byte 0 --key 0x91 --max-shift 120
+
+estimated shift=-93, score=0.033012
+saved: attack_newkey_20k_aligned.npz | n=19907
+saved: attack_newkey_20k_aligned.json
+florian-msi@Florian-Fedora:~/Documents/Projet MA1 - Side Channel Attack/Data$ 
+florian-msi@Florian-Fedora:~/Documents/Projet MA1 - Side Channel Attack/Data$ python3 quality_check.py --npz attack_newkey_20k_aligned.npz --byte 0 --key 0x91 --window 200
+dataset: traces=(19907, 2000), plaintexts=(19907, 16)
+overflow ratio: 0.000000
+global mean=55.2891 mV, global std=5.7514 mV
+per-trace std median=2.9766 mV
+snr_max=0.019035 at sample 541
+suggested window: [441:641] (len=200)
+CPA true-key rank=1, score=0.033012, poi=58
+quality verdict: PASS
+florian-msi@Florian-Fedora:~/Documents/Projet MA1 - Side Channel Attack/Data$ python3 prepare_hw_dataset.py \
+  --in attack_newkey_20k_aligned.npz \
+  --out attack_newkey_20k_hw.npz \
+  --byte 0 \
+  --key 0x91 \
+  --center 541 \
+  --window 200
+saved: attack_newkey_20k_hw.npz | traces=(19907, 200) | center=541 | window=[441:641]
+saved: attack_newkey_20k_hw.json
+florian-msi@Florian-Fedora:~/Documents/Projet MA1 - Side Channel Attack/Data$ python3 train_mlp_numpy.py \
+  --npz attack_newkey_20k_hw.npz \
+  --epochs 100 \
+  --batch-size 256 \
+  --poi 200 \
+  --h1 256 \
+  --h2 128 \
+  --dropout 0.1 \
+  --lr 0.001 \
+  --l2 1e-5 \
+  --patience 20 \
+  --out model_newkey_20k_mlp.npz
+dataset: n=19907, tlen=200, classes=9
+epoch 001 | loss=2.0005 | val@1=0.2301 | val@5=0.9243
+epoch 002 | loss=1.8242 | val@1=0.2261 | val@5=0.9287
+epoch 003 | loss=1.7867 | val@1=0.2351 | val@5=0.9273
+epoch 004 | loss=1.7649 | val@1=0.2344 | val@5=0.9283
+epoch 005 | loss=1.7510 | val@1=0.2398 | val@5=0.9257
+epoch 006 | loss=1.7335 | val@1=0.2301 | val@5=0.9280
+epoch 007 | loss=1.7232 | val@1=0.2461 | val@5=0.9277
+epoch 008 | loss=1.7118 | val@1=0.2291 | val@5=0.9287
+epoch 009 | loss=1.6963 | val@1=0.2311 | val@5=0.9280
+epoch 010 | loss=1.6880 | val@1=0.2351 | val@5=0.9257
+epoch 011 | loss=1.6725 | val@1=0.2277 | val@5=0.9263
+epoch 012 | loss=1.6615 | val@1=0.2311 | val@5=0.9263
+epoch 013 | loss=1.6434 | val@1=0.2401 | val@5=0.9253
+epoch 014 | loss=1.6337 | val@1=0.2374 | val@5=0.9226
+epoch 015 | loss=1.6147 | val@1=0.2274 | val@5=0.9196
+epoch 016 | loss=1.6004 | val@1=0.2384 | val@5=0.9156
+epoch 017 | loss=1.5904 | val@1=0.2341 | val@5=0.9176
+epoch 018 | loss=1.5666 | val@1=0.2317 | val@5=0.9096
+epoch 019 | loss=1.5581 | val@1=0.2240 | val@5=0.9066
+epoch 020 | loss=1.5412 | val@1=0.2194 | val@5=0.9116
+epoch 021 | loss=1.5244 | val@1=0.2358 | val@5=0.9092
+epoch 022 | loss=1.5137 | val@1=0.2311 | val@5=0.9123
+epoch 023 | loss=1.4888 | val@1=0.2324 | val@5=0.9052
+epoch 024 | loss=1.4692 | val@1=0.2163 | val@5=0.9092
+epoch 025 | loss=1.4655 | val@1=0.2157 | val@5=0.8979
+epoch 026 | loss=1.4387 | val@1=0.2271 | val@5=0.9092
+epoch 027 | loss=1.4235 | val@1=0.2267 | val@5=0.8982
+early stopping at epoch 27 (patience=20)
+test@1=0.2525 | test@5=0.9337
+saved model: model_newkey_20k_mlp.npz
+saved metrics: model_newkey_20k_mlp.json
+florian-msi@Florian-Fedora:~/Documents/Projet MA1 - Side Channel Attack/Data$ python3 key_rank_from_mlp.py \
+  --model model_newkey_20k_mlp.npz \
+  --dataset attack_newkey_20k_hw.npz \
+  --byte 0 \
+  --true-key 0x91 \
+  --repeats 3 \
+  --out keyrank_newkey_20k.json
+dataset=attack_newkey_20k_hw.npz, model=model_newkey_20k_mlp.npz
+n_use=19907, repeats=3, true_key=0x91
+final avg rank=1
+traces_to_rank1: 416
+top5 final keys (repeat #1):
+  #1: key=0x91 score=-33922.9413
+  #2: key=0x7B score=-35541.3744
+  #3: key=0xC1 score=-35556.4630
+  #4: key=0x54 score=-35597.6504
+  #5: key=0xC7 score=-35630.0963
+saved: keyrank_newkey_20k.json
+florian-msi@Florian-Fedora:~/Documents/Projet MA1 - Side Channel Attack/Data$ 
+
+

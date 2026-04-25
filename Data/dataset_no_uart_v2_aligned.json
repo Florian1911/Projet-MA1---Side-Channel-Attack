@@ -1,0 +1,35 @@
+{
+  "input": "dataset_no_uart_v2.npz",
+  "output": "dataset_no_uart_v2_aligned.npz",
+  "center": 1503,
+  "window": 200,
+  "max_shift": 50,
+  "iters": 3,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 35.1644,
+  "shift_p95_abs": 92.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 24.027,
+      "lag_p95_abs": 48.0,
+      "score_mean": 0.4834712743759155,
+      "delta_mean_abs": 24.027
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 12.5464,
+      "lag_p95_abs": 44.0,
+      "score_mean": 0.748991847038269,
+      "delta_mean_abs": 12.5464
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 5.9574,
+      "lag_p95_abs": 44.0,
+      "score_mean": 0.7614266872406006,
+      "delta_mean_abs": 5.9574
+    }
+  ]
+}

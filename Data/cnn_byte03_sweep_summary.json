@@ -1,0 +1,84 @@
+{
+  "byte": 3,
+  "center": 204,
+  "results": [
+    {
+      "name": "w80_none_lr1e3",
+      "window": 80,
+      "preproc": "none",
+      "lr": "1e-3",
+      "epochs": 20,
+      "best_val_acc1": 0.007333333138376474,
+      "val_acc5": 0.02199999988079071,
+      "recovered_key_byte": 166,
+      "true_rank": 207,
+      "best_shift": -27,
+      "margin": 1.9535719466148294
+    },
+    {
+      "name": "w80_detr_lr1e3",
+      "window": 80,
+      "preproc": "center_detrend",
+      "lr": "1e-3",
+      "epochs": 20,
+      "best_val_acc1": 0.0020000000949949026,
+      "val_acc5": 0.015333333052694798,
+      "recovered_key_byte": 86,
+      "true_rank": 149,
+      "best_shift": -37,
+      "margin": 0.3957577470719116
+    },
+    {
+      "name": "w120_detr_lr1e3",
+      "window": 120,
+      "preproc": "center_detrend",
+      "lr": "1e-3",
+      "epochs": 20,
+      "best_val_acc1": 0.004666666500270367,
+      "val_acc5": 0.019999999552965164,
+      "recovered_key_byte": 2,
+      "true_rank": 131,
+      "best_shift": -15,
+      "margin": 1.2873140067822533
+    },
+    {
+      "name": "w120_none_lr1e3",
+      "window": 120,
+      "preproc": "none",
+      "lr": "1e-3",
+      "epochs": 20,
+      "best_val_acc1": 0.007333333138376474,
+      "val_acc5": 0.02199999988079071,
+      "recovered_key_byte": 4,
+      "true_rank": 247,
+      "best_shift": 24,
+      "margin": 47.06252948263136
+    },
+    {
+      "name": "w220_detr_lr3e4",
+      "window": 220,
+      "preproc": "center_detrend",
+      "lr": "3e-4",
+      "epochs": 25,
+      "best_val_acc1": 0.005333333276212215,
+      "val_acc5": 0.01733333244919777,
+      "recovered_key_byte": 166,
+      "true_rank": 178,
+      "best_shift": -29,
+      "margin": 85.67311627218442
+    },
+    {
+      "name": "w60_none_lr3e4",
+      "window": 60,
+      "preproc": "none",
+      "lr": "3e-4",
+      "epochs": 25,
+      "best_val_acc1": 0.007333333138376474,
+      "val_acc5": 0.02133333310484886,
+      "recovered_key_byte": 201,
+      "true_rank": 232,
+      "best_shift": 51,
+      "margin": 15.063313433311123
+    }
+  ]
+}

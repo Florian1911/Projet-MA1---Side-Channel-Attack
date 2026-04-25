@@ -1,0 +1,20 @@
+{
+  "dataset": "exp_blind_sbox_final/byte_11/profile_b11.npz",
+  "n_total": 28984,
+  "n_train": 20290,
+  "n_val": 4347,
+  "n_test": 4347,
+  "n_classes": 256,
+  "poi": 300,
+  "h1": 256,
+  "h2": 128,
+  "dropout": 0.1,
+  "epochs": 80,
+  "batch_size": 256,
+  "lr": 0.001,
+  "l2": 1e-05,
+  "patience": 15,
+  "best_val_acc1": 0.00644122383252818,
+  "test_acc1": 0.001840349666436623,
+  "test_acc5": 0.019553715205889118
+}

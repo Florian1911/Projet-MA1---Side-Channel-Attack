@@ -1,0 +1,22 @@
+{
+  "train_dataset": "unknown_new_20k_aligned_blind.npz",
+  "test_dataset": "",
+  "byte": 2,
+  "key": 45,
+  "preproc": "center_detrend",
+  "window": 220,
+  "center": 2169,
+  "n_train": 17000,
+  "n_val": 3000,
+  "n_classes": 256,
+  "epochs_requested": 6,
+  "epochs_run": 5,
+  "best_val_acc1": 0.004000000189989805,
+  "metrics": {
+    "val": {
+      "loss": 5.5456223487854,
+      "acc1": 0.004000000189989805,
+      "acc5": 0.01666666753590107
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "input": "known_clean_5k_sig.npz",
+  "output": "known_clean_5k_sig_refal.npz",
+  "center": 520,
+  "window": 260,
+  "max_shift": 80,
+  "iters": 2,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 87.2556,
+  "shift_p95_abs": 155.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 53.6246,
+      "lag_p95_abs": 80.0,
+      "score_mean": 0.3172215521335602,
+      "delta_mean_abs": 53.6246
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 37.5142,
+      "lag_p95_abs": 79.0,
+      "score_mean": 0.372341126203537,
+      "delta_mean_abs": 37.5142
+    }
+  ]
+}

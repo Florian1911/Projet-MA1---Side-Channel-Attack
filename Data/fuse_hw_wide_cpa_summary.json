@@ -1,0 +1,406 @@
+{
+  "alphas": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "bytes": [
+    {
+      "byte": 0,
+      "poi": 779,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 167,
+      "mlp_top1": 128
+    },
+    {
+      "byte": 1,
+      "poi": 2619,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 251,
+      "mlp_top1": 159
+    },
+    {
+      "byte": 2,
+      "poi": 1023,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 209,
+      "mlp_top1": 191
+    },
+    {
+      "byte": 3,
+      "poi": 204,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 94,
+      "mlp_top1": 227
+    },
+    {
+      "byte": 4,
+      "poi": 2466,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 191,
+      "mlp_top1": 103
+    },
+    {
+      "byte": 5,
+      "poi": 1871,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 168,
+      "mlp_top1": 84
+    },
+    {
+      "byte": 6,
+      "poi": 2746,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 225,
+      "mlp_top1": 5
+    },
+    {
+      "byte": 7,
+      "poi": 3274,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 214,
+      "mlp_top1": 6
+    },
+    {
+      "byte": 8,
+      "poi": 802,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 109,
+      "mlp_top1": 18
+    },
+    {
+      "byte": 9,
+      "poi": 2692,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 68,
+      "mlp_top1": 92
+    },
+    {
+      "byte": 10,
+      "poi": 2208,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 39,
+      "mlp_top1": 193
+    },
+    {
+      "byte": 11,
+      "poi": 571,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 185,
+      "mlp_top1": 189
+    },
+    {
+      "byte": 12,
+      "poi": 2185,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 163,
+      "mlp_top1": 114
+    },
+    {
+      "byte": 13,
+      "poi": 3533,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 61,
+      "mlp_top1": 33
+    },
+    {
+      "byte": 14,
+      "poi": 702,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 146,
+      "mlp_top1": 31
+    },
+    {
+      "byte": 15,
+      "poi": 1855,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 72,
+      "mlp_top1": 87
+    }
+  ],
+  "metrics": {
+    "0.000": {
+      "recovered_key_hex": "A7FBD15EBFA8E1D66D4427B9A33D9248",
+      "rank1_count": 6,
+      "rank5_count": 10,
+      "mean_rank": 6.25,
+      "median_rank": 2.5,
+      "ranks": [
+        1,
+        3,
+        1,
+        1,
+        2,
+        3,
+        10,
+        9,
+        1,
+        29,
+        1,
+        1,
+        6,
+        23,
+        2,
+        7
+      ]
+    },
+    "0.100": {
+      "recovered_key_hex": "A7FBD18CBFA8E1D66D4427B9A33D9248",
+      "rank1_count": 5,
+      "rank5_count": 10,
+      "mean_rank": 7.25,
+      "median_rank": 3.0,
+      "ranks": [
+        1,
+        3,
+        1,
+        2,
+        2,
+        3,
+        11,
+        9,
+        1,
+        31,
+        1,
+        1,
+        9,
+        31,
+        3,
+        7
+      ]
+    },
+    "0.200": {
+      "recovered_key_hex": "A7FBD18CBF0BE16D6D4427B9A33D9248",
+      "rank1_count": 5,
+      "rank5_count": 9,
+      "mean_rank": 8.5625,
+      "median_rank": 3.5,
+      "ranks": [
+        1,
+        6,
+        1,
+        4,
+        2,
+        2,
+        12,
+        10,
+        1,
+        25,
+        1,
+        1,
+        10,
+        52,
+        3,
+        6
+      ]
+    },
+    "0.300": {
+      "recovered_key_hex": "A7FBD18CBF4BE16DB24427B98E3D9248",
+      "rank1_count": 5,
+      "rank5_count": 10,
+      "mean_rank": 10.4375,
+      "median_rank": 4.0,
+      "ranks": [
+        1,
+        7,
+        1,
+        4,
+        2,
+        1,
+        14,
+        14,
+        4,
+        24,
+        1,
+        1,
+        10,
+        76,
+        4,
+        3
+      ]
+    },
+    "0.400": {
+      "recovered_key_hex": "A7FBD18CBF4BE16DB244E0B98E3D1F48",
+      "rank1_count": 4,
+      "rank5_count": 10,
+      "mean_rank": 13.8125,
+      "median_rank": 4.0,
+      "ranks": [
+        1,
+        9,
+        1,
+        5,
+        2,
+        1,
+        21,
+        19,
+        4,
+        24,
+        2,
+        1,
+        15,
+        108,
+        4,
+        4
+      ]
+    },
+    "0.500": {
+      "recovered_key_hex": "A79FD18C924BE141B25CE0B98E3D1F48",
+      "rank1_count": 5,
+      "rank5_count": 7,
+      "mean_rank": 21.5,
+      "median_rank": 8.5,
+      "ranks": [
+        1,
+        22,
+        1,
+        9,
+        1,
+        1,
+        37,
+        24,
+        10,
+        27,
+        2,
+        1,
+        31,
+        164,
+        5,
+        8
+      ]
+    },
+    "0.600": {
+      "recovered_key_hex": "A79F90859454E141B25CE04A8E3D1F48",
+      "rank1_count": 1,
+      "rank5_count": 6,
+      "mean_rank": 31.5,
+      "median_rank": 16.5,
+      "ranks": [
+        1,
+        56,
+        3,
+        23,
+        2,
+        3,
+        55,
+        34,
+        19,
+        33,
+        4,
+        2,
+        54,
+        195,
+        6,
+        14
+      ]
+    },
+    "0.700": {
+      "recovered_key_hex": "A79F90E394540541125CC14A8E211FD3",
+      "rank1_count": 1,
+      "rank5_count": 5,
+      "mean_rank": 51.75,
+      "median_rank": 39.0,
+      "ranks": [
+        1,
+        124,
+        5,
+        50,
+        3,
+        3,
+        93,
+        64,
+        58,
+        48,
+        7,
+        2,
+        109,
+        219,
+        12,
+        30
+      ]
+    },
+    "0.800": {
+      "recovered_key_hex": "809F90E394540506125CC1C98E211F57",
+      "rank1_count": 0,
+      "rank5_count": 3,
+      "mean_rank": 74.25,
+      "median_rank": 55.5,
+      "ranks": [
+        2,
+        183,
+        33,
+        90,
+        3,
+        8,
+        128,
+        93,
+        94,
+        63,
+        17,
+        4,
+        158,
+        232,
+        32,
+        48
+      ]
+    },
+    "0.900": {
+      "recovered_key_hex": "809F90E394540506125CC1BD72211F57",
+      "rank1_count": 0,
+      "rank5_count": 2,
+      "mean_rank": 97.625,
+      "median_rank": 85.5,
+      "ranks": [
+        4,
+        216,
+        90,
+        127,
+        5,
+        19,
+        144,
+        119,
+        141,
+        81,
+        30,
+        13,
+        199,
+        242,
+        70,
+        62
+      ]
+    },
+    "1.000": {
+      "recovered_key_hex": "809FBFE367540506125CC1BD72211F57",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 119.1875,
+      "median_rank": 118.5,
+      "ranks": [
+        11,
+        235,
+        137,
+        164,
+        19,
+        36,
+        174,
+        140,
+        176,
+        100,
+        57,
+        22,
+        215,
+        245,
+        94,
+        82
+      ]
+    }
+  }
+}

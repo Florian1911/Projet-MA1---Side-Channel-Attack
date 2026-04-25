@@ -1,0 +1,22 @@
+{
+  "train_dataset": "unknown_B_profile10k.npz",
+  "test_dataset": "",
+  "byte": 3,
+  "key": 94,
+  "preproc": "none",
+  "window": 80,
+  "center": 204,
+  "n_train": 8500,
+  "n_val": 1500,
+  "n_classes": 256,
+  "epochs_requested": 20,
+  "epochs_run": 8,
+  "best_val_acc1": 0.007333333138376474,
+  "metrics": {
+    "val": {
+      "loss": 5.545318126678467,
+      "acc1": 0.007333333138376474,
+      "acc5": 0.02199999988079071
+    }
+  }
+}

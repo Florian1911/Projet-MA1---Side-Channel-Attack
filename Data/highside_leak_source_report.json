@@ -1,0 +1,482 @@
+{
+  "npz": "dataset_aes_sca_highside.npz",
+  "n_traces": 1000,
+  "master_key_hex": "2B7E151628AED2A6ABF7158809CF4F3C",
+  "round10_key_hex": "D014F9A8C9EE2589E13F0CC8B6630CA6",
+  "all_results": [
+    {
+      "source": "traces",
+      "preproc": "none",
+      "model": "hw_pt",
+      "best_abs_corr": 0.14919565057040485,
+      "best_byte": 11,
+      "best_poi": 844
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "model": "hw_pt_xor_k0",
+      "best_abs_corr": 0.14092163458538373,
+      "best_byte": 14,
+      "best_poi": 1956
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "model": "hw_sbox_pt_xor_k0",
+      "best_abs_corr": 0.15888830445591717,
+      "best_byte": 15,
+      "best_poi": 1244
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "model": "hd_ptxor_to_sbox",
+      "best_abs_corr": 0.137561373084244,
+      "best_byte": 2,
+      "best_poi": 872
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "model": "hw_ct",
+      "best_abs_corr": 0.1338844165834505,
+      "best_byte": 6,
+      "best_poi": 1728
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "model": "hw_ct_xor_k10",
+      "best_abs_corr": 0.1300401871602953,
+      "best_byte": 8,
+      "best_poi": 1952
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "model": "hw_invsbox_ct_xor_k10",
+      "best_abs_corr": 0.13360841271448307,
+      "best_byte": 9,
+      "best_poi": 1538
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "model": "hd_invsbox_to_x10",
+      "best_abs_corr": 0.13587792187850645,
+      "best_byte": 9,
+      "best_poi": 104
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "model": "hw_pt",
+      "best_abs_corr": 0.15056345942614754,
+      "best_byte": 11,
+      "best_poi": 844
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "model": "hw_pt_xor_k0",
+      "best_abs_corr": 0.13699453440080314,
+      "best_byte": 14,
+      "best_poi": 1956
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "model": "hw_sbox_pt_xor_k0",
+      "best_abs_corr": 0.15801605697869112,
+      "best_byte": 15,
+      "best_poi": 1244
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "model": "hd_ptxor_to_sbox",
+      "best_abs_corr": 0.1358277964799087,
+      "best_byte": 2,
+      "best_poi": 872
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "model": "hw_ct",
+      "best_abs_corr": 0.13779244604390722,
+      "best_byte": 6,
+      "best_poi": 1728
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "model": "hw_ct_xor_k10",
+      "best_abs_corr": 0.13056561163049332,
+      "best_byte": 8,
+      "best_poi": 1952
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "model": "hw_invsbox_ct_xor_k10",
+      "best_abs_corr": 0.1328505881216755,
+      "best_byte": 9,
+      "best_poi": 1538
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "model": "hd_invsbox_to_x10",
+      "best_abs_corr": 0.1374144749308104,
+      "best_byte": 9,
+      "best_poi": 104
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "model": "hw_pt",
+      "best_abs_corr": 0.1340096589673339,
+      "best_byte": 14,
+      "best_poi": 1291
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "model": "hw_pt_xor_k0",
+      "best_abs_corr": 0.12602387707465737,
+      "best_byte": 15,
+      "best_poi": 431
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "model": "hw_sbox_pt_xor_k0",
+      "best_abs_corr": 0.13588600673853912,
+      "best_byte": 15,
+      "best_poi": 1287
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "model": "hd_ptxor_to_sbox",
+      "best_abs_corr": 0.1302193005832918,
+      "best_byte": 0,
+      "best_poi": 1863
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "model": "hw_ct",
+      "best_abs_corr": 0.13229963186870283,
+      "best_byte": 9,
+      "best_poi": 1900
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "model": "hw_ct_xor_k10",
+      "best_abs_corr": 0.12623363818615244,
+      "best_byte": 9,
+      "best_poi": 1882
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "model": "hw_invsbox_ct_xor_k10",
+      "best_abs_corr": 0.14253621462259108,
+      "best_byte": 12,
+      "best_poi": 939
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "model": "hd_invsbox_to_x10",
+      "best_abs_corr": 0.141764400718813,
+      "best_byte": 13,
+      "best_poi": 1488
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "model": "hw_pt",
+      "best_abs_corr": 0.13496377095432488,
+      "best_byte": 14,
+      "best_poi": 1291
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "model": "hw_pt_xor_k0",
+      "best_abs_corr": 0.13038379120861734,
+      "best_byte": 9,
+      "best_poi": 710
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "model": "hw_sbox_pt_xor_k0",
+      "best_abs_corr": 0.13831808326365982,
+      "best_byte": 15,
+      "best_poi": 1287
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "model": "hd_ptxor_to_sbox",
+      "best_abs_corr": 0.12935348561362003,
+      "best_byte": 0,
+      "best_poi": 1863
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "model": "hw_ct",
+      "best_abs_corr": 0.12508056222482702,
+      "best_byte": 9,
+      "best_poi": 1900
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "model": "hw_ct_xor_k10",
+      "best_abs_corr": 0.12522462924713001,
+      "best_byte": 4,
+      "best_poi": 689
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "model": "hw_invsbox_ct_xor_k10",
+      "best_abs_corr": 0.13857579915174612,
+      "best_byte": 12,
+      "best_poi": 939
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "model": "hd_invsbox_to_x10",
+      "best_abs_corr": 0.14189269138040925,
+      "best_byte": 13,
+      "best_poi": 1488
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "model": "hw_pt",
+      "best_abs_corr": 0.1336164407591396,
+      "best_byte": 1,
+      "best_poi": 968
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "model": "hw_pt_xor_k0",
+      "best_abs_corr": 0.12847581760223423,
+      "best_byte": 14,
+      "best_poi": 1956
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "model": "hw_sbox_pt_xor_k0",
+      "best_abs_corr": 0.13714268258499257,
+      "best_byte": 11,
+      "best_poi": 664
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "model": "hd_ptxor_to_sbox",
+      "best_abs_corr": 0.13108055959555578,
+      "best_byte": 4,
+      "best_poi": 942
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "model": "hw_ct",
+      "best_abs_corr": 0.1349081678967625,
+      "best_byte": 6,
+      "best_poi": 648
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "model": "hw_ct_xor_k10",
+      "best_abs_corr": 0.1481799109590396,
+      "best_byte": 3,
+      "best_poi": 538
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "model": "hw_invsbox_ct_xor_k10",
+      "best_abs_corr": 0.1247048272970433,
+      "best_byte": 5,
+      "best_poi": 455
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "model": "hd_invsbox_to_x10",
+      "best_abs_corr": 0.14370105424477056,
+      "best_byte": 2,
+      "best_poi": 416
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "model": "hw_pt",
+      "best_abs_corr": 0.1371168161122041,
+      "best_byte": 1,
+      "best_poi": 968
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "model": "hw_pt_xor_k0",
+      "best_abs_corr": 0.1291600479527475,
+      "best_byte": 2,
+      "best_poi": 177
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "model": "hw_sbox_pt_xor_k0",
+      "best_abs_corr": 0.13584416458379553,
+      "best_byte": 11,
+      "best_poi": 664
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "model": "hd_ptxor_to_sbox",
+      "best_abs_corr": 0.13442561272093037,
+      "best_byte": 4,
+      "best_poi": 942
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "model": "hw_ct",
+      "best_abs_corr": 0.13225611645603774,
+      "best_byte": 6,
+      "best_poi": 648
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "model": "hw_ct_xor_k10",
+      "best_abs_corr": 0.1473241319915157,
+      "best_byte": 3,
+      "best_poi": 538
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "model": "hw_invsbox_ct_xor_k10",
+      "best_abs_corr": 0.127175382663072,
+      "best_byte": 13,
+      "best_poi": 1280
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "model": "hd_invsbox_to_x10",
+      "best_abs_corr": 0.14899624677329829,
+      "best_byte": 2,
+      "best_poi": 416
+    }
+  ],
+  "top10": [
+    {
+      "source": "traces",
+      "preproc": "none",
+      "model": "hw_sbox_pt_xor_k0",
+      "best_abs_corr": 0.15888830445591717,
+      "best_byte": 15,
+      "best_poi": 1244
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "model": "hw_sbox_pt_xor_k0",
+      "best_abs_corr": 0.15801605697869112,
+      "best_byte": 15,
+      "best_poi": 1244
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "model": "hw_pt",
+      "best_abs_corr": 0.15056345942614754,
+      "best_byte": 11,
+      "best_poi": 844
+    },
+    {
+      "source": "traces",
+      "preproc": "none",
+      "model": "hw_pt",
+      "best_abs_corr": 0.14919565057040485,
+      "best_byte": 11,
+      "best_poi": 844
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "model": "hd_invsbox_to_x10",
+      "best_abs_corr": 0.14899624677329829,
+      "best_byte": 2,
+      "best_poi": 416
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "model": "hw_ct_xor_k10",
+      "best_abs_corr": 0.1481799109590396,
+      "best_byte": 3,
+      "best_poi": 538
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "model": "hw_ct_xor_k10",
+      "best_abs_corr": 0.1473241319915157,
+      "best_byte": 3,
+      "best_poi": 538
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "model": "hd_invsbox_to_x10",
+      "best_abs_corr": 0.14370105424477056,
+      "best_byte": 2,
+      "best_poi": 416
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "model": "hw_invsbox_ct_xor_k10",
+      "best_abs_corr": 0.14253621462259108,
+      "best_byte": 12,
+      "best_poi": 939
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "model": "hd_invsbox_to_x10",
+      "best_abs_corr": 0.14189269138040925,
+      "best_byte": 13,
+      "best_poi": 1488
+    }
+  ],
+  "best_overall": {
+    "source": "traces",
+    "preproc": "none",
+    "model": "hw_sbox_pt_xor_k0",
+    "best_abs_corr": 0.15888830445591717,
+    "best_byte": 15,
+    "best_poi": 1244
+  }
+}

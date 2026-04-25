@@ -1,0 +1,28 @@
+{
+  "input": "profile_s2_al.npz",
+  "output": "profile_s2_al_local_hw.npz",
+  "center": 108,
+  "window": 220,
+  "max_shift": 12,
+  "iters": 2,
+  "ref": "median",
+  "mode": "hw_template",
+  "shift_mean_abs": 7.1838574003605045,
+  "shift_p95_abs": 17.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 5.649676213365378,
+      "lag_p95_abs": 12.0,
+      "score_mean": 0.3282930850982666,
+      "delta_mean_abs": 5.649676213365378
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 2.9961612924761334,
+      "lag_p95_abs": 10.0,
+      "score_mean": 0.6220661997795105,
+      "delta_mean_abs": 2.9961612924761334
+    }
+  ]
+}

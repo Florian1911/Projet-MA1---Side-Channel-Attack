@@ -1,0 +1,35 @@
+{
+  "model": "exp_tune_sbox_s4242/byte_08/model_b08.npz",
+  "dataset": "exp_tune_sbox_s4242/byte_08/attack_b08.npz",
+  "byte": 8,
+  "true_key": null,
+  "n_use": 20000,
+  "repeats": 11,
+  "label_mode": "sbox",
+  "final_avg_rank": null,
+  "traces_to_rank1": null,
+  "checkpoints_avg_rank": null,
+  "top5_final_scores_repeat1": [
+    {
+      "key": 238,
+      "score": -111056.73766708374
+    },
+    {
+      "key": 33,
+      "score": -111077.8426656723
+    },
+    {
+      "key": 194,
+      "score": -111079.38381576538
+    },
+    {
+      "key": 119,
+      "score": -111081.43524312973
+    },
+    {
+      "key": 16,
+      "score": -111082.17427253723
+    }
+  ],
+  "blind_mode": true
+}

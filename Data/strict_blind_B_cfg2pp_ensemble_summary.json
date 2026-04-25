@@ -1,0 +1,616 @@
+{
+  "calib_npz": "unknown_B_calib5k_nokey.npz",
+  "attack_npz": "unknown_B_attack15k_nokey.npz",
+  "true_key_hex": "A73CD15E924BF8166DE027B9417FC38A",
+  "configs": [
+    {
+      "name": "c1",
+      "decim": 2,
+      "coarse_top": 12,
+      "coarse_min_sep": 12,
+      "refine_radius": 12,
+      "q": 95.0
+    },
+    {
+      "name": "c2",
+      "decim": 2,
+      "coarse_top": 16,
+      "coarse_min_sep": 10,
+      "refine_radius": 14,
+      "q": 97.0
+    },
+    {
+      "name": "c3",
+      "decim": 2,
+      "coarse_top": 20,
+      "coarse_min_sep": 10,
+      "refine_radius": 16,
+      "q": 99.0
+    },
+    {
+      "name": "c4",
+      "decim": 1,
+      "coarse_top": 16,
+      "coarse_min_sep": 14,
+      "refine_radius": 10,
+      "q": 95.0
+    },
+    {
+      "name": "c5",
+      "decim": 1,
+      "coarse_top": 20,
+      "coarse_min_sep": 12,
+      "refine_radius": 12,
+      "q": 97.0
+    }
+  ],
+  "results": {
+    "mean_score": {
+      "recovered_key_hex": "5D 07 DC E1 93 32 81 18 58 89 A4 B1 51 09 0E 61",
+      "rank1_count": 0,
+      "top5_count": 0,
+      "top10_count": 0,
+      "top20_count": 0,
+      "mean_rank": 158.4375,
+      "median_rank": 161.5,
+      "ranks": [
+        164,
+        188,
+        136,
+        68,
+        246,
+        140,
+        159,
+        246,
+        37,
+        68,
+        54,
+        145,
+        238,
+        204,
+        215,
+        227
+      ],
+      "bytes": [
+        {
+          "byte": 0,
+          "top_key": 93,
+          "top_key_hex": "5D",
+          "true_key": 167,
+          "true_rank": 164,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 1,
+          "top_key": 7,
+          "top_key_hex": "07",
+          "true_key": 60,
+          "true_rank": 188,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 2,
+          "top_key": 220,
+          "top_key_hex": "DC",
+          "true_key": 209,
+          "true_rank": 136,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 3,
+          "top_key": 225,
+          "top_key_hex": "E1",
+          "true_key": 94,
+          "true_rank": 68,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 4,
+          "top_key": 147,
+          "top_key_hex": "93",
+          "true_key": 146,
+          "true_rank": 246,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 5,
+          "top_key": 50,
+          "top_key_hex": "32",
+          "true_key": 75,
+          "true_rank": 140,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 6,
+          "top_key": 129,
+          "top_key_hex": "81",
+          "true_key": 248,
+          "true_rank": 159,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 7,
+          "top_key": 24,
+          "top_key_hex": "18",
+          "true_key": 22,
+          "true_rank": 246,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 8,
+          "top_key": 88,
+          "top_key_hex": "58",
+          "true_key": 109,
+          "true_rank": 37,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 9,
+          "top_key": 137,
+          "top_key_hex": "89",
+          "true_key": 224,
+          "true_rank": 68,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 10,
+          "top_key": 164,
+          "top_key_hex": "A4",
+          "true_key": 39,
+          "true_rank": 54,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 11,
+          "top_key": 177,
+          "top_key_hex": "B1",
+          "true_key": 185,
+          "true_rank": 145,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 12,
+          "top_key": 81,
+          "top_key_hex": "51",
+          "true_key": 65,
+          "true_rank": 238,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 13,
+          "top_key": 9,
+          "top_key_hex": "09",
+          "true_key": 127,
+          "true_rank": 204,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 14,
+          "top_key": 14,
+          "top_key_hex": "0E",
+          "true_key": 195,
+          "true_rank": 215,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 15,
+          "top_key": 97,
+          "top_key_hex": "61",
+          "true_key": 138,
+          "true_rank": 227,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        }
+      ]
+    },
+    "zscore_mean": {
+      "recovered_key_hex": "5D 07 DC E1 93 32 81 18 D0 89 A4 B1 51 09 0E 61",
+      "rank1_count": 0,
+      "top5_count": 0,
+      "top10_count": 0,
+      "top20_count": 0,
+      "mean_rank": 158.625,
+      "median_rank": 158.0,
+      "ranks": [
+        160,
+        188,
+        136,
+        76,
+        245,
+        140,
+        156,
+        244,
+        35,
+        71,
+        56,
+        147,
+        239,
+        202,
+        215,
+        228
+      ],
+      "bytes": [
+        {
+          "byte": 0,
+          "top_key": 93,
+          "top_key_hex": "5D",
+          "true_key": 167,
+          "true_rank": 160,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 1,
+          "top_key": 7,
+          "top_key_hex": "07",
+          "true_key": 60,
+          "true_rank": 188,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 2,
+          "top_key": 220,
+          "top_key_hex": "DC",
+          "true_key": 209,
+          "true_rank": 136,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 3,
+          "top_key": 225,
+          "top_key_hex": "E1",
+          "true_key": 94,
+          "true_rank": 76,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 4,
+          "top_key": 147,
+          "top_key_hex": "93",
+          "true_key": 146,
+          "true_rank": 245,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 5,
+          "top_key": 50,
+          "top_key_hex": "32",
+          "true_key": 75,
+          "true_rank": 140,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 6,
+          "top_key": 129,
+          "top_key_hex": "81",
+          "true_key": 248,
+          "true_rank": 156,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 7,
+          "top_key": 24,
+          "top_key_hex": "18",
+          "true_key": 22,
+          "true_rank": 244,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 8,
+          "top_key": 208,
+          "top_key_hex": "D0",
+          "true_key": 109,
+          "true_rank": 35,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 9,
+          "top_key": 137,
+          "top_key_hex": "89",
+          "true_key": 224,
+          "true_rank": 71,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 10,
+          "top_key": 164,
+          "top_key_hex": "A4",
+          "true_key": 39,
+          "true_rank": 56,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 11,
+          "top_key": 177,
+          "top_key_hex": "B1",
+          "true_key": 185,
+          "true_rank": 147,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 12,
+          "top_key": 81,
+          "top_key_hex": "51",
+          "true_key": 65,
+          "true_rank": 239,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 13,
+          "top_key": 9,
+          "top_key_hex": "09",
+          "true_key": 127,
+          "true_rank": 202,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 14,
+          "top_key": 14,
+          "top_key_hex": "0E",
+          "true_key": 195,
+          "true_rank": 215,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 15,
+          "top_key": 97,
+          "top_key_hex": "61",
+          "true_key": 138,
+          "true_rank": 228,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        }
+      ]
+    },
+    "rank_product": {
+      "recovered_key_hex": "5D 07 DC E1 93 32 81 18 D0 89 EF B1 96 09 0E 61",
+      "rank1_count": 0,
+      "top5_count": 0,
+      "top10_count": 0,
+      "top20_count": 0,
+      "mean_rank": 147.4375,
+      "median_rank": 153.5,
+      "ranks": [
+        163,
+        189,
+        121,
+        48,
+        249,
+        97,
+        144,
+        248,
+        26,
+        70,
+        55,
+        92,
+        184,
+        222,
+        225,
+        226
+      ],
+      "bytes": [
+        {
+          "byte": 0,
+          "top_key": 93,
+          "top_key_hex": "5D",
+          "true_key": 167,
+          "true_rank": 163,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 1,
+          "top_key": 7,
+          "top_key_hex": "07",
+          "true_key": 60,
+          "true_rank": 189,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 2,
+          "top_key": 220,
+          "top_key_hex": "DC",
+          "true_key": 209,
+          "true_rank": 121,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 3,
+          "top_key": 225,
+          "top_key_hex": "E1",
+          "true_key": 94,
+          "true_rank": 48,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 4,
+          "top_key": 147,
+          "top_key_hex": "93",
+          "true_key": 146,
+          "true_rank": 249,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 5,
+          "top_key": 50,
+          "top_key_hex": "32",
+          "true_key": 75,
+          "true_rank": 97,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 6,
+          "top_key": 129,
+          "top_key_hex": "81",
+          "true_key": 248,
+          "true_rank": 144,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 7,
+          "top_key": 24,
+          "top_key_hex": "18",
+          "true_key": 22,
+          "true_rank": 248,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 8,
+          "top_key": 208,
+          "top_key_hex": "D0",
+          "true_key": 109,
+          "true_rank": 26,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 9,
+          "top_key": 137,
+          "top_key_hex": "89",
+          "true_key": 224,
+          "true_rank": 70,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 10,
+          "top_key": 239,
+          "top_key_hex": "EF",
+          "true_key": 39,
+          "true_rank": 55,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 11,
+          "top_key": 177,
+          "top_key_hex": "B1",
+          "true_key": 185,
+          "true_rank": 92,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 12,
+          "top_key": 150,
+          "top_key_hex": "96",
+          "true_key": 65,
+          "true_rank": 184,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 13,
+          "top_key": 9,
+          "top_key_hex": "09",
+          "true_key": 127,
+          "true_rank": 222,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 14,
+          "top_key": 14,
+          "top_key_hex": "0E",
+          "true_key": 195,
+          "true_rank": 225,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        },
+        {
+          "byte": 15,
+          "top_key": 97,
+          "top_key_hex": "61",
+          "true_key": 138,
+          "true_rank": 226,
+          "true_in_top5": false,
+          "true_in_top10": false,
+          "true_in_top20": false
+        }
+      ]
+    }
+  }
+}

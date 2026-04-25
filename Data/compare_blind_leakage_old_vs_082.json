@@ -1,0 +1,35 @@
+[
+  {
+    "dataset": "known_clean_5k_sig.npz",
+    "ntraces": 5000,
+    "tlen": 3968,
+    "score1_mean": 0.07130234079947492,
+    "score1_median": 0.07020972657915346,
+    "margin_mean": 0.0025971083054405816,
+    "margin_median": 0.002116072684620114,
+    "margin_gt_0.005": 1,
+    "margin_gt_0.002": 8
+  },
+  {
+    "dataset": "known_082_5k_al.npz",
+    "ntraces": 5000,
+    "tlen": 3968,
+    "score1_mean": 0.08719928780288558,
+    "score1_median": 0.07105320670041909,
+    "margin_mean": 0.012385147949208513,
+    "margin_median": 0.002006926851313026,
+    "margin_gt_0.005": 1,
+    "margin_gt_0.002": 8
+  },
+  {
+    "dataset": "known_082_5k_raw.npz",
+    "ntraces": 5000,
+    "tlen": 3968,
+    "score1_mean": 0.07041072833177522,
+    "score1_median": 0.0704251486020222,
+    "margin_mean": 0.0030879307405874325,
+    "margin_median": 0.0024611683625874597,
+    "margin_gt_0.005": 4,
+    "margin_gt_0.002": 11
+  }
+]

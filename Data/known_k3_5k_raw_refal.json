@@ -1,0 +1,28 @@
+{
+  "input": "known_k3_5k_raw.npz",
+  "output": "known_k3_5k_raw_refal.npz",
+  "center": 520,
+  "window": 260,
+  "max_shift": 80,
+  "iters": 2,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 62.15,
+  "shift_p95_abs": 137.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 46.2658,
+      "lag_p95_abs": 80.0,
+      "score_mean": 0.2900021970272064,
+      "delta_mean_abs": 46.2658
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 22.5346,
+      "lag_p95_abs": 72.0,
+      "score_mean": 0.33114153146743774,
+      "delta_mean_abs": 22.5346
+    }
+  ]
+}

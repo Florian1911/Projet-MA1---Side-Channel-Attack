@@ -1,0 +1,35 @@
+{
+  "model": "campaign_aes16_big/byte_13/model_b13.npz",
+  "dataset": "campaign_aes16_big/byte_13/attack_hw_b13.npz",
+  "byte": 13,
+  "best_shift": 44,
+  "recovered_key_byte": 1,
+  "margin": 81.32421875,
+  "top5": [
+    {
+      "rank": 1,
+      "key": 1,
+      "score": -35156.046875
+    },
+    {
+      "rank": 2,
+      "key": 199,
+      "score": -35237.37109375
+    },
+    {
+      "rank": 3,
+      "key": 142,
+      "score": -35237.5546875
+    },
+    {
+      "rank": 4,
+      "key": 90,
+      "score": -35240.546875
+    },
+    {
+      "rank": 5,
+      "key": 183,
+      "score": -35241.48828125
+    }
+  ]
+}

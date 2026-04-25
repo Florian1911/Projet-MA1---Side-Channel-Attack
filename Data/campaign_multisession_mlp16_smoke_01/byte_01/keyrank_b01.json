@@ -1,0 +1,45 @@
+{
+  "model": "campaign_multisession_mlp16_smoke_01/byte_01/model_b01.npz",
+  "dataset": "campaign_multisession_mlp16_smoke_01/byte_01/attack_b01.npz",
+  "byte": 1,
+  "true_key": 60,
+  "n_use": 48559,
+  "repeats": 5,
+  "final_avg_rank": 209,
+  "traces_to_rank1": null,
+  "checkpoints_avg_rank": {
+    "10": 152.4,
+    "20": 137.2,
+    "50": 124.2,
+    "100": 129.4,
+    "200": 111.2,
+    "500": 116.2,
+    "1000": 122.4,
+    "2000": 152.6,
+    "5000": 187.2,
+    "10000": 146.0,
+    "48559": 209.0
+  },
+  "top5_final_scores_repeat1": [
+    {
+      "key": 86,
+      "score": -91224.90171784163
+    },
+    {
+      "key": 199,
+      "score": -91252.79613165557
+    },
+    {
+      "key": 87,
+      "score": -91253.9978517592
+    },
+    {
+      "key": 175,
+      "score": -91293.0985172987
+    },
+    {
+      "key": 159,
+      "score": -91315.30783747137
+    }
+  ]
+}

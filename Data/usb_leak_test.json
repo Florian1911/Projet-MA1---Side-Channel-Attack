@@ -1,0 +1,9 @@
+{
+  "n_blocks": 600,
+  "num_samples": 2000,
+  "timebase": 8,
+  "dt_ns": 80.0,
+  "range_mv": 200,
+  "probe_att": 1,
+  "sleep_ms": 20.0
+}

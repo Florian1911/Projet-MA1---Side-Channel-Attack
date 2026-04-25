@@ -1,0 +1,35 @@
+{
+  "input": "rsa_spa_new_s5_20k_raw.npz",
+  "output": "rsa_spa_new_s5_20k_al.npz",
+  "center": 1700,
+  "window": 220,
+  "max_shift": 20,
+  "iters": 3,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 15.86925,
+  "shift_p95_abs": 38.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 10.9399,
+      "lag_p95_abs": 20.0,
+      "score_mean": 0.13947324454784393,
+      "delta_mean_abs": 10.9399
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 5.16505,
+      "lag_p95_abs": 19.0,
+      "score_mean": 0.16262339055538177,
+      "delta_mean_abs": 5.16505
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 3.195,
+      "lag_p95_abs": 17.0,
+      "score_mean": 0.17331895232200623,
+      "delta_mean_abs": 3.195
+    }
+  ]
+}

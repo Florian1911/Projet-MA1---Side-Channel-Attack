@@ -1,0 +1,11 @@
+{
+  "input": "unknown_B_calib5k_known.npz",
+  "output": "campaign_mlp_blind082_50k_shift160/byte_08/profile_hw_b08.npz",
+  "byte": 8,
+  "key": 109,
+  "window_start": 2092,
+  "window_end": 2292,
+  "window_center": 2192,
+  "window_len": 200,
+  "snr_max": 0.1093582296428387
+}

@@ -1,0 +1,21 @@
+{
+  "mode": "no_uart_prng_deterministic",
+  "n_traces": 30000,
+  "num_samples": 2000,
+  "timebase": 8,
+  "pre_trigger_samples": 200,
+  "trigger_threshold_mv_probe": 1000,
+  "probe_att_trig": 10,
+  "probe_att_meas": 1,
+  "dt_ns": 80.0,
+  "label_definition": "SBox(plaintext[0] xor key[0])",
+  "prng": "xorshift32",
+  "prng_seed": 305419896,
+  "auto_align": false,
+  "align_key_guess": 43,
+  "align_byte": 0,
+  "align_max_shift": 64,
+  "align_shift_applied": 0,
+  "align_score": 0.0,
+  "n_traces_saved": 30000
+}

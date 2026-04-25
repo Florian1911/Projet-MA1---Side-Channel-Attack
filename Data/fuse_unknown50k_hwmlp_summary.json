@@ -1,0 +1,250 @@
+{
+  "alphas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "bytes": [
+    {
+      "byte": 0,
+      "poi": 877,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 210,
+      "mlp_top1": 127
+    },
+    {
+      "byte": 1,
+      "poi": 3508,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 205,
+      "mlp_top1": 86
+    },
+    {
+      "byte": 2,
+      "poi": 2670,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 212,
+      "mlp_top1": 230
+    },
+    {
+      "byte": 3,
+      "poi": 1940,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 190,
+      "mlp_top1": 59
+    },
+    {
+      "byte": 4,
+      "poi": 2845,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 165,
+      "mlp_top1": 89
+    },
+    {
+      "byte": 5,
+      "poi": 120,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 176,
+      "mlp_top1": 11
+    },
+    {
+      "byte": 6,
+      "poi": 1373,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 118,
+      "mlp_top1": 210
+    },
+    {
+      "byte": 7,
+      "poi": 2194,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 37,
+      "mlp_top1": 103
+    },
+    {
+      "byte": 8,
+      "poi": 1939,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 137,
+      "mlp_top1": 161
+    },
+    {
+      "byte": 9,
+      "poi": 3747,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 204,
+      "mlp_top1": 199
+    },
+    {
+      "byte": 10,
+      "poi": 3756,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 97,
+      "mlp_top1": 205
+    },
+    {
+      "byte": 11,
+      "poi": 3774,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 152,
+      "mlp_top1": 153
+    },
+    {
+      "byte": 12,
+      "poi": 3495,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 50,
+      "mlp_top1": 80
+    },
+    {
+      "byte": 13,
+      "poi": 1817,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 92,
+      "mlp_top1": 141
+    },
+    {
+      "byte": 14,
+      "poi": 3616,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 130,
+      "mlp_top1": 50
+    },
+    {
+      "byte": 15,
+      "poi": 2693,
+      "mlp_label_mode": "hw",
+      "cpa_top1": 195,
+      "mlp_top1": 37
+    }
+  ],
+  "metrics": {
+    "0.000": {
+      "recovered_key_hex": "D2CDD4BEA5B0762589CC6198325C82C3",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 106.75,
+      "median_rank": 74.0,
+      "ranks": [
+        246,
+        27,
+        170,
+        214,
+        198,
+        33,
+        63,
+        85,
+        213,
+        15,
+        63,
+        140,
+        56,
+        30,
+        47,
+        108
+      ]
+    },
+    "0.250": {
+      "recovered_key_hex": "D2CD42BE63A8E8258ECCAC98325C82C3",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 111.0,
+      "median_rank": 81.5,
+      "ranks": [
+        237,
+        44,
+        162,
+        212,
+        169,
+        35,
+        69,
+        78,
+        237,
+        27,
+        59,
+        132,
+        67,
+        74,
+        85,
+        89
+      ]
+    },
+    "0.500": {
+      "recovered_key_hex": "D8C7427E6300E8100ECCAC98508682C3",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 120.1875,
+      "median_rank": 108.0,
+      "ranks": [
+        191,
+        94,
+        130,
+        200,
+        135,
+        43,
+        90,
+        67,
+        232,
+        75,
+        70,
+        122,
+        84,
+        164,
+        152,
+        74
+      ]
+    },
+    "0.750": {
+      "recovered_key_hex": "D8C7BE7E6300E810DFC7D9985077B425",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 135.9375,
+      "median_rank": 122.0,
+      "ranks": [
+        123,
+        176,
+        107,
+        176,
+        88,
+        75,
+        113,
+        81,
+        216,
+        175,
+        92,
+        121,
+        126,
+        228,
+        215,
+        63
+      ]
+    },
+    "1.000": {
+      "recovered_key_hex": "7F56E63B590BD267A1C7CD99508D3225",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 141.6875,
+      "median_rank": 128.0,
+      "ranks": [
+        77,
+        209,
+        94,
+        151,
+        72,
+        110,
+        131,
+        85,
+        189,
+        220,
+        125,
+        116,
+        148,
+        243,
+        233,
+        64
+      ]
+    }
+  }
+}

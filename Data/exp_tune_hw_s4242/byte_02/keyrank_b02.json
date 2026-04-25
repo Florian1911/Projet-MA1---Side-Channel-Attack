@@ -1,0 +1,35 @@
+{
+  "model": "exp_tune_hw_s4242/byte_02/model_b02.npz",
+  "dataset": "exp_tune_hw_s4242/byte_02/attack_b02.npz",
+  "byte": 2,
+  "true_key": null,
+  "n_use": 20000,
+  "repeats": 11,
+  "label_mode": "hw",
+  "final_avg_rank": null,
+  "traces_to_rank1": null,
+  "checkpoints_avg_rank": null,
+  "top5_final_scores_repeat1": [
+    {
+      "key": 97,
+      "score": -35859.45689445734
+    },
+    {
+      "key": 191,
+      "score": -35876.438905358315
+    },
+    {
+      "key": 130,
+      "score": -35887.46714735031
+    },
+    {
+      "key": 168,
+      "score": -35903.74758768082
+    },
+    {
+      "key": 219,
+      "score": -35920.137098133564
+    }
+  ],
+  "blind_mode": true
+}

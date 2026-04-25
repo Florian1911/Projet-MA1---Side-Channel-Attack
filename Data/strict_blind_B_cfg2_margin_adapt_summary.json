@@ -1,0 +1,215 @@
+{
+  "name": "strict_blind_B_cfg2_margin_adapt",
+  "rank1_count": 0,
+  "top10_count": 0,
+  "top20_count": 0,
+  "mean_rank": 142.4375,
+  "median_rank": 163.5,
+  "recovered_key_hex": "5D 2F DC 6F 93 94 81 56 58 24 0D CF 51 8B E2 26",
+  "ranks": [
+    66,
+    252,
+    38,
+    247,
+    238,
+    34,
+    66,
+    220,
+    151,
+    28,
+    24,
+    29,
+    248,
+    207,
+    176,
+    255
+  ],
+  "bytes": [
+    {
+      "byte": 0,
+      "selected_cfg": "c5",
+      "selected_margin": 0.0013398693506983493,
+      "top_key": 93,
+      "true_rank": 66,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 1,
+      "selected_cfg": "c3",
+      "selected_margin": 0.001793105793837211,
+      "top_key": 47,
+      "true_rank": 252,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 2,
+      "selected_cfg": "c1",
+      "selected_margin": 0.0025846039723436583,
+      "top_key": 220,
+      "true_rank": 38,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 3,
+      "selected_cfg": "c3",
+      "selected_margin": 0.003137393816617519,
+      "top_key": 111,
+      "true_rank": 247,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 4,
+      "selected_cfg": "c5",
+      "selected_margin": 0.0031777612012594374,
+      "top_key": 147,
+      "true_rank": 238,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 5,
+      "selected_cfg": "c1",
+      "selected_margin": 0.0028691182248976356,
+      "top_key": 148,
+      "true_rank": 34,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 6,
+      "selected_cfg": "c5",
+      "selected_margin": 0.0037714586405792234,
+      "top_key": 129,
+      "true_rank": 66,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 7,
+      "selected_cfg": "c5",
+      "selected_margin": 0.00224557815896418,
+      "top_key": 86,
+      "true_rank": 220,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 8,
+      "selected_cfg": "c4",
+      "selected_margin": 0.0030100455940913207,
+      "top_key": 88,
+      "true_rank": 151,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 9,
+      "selected_cfg": "c1",
+      "selected_margin": 0.002975675395227133,
+      "top_key": 36,
+      "true_rank": 28,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 10,
+      "selected_cfg": "c2",
+      "selected_margin": 0.0014930983604524925,
+      "top_key": 13,
+      "true_rank": 24,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 11,
+      "selected_cfg": "c3",
+      "selected_margin": 0.0010152740180833127,
+      "top_key": 207,
+      "true_rank": 29,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 12,
+      "selected_cfg": "c2",
+      "selected_margin": 0.002239154374822531,
+      "top_key": 81,
+      "true_rank": 248,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 13,
+      "selected_cfg": "c5",
+      "selected_margin": 0.0009606835643073824,
+      "top_key": 139,
+      "true_rank": 207,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 14,
+      "selected_cfg": "c5",
+      "selected_margin": 0.002152758225942332,
+      "top_key": 226,
+      "true_rank": 176,
+      "top10": false,
+      "top20": false
+    },
+    {
+      "byte": 15,
+      "selected_cfg": "c3",
+      "selected_margin": 0.0017727699767429925,
+      "top_key": 38,
+      "true_rank": 255,
+      "top10": false,
+      "top20": false
+    }
+  ],
+  "cfgs": [
+    {
+      "name": "c1",
+      "decim": 2,
+      "coarse_top": 12,
+      "coarse_min_sep": 12,
+      "refine_radius": 12,
+      "q": 95.0
+    },
+    {
+      "name": "c2",
+      "decim": 2,
+      "coarse_top": 16,
+      "coarse_min_sep": 10,
+      "refine_radius": 14,
+      "q": 97.0
+    },
+    {
+      "name": "c3",
+      "decim": 2,
+      "coarse_top": 20,
+      "coarse_min_sep": 10,
+      "refine_radius": 16,
+      "q": 99.0
+    },
+    {
+      "name": "c4",
+      "decim": 1,
+      "coarse_top": 16,
+      "coarse_min_sep": 14,
+      "refine_radius": 10,
+      "q": 95.0
+    },
+    {
+      "name": "c5",
+      "decim": 1,
+      "coarse_top": 20,
+      "coarse_min_sep": 12,
+      "refine_radius": 12,
+      "q": 97.0
+    }
+  ]
+}

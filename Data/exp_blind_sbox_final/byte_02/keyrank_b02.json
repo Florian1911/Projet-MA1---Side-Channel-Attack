@@ -1,0 +1,46 @@
+{
+  "model": "exp_blind_sbox_final/byte_02/model_b02.npz",
+  "dataset": "exp_blind_sbox_final/byte_02/attack_b02.npz",
+  "byte": 2,
+  "true_key": 209,
+  "n_use": 20000,
+  "repeats": 5,
+  "label_mode": "sbox",
+  "final_avg_rank": 163,
+  "traces_to_rank1": null,
+  "checkpoints_avg_rank": {
+    "10": 99.8,
+    "20": 109.8,
+    "50": 144.4,
+    "100": 164.4,
+    "200": 120.6,
+    "500": 156.4,
+    "1000": 162.6,
+    "2000": 174.4,
+    "5000": 141.2,
+    "10000": 124.2,
+    "20000": 163.0
+  },
+  "top5_final_scores_repeat1": [
+    {
+      "key": 228,
+      "score": -120993.17745769024
+    },
+    {
+      "key": 45,
+      "score": -121036.73371589184
+    },
+    {
+      "key": 101,
+      "score": -121107.46746587753
+    },
+    {
+      "key": 12,
+      "score": -121152.50091040134
+    },
+    {
+      "key": 149,
+      "score": -121166.2812217474
+    }
+  ]
+}

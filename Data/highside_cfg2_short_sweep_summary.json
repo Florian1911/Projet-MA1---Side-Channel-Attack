@@ -1,0 +1,15 @@
+{
+  "dataset": "dataset_aes_sca_highside.npz",
+  "split": "500 calib / 500 attack",
+  "mode": "strict blind (POI without true key)",
+  "tested_configs": 8,
+  "best": {
+    "decim": 2,
+    "coarse_top": 12,
+    "coarse_min_sep": 10,
+    "refine_radius": 10,
+    "score_percentile": 95,
+    "match_count": 0,
+    "recovered_key_hex": "7B5960C73037D10D81905462207424BC"
+  }
+}

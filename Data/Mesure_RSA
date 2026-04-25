@@ -1,0 +1,231 @@
+import ctypes
+import os
+from pathlib import Path
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+def _ensure_pico_runtime() -> None:
+    """Preload PicoSDK runtime libraries before importing picosdk wrappers."""
+    candidates = [
+        Path("/opt/picoscope/lib/libpicoipp.so"),
+        Path("/usr/local/lib/libpicoipp.so"),
+        Path("/usr/lib64/libpicoipp.so"),
+        Path("/usr/lib/libpicoipp.so"),
+    ]
+    lib = next((p for p in candidates if p.is_file()), None)
+    if lib is None:
+        searched = "\n".join(f" - {p}" for p in candidates)
+        raise RuntimeError(
+            "libpicoipp.so introuvable.\n"
+            "Installe PicoSDK, puis ajoute son dossier au runtime linker.\n"
+            f"Chemins verifies:\n{searched}"
+        )
+
+    lib_dir = str(lib.parent)
+    ld_path = os.environ.get("LD_LIBRARY_PATH", "")
+    if lib_dir not in ld_path.split(":"):
+        os.environ["LD_LIBRARY_PATH"] = f"{lib_dir}:{ld_path}" if ld_path else lib_dir
+
+    try:
+        ctypes.CDLL(str(lib), mode=ctypes.RTLD_GLOBAL)
+    except OSError as e:
+        if "cannot enable executable stack" in str(e):
+            raise RuntimeError(
+                f"Impossible de charger {lib} car elle requiert une pile executable.\n"
+                "Corrige le flag GNU_STACK sur la librairie PicoSDK."
+            ) from e
+        raise
+
+
+_ensure_pico_runtime()
+
+from picosdk.ps5000a import ps5000a as ps
+from picosdk.functions import adc2mV, assert_pico_ok, mV2adc
+
+
+PICO_POWER_SUPPLY_NOT_CONNECTED = 286
+PICO_USB3_0_DEVICE_NON_USB3_0_PORT = 282
+
+PROBE_ATTENUATION_A = 10  # CH A = PB8 en sonde x10
+PROBE_ATTENUATION_B = 1   # CH B = shunt en x1 pour maximiser le SNR sur quelques dizaines de mV
+INVERT_CH_B = False       # laisse False avec tip CH B sur GND STM32 et masse CH B sur GND alim
+
+CH_A_RANGE = ps.PS5000A_RANGE["PS5000A_500MV"]  # 0.33V au BNC pour PB8=3.3V avec x10
+CH_B_RANGE = ps.PS5000A_RANGE.get("PS5000A_200MV", ps.PS5000A_RANGE["PS5000A_500MV"])
+
+NUM_SAMPLES = 50000
+TIMEBASE = 5
+TRIGGER_A_THRESHOLD_MV_PROBE = 2000  # seuil sur la sonde (ex: ~2.0V sur PB8)
+R_SHUNT_OHM = 1.0                    # adapte a ta valeur reelle
+PLOT_FILTER_WINDOW = 21              # lissage optionnel pour visualisation uniquement (0/1 = off)
+
+
+def open_unit() -> ctypes.c_int16:
+    chandle = ctypes.c_int16()
+    status = ps.ps5000aOpenUnit(
+        ctypes.byref(chandle),
+        None,
+        ps.PS5000A_DEVICE_RESOLUTION["PS5000A_DR_12BIT"],
+    )
+    if status in (PICO_POWER_SUPPLY_NOT_CONNECTED, PICO_USB3_0_DEVICE_NON_USB3_0_PORT):
+        status = ps.ps5000aChangePowerSource(chandle, status)
+    assert_pico_ok(status)
+    return chandle
+
+
+def main() -> None:
+    chandle = open_unit()
+    ch_a = ps.PS5000A_CHANNEL["PS5000A_CHANNEL_A"]
+    ch_b = ps.PS5000A_CHANNEL["PS5000A_CHANNEL_B"]
+
+    # Toutes les masses de sondes Pico sont reliees entre elles en interne.
+    # En low-side, il faut donc mettre TOUS les grounds des sondes sur un seul point:
+    # GND alim (avant shunt), sinon on court-circuite le shunt.
+    # CH B en x1 augmente la tension vue par le scope vs x10, donc meilleur SNR.
+    # Config channels: A = PB8 trigger, B = Vshunt
+    assert_pico_ok(
+        ps.ps5000aSetChannel(
+            chandle,
+            ch_a,
+            1,
+            ps.PS5000A_COUPLING["PS5000A_DC"],
+            CH_A_RANGE,
+            0,
+        )
+    )
+    assert_pico_ok(
+        ps.ps5000aSetChannel(
+            chandle,
+            ch_b,
+            1,
+            ps.PS5000A_COUPLING["PS5000A_DC"],
+            CH_B_RANGE,
+            0,
+        )
+    )
+
+    max_adc = ctypes.c_int16()
+    assert_pico_ok(ps.ps5000aMaximumValue(chandle, ctypes.byref(max_adc)))
+
+    threshold_bnc_mv = max(1, int(TRIGGER_A_THRESHOLD_MV_PROBE / PROBE_ATTENUATION_A))
+    threshold_adc = mV2adc(threshold_bnc_mv, CH_A_RANGE, max_adc)
+    assert_pico_ok(
+        ps.ps5000aSetSimpleTrigger(
+            chandle,
+            1,
+            ch_a,
+            threshold_adc,
+            ps.PS5000A_THRESHOLD_DIRECTION["PS5000A_RISING"],
+            0,
+            2000,
+        )
+    )
+
+    dt_ns = ctypes.c_float()
+    returned = ctypes.c_int32()
+    assert_pico_ok(
+        ps.ps5000aGetTimebase2(
+            chandle,
+            TIMEBASE,
+            NUM_SAMPLES,
+            ctypes.byref(dt_ns),
+            ctypes.byref(returned),
+            0,
+        )
+    )
+
+    buffer_a = (ctypes.c_int16 * NUM_SAMPLES)()
+    buffer_b = (ctypes.c_int16 * NUM_SAMPLES)()
+    assert_pico_ok(ps.ps5000aSetDataBuffers(chandle, ch_a, ctypes.byref(buffer_a), None, NUM_SAMPLES, 0, 0))
+    assert_pico_ok(ps.ps5000aSetDataBuffers(chandle, ch_b, ctypes.byref(buffer_b), None, NUM_SAMPLES, 0, 0))
+
+    pre_samples = int(NUM_SAMPLES * 0.2)
+    post_samples = NUM_SAMPLES - pre_samples
+    assert_pico_ok(ps.ps5000aRunBlock(chandle, pre_samples, post_samples, TIMEBASE, None, 0, None, None))
+
+    ready = ctypes.c_int16(0)
+    while not ready.value:
+        assert_pico_ok(ps.ps5000aIsReady(chandle, ctypes.byref(ready)))
+
+    cmax = ctypes.c_int32(NUM_SAMPLES)
+    overflow = ctypes.c_int16()
+    assert_pico_ok(ps.ps5000aGetValues(chandle, 0, ctypes.byref(cmax), 1, 0, 0, ctypes.byref(overflow)))
+
+    # picosdk.adc2mV returns a Python list and overflows with np.int16 scalars.
+    # Convert to Python int list for conversion, then back to numpy arrays.
+    adc_a = np.array(buffer_a[: cmax.value], dtype=np.int32)
+    adc_b = np.array(buffer_b[: cmax.value], dtype=np.int32)
+    mv_a = np.asarray(adc2mV(adc_a.tolist(), CH_A_RANGE, max_adc), dtype=np.float32)
+    mv_b = np.asarray(adc2mV(adc_b.tolist(), CH_B_RANGE, max_adc), dtype=np.float32)
+    mv_a *= PROBE_ATTENUATION_A
+    mv_b *= PROBE_ATTENUATION_B
+    if INVERT_CH_B:
+        mv_b = -mv_b
+    mv_b_dc = mv_b
+    mv_b_ac = mv_b - np.mean(mv_b)
+    current_dc = (mv_b_dc / 1000.0) / R_SHUNT_OHM
+    current_ac = (mv_b_ac / 1000.0) / R_SHUNT_OHM
+    t = (np.arange(cmax.value) - pre_samples) * (dt_ns.value * 1e-9)
+
+    if PLOT_FILTER_WINDOW and PLOT_FILTER_WINDOW > 1:
+        kernel = np.ones(PLOT_FILTER_WINDOW, dtype=np.float32) / float(PLOT_FILTER_WINDOW)
+        mv_b_ac_plot = np.convolve(mv_b_ac, kernel, mode="same")
+    else:
+        mv_b_ac_plot = mv_b_ac
+
+    np.save("rsa_time_s.npy", t.astype(np.float64))
+    np.save("rsa_chA_mv.npy", mv_a.astype(np.float32))
+    np.save("rsa_chB_mv.npy", mv_b_dc.astype(np.float32))
+    np.save("rsa_chB_dc_mv.npy", mv_b_dc.astype(np.float32))
+    np.save("rsa_chB_ac_mv.npy", mv_b_ac.astype(np.float32))
+    np.save("rsa_current_dc_a.npy", current_dc.astype(np.float32))
+    np.save("rsa_current_ac_a.npy", current_ac.astype(np.float32))
+    np.save("rsa_current_a.npy", current_dc.astype(np.float32))
+
+    duration_ms = cmax.value * dt_ns.value * 1e-6
+    print(
+        f"Saved rsa_chA_mv.npy + rsa_chB_mv.npy + rsa_chB_dc_mv.npy + rsa_chB_ac_mv.npy "
+        f"+ rsa_current_dc_a.npy + rsa_current_ac_a.npy + rsa_current_a.npy "
+        f"({cmax.value} samples), dt={dt_ns.value} ns, overflow={overflow.value}"
+    )
+    print(
+        f"Window: {duration_ms:.3f} ms total, pre={pre_samples} samples, post={post_samples} samples, "
+        f"trigger index={pre_samples}"
+    )
+    print(
+        f"CH A x{PROBE_ATTENUATION_A}: mean={mv_a.mean():.2f} mV, min={mv_a.min():.2f}, max={mv_a.max():.2f}"
+    )
+    print(
+        f"CH B x{PROBE_ATTENUATION_B}: mean={mv_b.mean():.2f} mV, min={mv_b.min():.2f}, max={mv_b.max():.2f}, invert={INVERT_CH_B}"
+    )
+    print(
+        f"CH B AC: mean={mv_b_ac.mean():.2f} mV, min={mv_b_ac.min():.2f}, max={mv_b_ac.max():.2f}; "
+        f"Current DC (R={R_SHUNT_OHM} ohm): mean={current_dc.mean():.6f} A, min={current_dc.min():.6f}, max={current_dc.max():.6f}; "
+        f"Current AC: mean={current_ac.mean():.6f} A, min={current_ac.min():.6f}, max={current_ac.max():.6f}"
+    )
+
+    fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True, figsize=(11, 7))
+    ax1.plot(t, mv_a)
+    ax1.set_ylabel("CH A (mV)")
+    ax1.set_title("Mesure RSA - CH A (PB8 trigger) et CH B (shunt)")
+    ax1.grid(True, alpha=0.3)
+
+    ax2.plot(t, mv_b_dc, label="CH B DC (mV)", alpha=0.75)
+    ax2.plot(t, mv_b_ac, label="CH B AC (mV)", alpha=0.5)
+    if PLOT_FILTER_WINDOW and PLOT_FILTER_WINDOW > 1:
+        ax2.plot(t, mv_b_ac_plot, label=f"CH B AC filt MA{PLOT_FILTER_WINDOW}", linewidth=1.0)
+    ax2.set_ylabel("CH B (mV)")
+    ax2.set_xlabel("Time (s)")
+    ax2.legend(loc="upper right")
+    ax2.grid(True, alpha=0.3)
+    plt.tight_layout()
+    plt.show()
+
+    ps.ps5000aStop(chandle)
+    ps.ps5000aCloseUnit(chandle)
+
+
+if __name__ == "__main__":
+    main()

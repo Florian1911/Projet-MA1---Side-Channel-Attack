@@ -1,0 +1,35 @@
+{
+  "model": "exp_tune_hw_s1337/byte_05/model_b05.npz",
+  "dataset": "exp_tune_hw_s1337/byte_05/attack_b05.npz",
+  "byte": 5,
+  "true_key": null,
+  "n_use": 20000,
+  "repeats": 11,
+  "label_mode": "hw",
+  "final_avg_rank": null,
+  "traces_to_rank1": null,
+  "checkpoints_avg_rank": null,
+  "top5_final_scores_repeat1": [
+    {
+      "key": 12,
+      "score": -35880.396342396736
+    },
+    {
+      "key": 22,
+      "score": -35910.19267439842
+    },
+    {
+      "key": 44,
+      "score": -35923.80509454012
+    },
+    {
+      "key": 94,
+      "score": -35933.352154910564
+    },
+    {
+      "key": 84,
+      "score": -35934.54694402218
+    }
+  ],
+  "blind_mode": true
+}

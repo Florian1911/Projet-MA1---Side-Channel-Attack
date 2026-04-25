@@ -1,0 +1,11 @@
+{
+  "input": "campaign_cross_session/profile_merged_multisession.npz",
+  "output": "campaign_cross_session/byte_11/profile_hw_b11.npz",
+  "byte": 11,
+  "key": 136,
+  "window_start": 1153,
+  "window_end": 1353,
+  "window_center": 1253,
+  "window_len": 200,
+  "snr_max": 0.0026256479428747883
+}

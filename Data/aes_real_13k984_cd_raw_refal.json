@@ -1,0 +1,28 @@
+{
+  "input": "aes_real_13k984_cd_raw.npz",
+  "output": "aes_real_13k984_cd_raw_refal.npz",
+  "center": 520,
+  "window": 260,
+  "max_shift": 80,
+  "iters": 2,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 59.92455663615561,
+  "shift_p95_abs": 127.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 43.774599542334094,
+      "lag_p95_abs": 80.0,
+      "score_mean": 0.7069148421287537,
+      "delta_mean_abs": 43.774599542334094
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 19.71045480549199,
+      "lag_p95_abs": 71.0,
+      "score_mean": 0.7380204200744629,
+      "delta_mean_abs": 19.71045480549199
+    }
+  ]
+}

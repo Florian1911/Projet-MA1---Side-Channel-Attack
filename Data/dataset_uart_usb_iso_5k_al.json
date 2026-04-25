@@ -1,0 +1,28 @@
+{
+  "input": "dataset_uart_usb_iso_5k.npz",
+  "output": "dataset_uart_usb_iso_5k_al.npz",
+  "center": 1936,
+  "window": 240,
+  "max_shift": 80,
+  "iters": 2,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 51.7384,
+  "shift_p95_abs": 122.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 36.078,
+      "lag_p95_abs": 75.0,
+      "score_mean": 0.5664675235748291,
+      "delta_mean_abs": 36.078
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 21.1932,
+      "lag_p95_abs": 73.0,
+      "score_mean": 0.6701918840408325,
+      "delta_mean_abs": 21.1932
+    }
+  ]
+}

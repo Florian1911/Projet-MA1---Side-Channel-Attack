@@ -1,0 +1,11 @@
+{
+  "input": "attack_20k_knownkey_al44.npz",
+  "output": "attack_20k_knownkey_al44_hw.npz",
+  "byte": 0,
+  "key": 43,
+  "window_start": 1684,
+  "window_end": 1884,
+  "window_center": 1784,
+  "window_len": 200,
+  "snr_max": 0.0029247774471910367
+}

@@ -1,0 +1,28 @@
+{
+  "input": "dataset_pico5000a_no_uart.npz",
+  "output": "dataset_pico5000a_no_uart_al.npz",
+  "center": 520,
+  "window": 260,
+  "max_shift": 80,
+  "iters": 2,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 28.7968,
+  "shift_p95_abs": 43.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 14.992,
+      "lag_p95_abs": 24.0,
+      "score_mean": 0.6426892280578613,
+      "delta_mean_abs": 14.992
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 13.872,
+      "lag_p95_abs": 27.0,
+      "score_mean": 0.780730128288269,
+      "delta_mean_abs": 13.872
+    }
+  ]
+}

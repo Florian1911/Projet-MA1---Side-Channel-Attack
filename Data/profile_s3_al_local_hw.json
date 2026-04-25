@@ -1,0 +1,28 @@
+{
+  "input": "profile_s3_al.npz",
+  "output": "profile_s3_al_local_hw.npz",
+  "center": 1041,
+  "window": 220,
+  "max_shift": 12,
+  "iters": 2,
+  "ref": "median",
+  "mode": "hw_template",
+  "shift_mean_abs": 7.525000833917075,
+  "shift_p95_abs": 17.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 6.178991961039395,
+      "lag_p95_abs": 12.0,
+      "score_mean": 0.4447557330131531,
+      "delta_mean_abs": 6.178991961039395
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 2.6555255345408453,
+      "lag_p95_abs": 9.0,
+      "score_mean": 0.6641362905502319,
+      "delta_mean_abs": 2.6555255345408453
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "input": "profile_merged_multisession_local.npz",
+  "output": "campaign_cross_session_local_same_attack/byte_14/profile_hw_b14.npz",
+  "byte": 14,
+  "key": 79,
+  "window_start": 1655,
+  "window_end": 1855,
+  "window_center": 1755,
+  "window_len": 200,
+  "snr_max": 0.003859551118042363
+}

@@ -1,0 +1,35 @@
+{
+  "input": "noaes_extdiff_5k_raw.npz",
+  "output": "noaes_extdiff_5k_al.npz",
+  "center": 1700,
+  "window": 220,
+  "max_shift": 20,
+  "iters": 3,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 15.0584,
+  "shift_p95_abs": 36.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 10.2794,
+      "lag_p95_abs": 19.0,
+      "score_mean": 0.14723309874534607,
+      "delta_mean_abs": 10.2794
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 5.266,
+      "lag_p95_abs": 19.0,
+      "score_mean": 0.17377226054668427,
+      "delta_mean_abs": 5.266
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 4.4794,
+      "lag_p95_abs": 18.0,
+      "score_mean": 0.19740687310695648,
+      "delta_mean_abs": 4.4794
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "input": "known_noreject_5k.npz",
+  "output": "profile_b00_hw.npz",
+  "byte": 0,
+  "key": 0,
+  "window_start": 1843,
+  "window_end": 2143,
+  "window_center": 1993,
+  "window_len": 300,
+  "snr_max": 0.12421795467031368
+}

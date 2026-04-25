@@ -1,0 +1,34 @@
+{
+  "input": "profile_s2_al.npz",
+  "output": "profile_s2_al_local.npz",
+  "center": 108,
+  "window": 220,
+  "max_shift": 20,
+  "iters": 3,
+  "ref": "median",
+  "shift_mean_abs": 20.526036451031445,
+  "shift_p95_abs": 43.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 10.67414380132185,
+      "lag_p95_abs": 20.0,
+      "score_mean": 0.21217122673988342,
+      "delta_mean_abs": 10.67414380132185
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 8.605647907069898,
+      "lag_p95_abs": 18.0,
+      "score_mean": 0.6463581323623657,
+      "delta_mean_abs": 8.605647907069898
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 6.410541424661193,
+      "lag_p95_abs": 17.0,
+      "score_mean": 0.6684523820877075,
+      "delta_mean_abs": 6.410541424661193
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "campaign_mlp_unknownB_5k15k/byte_07/profile_hw_b07.npz",
+  "n_total": 5000,
+  "n_train": 3500,
+  "n_val": 750,
+  "n_test": 750,
+  "n_classes": 9,
+  "poi": 200,
+  "h1": 256,
+  "h2": 128,
+  "dropout": 0.1,
+  "epochs": 120,
+  "batch_size": 256,
+  "lr": 0.001,
+  "l2": 1e-05,
+  "patience": 20,
+  "best_val_acc1": 0.24533333333333332,
+  "test_acc1": 0.25866666666666666,
+  "test_acc5": 0.9106666666666666
+}

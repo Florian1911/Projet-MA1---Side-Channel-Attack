@@ -1,0 +1,45 @@
+{
+  "model": "model_multisession_b00_hw_mlp.npz",
+  "dataset": "unknown_noreject_50k.npz",
+  "byte": 0,
+  "true_key": 167,
+  "n_use": 48559,
+  "repeats": 5,
+  "final_avg_rank": 81,
+  "traces_to_rank1": null,
+  "checkpoints_avg_rank": {
+    "10": 190.2,
+    "20": 157.6,
+    "50": 163.0,
+    "100": 170.4,
+    "200": 146.8,
+    "500": 117.2,
+    "1000": 128.6,
+    "2000": 116.0,
+    "5000": 101.0,
+    "10000": 124.0,
+    "48559": 81.0
+  },
+  "top5_final_scores_repeat1": [
+    {
+      "key": 181,
+      "score": -91949.808875978
+    },
+    {
+      "key": 134,
+      "score": -92115.75781555474
+    },
+    {
+      "key": 94,
+      "score": -92157.63056847453
+    },
+    {
+      "key": 216,
+      "score": -92162.01681213826
+    },
+    {
+      "key": 50,
+      "score": -92183.92049971223
+    }
+  ]
+}

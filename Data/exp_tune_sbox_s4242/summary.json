@@ -1,0 +1,500 @@
+{
+  "bytes": [
+    {
+      "byte": 0,
+      "center": 877,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 149,
+          "score": -111132.79124617577
+        },
+        {
+          "key": 130,
+          "score": -111138.92561531067
+        },
+        {
+          "key": 43,
+          "score": -111143.79668617249
+        },
+        {
+          "key": 11,
+          "score": -111148.05208921432
+        },
+        {
+          "key": 25,
+          "score": -111149.99228668213
+        }
+      ]
+    },
+    {
+      "byte": 1,
+      "center": 369,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 185,
+          "score": -110958.00491905212
+        },
+        {
+          "key": 5,
+          "score": -110964.5283331871
+        },
+        {
+          "key": 65,
+          "score": -110965.03788375854
+        },
+        {
+          "key": 253,
+          "score": -110967.9000711441
+        },
+        {
+          "key": 13,
+          "score": -110969.47176790237
+        }
+      ]
+    },
+    {
+      "byte": 2,
+      "center": 651,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 43,
+          "score": -111596.36715936661
+        },
+        {
+          "key": 208,
+          "score": -111601.35017871857
+        },
+        {
+          "key": 85,
+          "score": -111613.46003580093
+        },
+        {
+          "key": 181,
+          "score": -111614.46782946587
+        },
+        {
+          "key": 159,
+          "score": -111614.52302455902
+        }
+      ]
+    },
+    {
+      "byte": 3,
+      "center": 930,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 115,
+          "score": -120249.04651784897
+        },
+        {
+          "key": 88,
+          "score": -120253.39901250601
+        },
+        {
+          "key": 41,
+          "score": -120256.41412115097
+        },
+        {
+          "key": 95,
+          "score": -120257.82897031307
+        },
+        {
+          "key": 80,
+          "score": -120263.98395216465
+        }
+      ]
+    },
+    {
+      "byte": 4,
+      "center": 245,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 65,
+          "score": -111744.90741682053
+        },
+        {
+          "key": 211,
+          "score": -111761.13234210014
+        },
+        {
+          "key": 116,
+          "score": -111771.85111451149
+        },
+        {
+          "key": 228,
+          "score": -111774.38463640213
+        },
+        {
+          "key": 143,
+          "score": -111775.23270177841
+        }
+      ]
+    },
+    {
+      "byte": 5,
+      "center": 889,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 122,
+          "score": -111318.1158747673
+        },
+        {
+          "key": 201,
+          "score": -111322.54626321793
+        },
+        {
+          "key": 94,
+          "score": -111329.81930613518
+        },
+        {
+          "key": 48,
+          "score": -111333.5220375061
+        },
+        {
+          "key": 209,
+          "score": -111336.10443401337
+        }
+      ]
+    },
+    {
+      "byte": 6,
+      "center": 1073,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 80,
+          "score": -112248.63921666145
+        },
+        {
+          "key": 142,
+          "score": -112287.07854986191
+        },
+        {
+          "key": 70,
+          "score": -112299.45485901833
+        },
+        {
+          "key": 121,
+          "score": -112314.35910701752
+        },
+        {
+          "key": 165,
+          "score": -112314.61796784401
+        }
+      ]
+    },
+    {
+      "byte": 7,
+      "center": 703,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 246,
+          "score": -192671.84540180955
+        },
+        {
+          "key": 108,
+          "score": -192838.69251107052
+        },
+        {
+          "key": 42,
+          "score": -192919.21977210976
+        },
+        {
+          "key": 104,
+          "score": -192987.45272096992
+        },
+        {
+          "key": 9,
+          "score": -193003.3615413159
+        }
+      ]
+    },
+    {
+      "byte": 8,
+      "center": 1097,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 238,
+          "score": -111056.73766708374
+        },
+        {
+          "key": 33,
+          "score": -111077.8426656723
+        },
+        {
+          "key": 194,
+          "score": -111079.38381576538
+        },
+        {
+          "key": 119,
+          "score": -111081.43524312973
+        },
+        {
+          "key": 16,
+          "score": -111082.17427253723
+        }
+      ]
+    },
+    {
+      "byte": 9,
+      "center": 367,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 33,
+          "score": -111004.71296596527
+        },
+        {
+          "key": 16,
+          "score": -111005.19337368011
+        },
+        {
+          "key": 125,
+          "score": -111019.43051671982
+        },
+        {
+          "key": 81,
+          "score": -111019.57676553726
+        },
+        {
+          "key": 217,
+          "score": -111021.47643613815
+        }
+      ]
+    },
+    {
+      "byte": 10,
+      "center": 328,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 25,
+          "score": -113454.5316286087
+        },
+        {
+          "key": 103,
+          "score": -113469.8342936039
+        },
+        {
+          "key": 101,
+          "score": -113469.94839453697
+        },
+        {
+          "key": 145,
+          "score": -113473.32116222382
+        },
+        {
+          "key": 71,
+          "score": -113473.50610423088
+        }
+      ]
+    },
+    {
+      "byte": 11,
+      "center": 846,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 227,
+          "score": -110902.02411937714
+        },
+        {
+          "key": 98,
+          "score": -110902.97770643234
+        },
+        {
+          "key": 207,
+          "score": -110903.02580022812
+        },
+        {
+          "key": 147,
+          "score": -110903.77889204025
+        },
+        {
+          "key": 231,
+          "score": -110905.34225034714
+        }
+      ]
+    },
+    {
+      "byte": 12,
+      "center": 349,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 52,
+          "score": -110923.03178834915
+        },
+        {
+          "key": 105,
+          "score": -110928.20714569092
+        },
+        {
+          "key": 187,
+          "score": -110928.66342878342
+        },
+        {
+          "key": 203,
+          "score": -110930.95520973206
+        },
+        {
+          "key": 51,
+          "score": -110932.71138572693
+        }
+      ]
+    },
+    {
+      "byte": 13,
+      "center": 1014,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 16,
+          "score": -110900.47237682343
+        },
+        {
+          "key": 153,
+          "score": -110901.02546548843
+        },
+        {
+          "key": 41,
+          "score": -110901.63024616241
+        },
+        {
+          "key": 79,
+          "score": -110901.87862968445
+        },
+        {
+          "key": 105,
+          "score": -110902.0213894844
+        }
+      ]
+    },
+    {
+      "byte": 14,
+      "center": 1108,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 107,
+          "score": -161908.82164783776
+        },
+        {
+          "key": 165,
+          "score": -162055.9185896851
+        },
+        {
+          "key": 93,
+          "score": -162059.9140470922
+        },
+        {
+          "key": 63,
+          "score": -162235.71620813943
+        },
+        {
+          "key": 179,
+          "score": -162236.47963789105
+        }
+      ]
+    },
+    {
+      "byte": 15,
+      "center": 100,
+      "profile_n": 28984,
+      "attack_n": 20000,
+      "label_mode": "sbox",
+      "final_avg_rank": null,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 168,
+          "score": -121070.84050190449
+        },
+        {
+          "key": 218,
+          "score": -121076.91764557362
+        },
+        {
+          "key": 199,
+          "score": -121081.42754745483
+        },
+        {
+          "key": 113,
+          "score": -121085.80898332596
+        },
+        {
+          "key": 227,
+          "score": -121085.87751102448
+        }
+      ]
+    }
+  ]
+}

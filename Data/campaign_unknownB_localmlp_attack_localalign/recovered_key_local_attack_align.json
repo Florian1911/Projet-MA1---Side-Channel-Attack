@@ -1,0 +1,624 @@
+{
+  "workdir_models": "campaign_unknownB_localmlp",
+  "attack_dataset": "unknown_B_attack15k_nokey.npz",
+  "outdir": "campaign_unknownB_localmlp_attack_localalign",
+  "bytes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "align_window": 220,
+  "align_max_shift": 12,
+  "align_iters": 2,
+  "recover_max_shift": 80,
+  "recovered_key": [
+    128,
+    93,
+    97,
+    14,
+    17,
+    244,
+    253,
+    200,
+    18,
+    75,
+    180,
+    189,
+    142,
+    33,
+    84,
+    173
+  ],
+  "recovered_key_hex_partial": "805D610E11F4FDC8124BB4BD8E2154AD",
+  "details": [
+    {
+      "byte": 0,
+      "recovered": 128,
+      "best_shift": -6,
+      "margin": 163.15625,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 128,
+          "score": -28329.48046875
+        },
+        {
+          "rank": 2,
+          "key": 48,
+          "score": -28492.63671875
+        },
+        {
+          "rank": 3,
+          "key": 201,
+          "score": -28516.55859375
+        },
+        {
+          "rank": 4,
+          "key": 169,
+          "score": -28528.771484375
+        },
+        {
+          "rank": 5,
+          "key": 0,
+          "score": -28530.0078125
+        }
+      ],
+      "window_center": 1560,
+      "align_shift_mean_abs": 8.7682,
+      "align_shift_p95_abs": 20.0
+    },
+    {
+      "byte": 1,
+      "recovered": 93,
+      "best_shift": -2,
+      "margin": 199.296875,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 93,
+          "score": -28803.19140625
+        },
+        {
+          "rank": 2,
+          "key": 52,
+          "score": -29002.48828125
+        },
+        {
+          "rank": 3,
+          "key": 55,
+          "score": -29015.021484375
+        },
+        {
+          "rank": 4,
+          "key": 0,
+          "score": -29027.64453125
+        },
+        {
+          "rank": 5,
+          "key": 86,
+          "score": -29042.12890625
+        }
+      ],
+      "window_center": 34,
+      "align_shift_mean_abs": 1.0770666666666666,
+      "align_shift_p95_abs": 10.0
+    },
+    {
+      "byte": 2,
+      "recovered": 97,
+      "best_shift": -26,
+      "margin": 111.291015625,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 97,
+          "score": -27953.9453125
+        },
+        {
+          "rank": 2,
+          "key": 175,
+          "score": -28065.236328125
+        },
+        {
+          "rank": 3,
+          "key": 221,
+          "score": -28066.58203125
+        },
+        {
+          "rank": 4,
+          "key": 245,
+          "score": -28076.97265625
+        },
+        {
+          "rank": 5,
+          "key": 84,
+          "score": -28081.2265625
+        }
+      ],
+      "window_center": 3464,
+      "align_shift_mean_abs": 12.106733333333333,
+      "align_shift_p95_abs": 24.0
+    },
+    {
+      "byte": 3,
+      "recovered": 14,
+      "best_shift": 77,
+      "margin": 214.123046875,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 14,
+          "score": -29550.185546875
+        },
+        {
+          "rank": 2,
+          "key": 104,
+          "score": -29764.30859375
+        },
+        {
+          "rank": 3,
+          "key": 48,
+          "score": -29768.078125
+        },
+        {
+          "rank": 4,
+          "key": 246,
+          "score": -29769.029296875
+        },
+        {
+          "rank": 5,
+          "key": 199,
+          "score": -29770.17578125
+        }
+      ],
+      "window_center": 3840,
+      "align_shift_mean_abs": 11.6538,
+      "align_shift_p95_abs": 23.0
+    },
+    {
+      "byte": 4,
+      "recovered": 17,
+      "best_shift": -75,
+      "margin": 242.791015625,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 17,
+          "score": -31698.90234375
+        },
+        {
+          "rank": 2,
+          "key": 241,
+          "score": -31941.693359375
+        },
+        {
+          "rank": 3,
+          "key": 46,
+          "score": -31987.58203125
+        },
+        {
+          "rank": 4,
+          "key": 148,
+          "score": -31994.80859375
+        },
+        {
+          "rank": 5,
+          "key": 100,
+          "score": -31995.57421875
+        }
+      ],
+      "window_center": 3844,
+      "align_shift_mean_abs": 11.6996,
+      "align_shift_p95_abs": 23.0
+    },
+    {
+      "byte": 5,
+      "recovered": 244,
+      "best_shift": 61,
+      "margin": 194.787109375,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 244,
+          "score": -28302.220703125
+        },
+        {
+          "rank": 2,
+          "key": 45,
+          "score": -28497.0078125
+        },
+        {
+          "rank": 3,
+          "key": 102,
+          "score": -28497.20703125
+        },
+        {
+          "rank": 4,
+          "key": 175,
+          "score": -28508.537109375
+        },
+        {
+          "rank": 5,
+          "key": 245,
+          "score": -28509.921875
+        }
+      ],
+      "window_center": 2601,
+      "align_shift_mean_abs": 10.603466666666666,
+      "align_shift_p95_abs": 22.0
+    },
+    {
+      "byte": 6,
+      "recovered": 253,
+      "best_shift": -61,
+      "margin": 183.171875,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 253,
+          "score": -27997.857421875
+        },
+        {
+          "rank": 2,
+          "key": 5,
+          "score": -28181.029296875
+        },
+        {
+          "rank": 3,
+          "key": 105,
+          "score": -28216.4375
+        },
+        {
+          "rank": 4,
+          "key": 104,
+          "score": -28242.998046875
+        },
+        {
+          "rank": 5,
+          "key": 64,
+          "score": -28244.46875
+        }
+      ],
+      "window_center": 3167,
+      "align_shift_mean_abs": 12.172133333333333,
+      "align_shift_p95_abs": 24.0
+    },
+    {
+      "byte": 7,
+      "recovered": 200,
+      "best_shift": -38,
+      "margin": 226.39453125,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 200,
+          "score": -30668.205078125
+        },
+        {
+          "rank": 2,
+          "key": 39,
+          "score": -30894.599609375
+        },
+        {
+          "rank": 3,
+          "key": 34,
+          "score": -30907.4296875
+        },
+        {
+          "rank": 4,
+          "key": 75,
+          "score": -30915.66015625
+        },
+        {
+          "rank": 5,
+          "key": 231,
+          "score": -30916.73046875
+        }
+      ],
+      "window_center": 3585,
+      "align_shift_mean_abs": 11.838266666666666,
+      "align_shift_p95_abs": 24.0
+    },
+    {
+      "byte": 8,
+      "recovered": 18,
+      "best_shift": -18,
+      "margin": 180.01171875,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 18,
+          "score": -28601.240234375
+        },
+        {
+          "rank": 2,
+          "key": 98,
+          "score": -28781.251953125
+        },
+        {
+          "rank": 3,
+          "key": 0,
+          "score": -28808.34375
+        },
+        {
+          "rank": 4,
+          "key": 15,
+          "score": -28820.87890625
+        },
+        {
+          "rank": 5,
+          "key": 176,
+          "score": -28822.14453125
+        }
+      ],
+      "window_center": 2192,
+      "align_shift_mean_abs": 10.0202,
+      "align_shift_p95_abs": 22.0
+    },
+    {
+      "byte": 9,
+      "recovered": 75,
+      "best_shift": -2,
+      "margin": 156.16796875,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 75,
+          "score": -28523.03515625
+        },
+        {
+          "rank": 2,
+          "key": 99,
+          "score": -28679.203125
+        },
+        {
+          "rank": 3,
+          "key": 40,
+          "score": -28681.3203125
+        },
+        {
+          "rank": 4,
+          "key": 86,
+          "score": -28696.818359375
+        },
+        {
+          "rank": 5,
+          "key": 34,
+          "score": -28723.685546875
+        }
+      ],
+      "window_center": 1045,
+      "align_shift_mean_abs": 7.798733333333334,
+      "align_shift_p95_abs": 18.0
+    },
+    {
+      "byte": 10,
+      "recovered": 180,
+      "best_shift": -53,
+      "margin": 155.46875,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 180,
+          "score": -28289.181640625
+        },
+        {
+          "rank": 2,
+          "key": 171,
+          "score": -28444.650390625
+        },
+        {
+          "rank": 3,
+          "key": 253,
+          "score": -28466.544921875
+        },
+        {
+          "rank": 4,
+          "key": 239,
+          "score": -28478.361328125
+        },
+        {
+          "rank": 5,
+          "key": 193,
+          "score": -28478.8125
+        }
+      ],
+      "window_center": 2135,
+      "align_shift_mean_abs": 9.821066666666667,
+      "align_shift_p95_abs": 21.0
+    },
+    {
+      "byte": 11,
+      "recovered": 189,
+      "best_shift": 10,
+      "margin": 149.705078125,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 189,
+          "score": -28265.44140625
+        },
+        {
+          "rank": 2,
+          "key": 100,
+          "score": -28415.146484375
+        },
+        {
+          "rank": 3,
+          "key": 250,
+          "score": -28421.349609375
+        },
+        {
+          "rank": 4,
+          "key": 179,
+          "score": -28423.08984375
+        },
+        {
+          "rank": 5,
+          "key": 204,
+          "score": -28423.298828125
+        }
+      ],
+      "window_center": 3918,
+      "align_shift_mean_abs": 12.607066666666666,
+      "align_shift_p95_abs": 24.0
+    },
+    {
+      "byte": 12,
+      "recovered": 142,
+      "best_shift": -62,
+      "margin": 171.60546875,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 142,
+          "score": -27816.41796875
+        },
+        {
+          "rank": 2,
+          "key": 236,
+          "score": -27988.0234375
+        },
+        {
+          "rank": 3,
+          "key": 12,
+          "score": -28013.287109375
+        },
+        {
+          "rank": 4,
+          "key": 221,
+          "score": -28015.744140625
+        },
+        {
+          "rank": 5,
+          "key": 191,
+          "score": -28017.97265625
+        }
+      ],
+      "window_center": 22,
+      "align_shift_mean_abs": 1.1776666666666666,
+      "align_shift_p95_abs": 10.0
+    },
+    {
+      "byte": 13,
+      "recovered": 33,
+      "best_shift": 13,
+      "margin": 165.03125,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 33,
+          "score": -27572.638671875
+        },
+        {
+          "rank": 2,
+          "key": 85,
+          "score": -27737.669921875
+        },
+        {
+          "rank": 3,
+          "key": 213,
+          "score": -27741.458984375
+        },
+        {
+          "rank": 4,
+          "key": 231,
+          "score": -27743.9375
+        },
+        {
+          "rank": 5,
+          "key": 180,
+          "score": -27749.32421875
+        }
+      ],
+      "window_center": 287,
+      "align_shift_mean_abs": 10.1046,
+      "align_shift_p95_abs": 22.0
+    },
+    {
+      "byte": 14,
+      "recovered": 84,
+      "best_shift": -29,
+      "margin": 191.740234375,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 84,
+          "score": -28772.876953125
+        },
+        {
+          "rank": 2,
+          "key": 183,
+          "score": -28964.6171875
+        },
+        {
+          "rank": 3,
+          "key": 15,
+          "score": -28973.890625
+        },
+        {
+          "rank": 4,
+          "key": 236,
+          "score": -28981.419921875
+        },
+        {
+          "rank": 5,
+          "key": 31,
+          "score": -28999.150390625
+        }
+      ],
+      "window_center": 1876,
+      "align_shift_mean_abs": 9.479,
+      "align_shift_p95_abs": 21.0
+    },
+    {
+      "byte": 15,
+      "recovered": 173,
+      "best_shift": 77,
+      "margin": 103.701171875,
+      "top5": [
+        {
+          "rank": 1,
+          "key": 173,
+          "score": -27921.34375
+        },
+        {
+          "rank": 2,
+          "key": 187,
+          "score": -28025.044921875
+        },
+        {
+          "rank": 3,
+          "key": 248,
+          "score": -28028.220703125
+        },
+        {
+          "rank": 4,
+          "key": 87,
+          "score": -28037.580078125
+        },
+        {
+          "rank": 5,
+          "key": 239,
+          "score": -28043.51171875
+        }
+      ],
+      "window_center": 2783,
+      "align_shift_mean_abs": 11.129466666666668,
+      "align_shift_p95_abs": 23.0
+    }
+  ]
+}

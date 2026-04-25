@@ -1,0 +1,27 @@
+{
+  "train_dataset": "profile_s1_al.npz",
+  "test_dataset": "profile_s1_al.npz",
+  "byte": 0,
+  "key": 43,
+  "preproc": "center_detrend",
+  "window": 700,
+  "center": -1,
+  "n_train": 25435,
+  "n_val": 4488,
+  "n_classes": 256,
+  "epochs_requested": 40,
+  "epochs_run": 13,
+  "best_val_acc1": 0.004456327762454748,
+  "metrics": {
+    "val": {
+      "loss": 5.546629905700684,
+      "acc1": 0.004456327762454748,
+      "acc5": 0.020944740623235703
+    },
+    "test": {
+      "loss": 5.541347503662109,
+      "acc1": 0.00507970480248332,
+      "acc5": 0.02442936785519123
+    }
+  }
+}

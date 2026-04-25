@@ -1,0 +1,28 @@
+{
+  "input": "attack_unknown_20k.npz",
+  "output": "attack_unknown_20k_localref.npz",
+  "center": 1100,
+  "window": 260,
+  "max_shift": 12,
+  "iters": 2,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 6.94825,
+  "shift_p95_abs": 16.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 6.1286,
+      "lag_p95_abs": 12.0,
+      "score_mean": 0.48044946789741516,
+      "delta_mean_abs": 6.1286
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 1.63735,
+      "lag_p95_abs": 9.0,
+      "score_mean": 0.6772902011871338,
+      "delta_mean_abs": 1.63735
+    }
+  ]
+}

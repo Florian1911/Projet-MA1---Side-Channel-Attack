@@ -1,0 +1,66 @@
+{
+  "bytes": [
+    {
+      "byte": 0,
+      "center": 877,
+      "profile_n": 15000,
+      "attack_n": 48559,
+      "label_mode": "sbox",
+      "final_avg_rank": 173,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 52,
+          "score": -274942.18101096153
+        },
+        {
+          "key": 235,
+          "score": -274958.6571879387
+        },
+        {
+          "key": 4,
+          "score": -274977.04702878
+        },
+        {
+          "key": 77,
+          "score": -274983.65236258507
+        },
+        {
+          "key": 27,
+          "score": -274988.1054699421
+        }
+      ]
+    },
+    {
+      "byte": 1,
+      "center": 3508,
+      "profile_n": 15000,
+      "attack_n": 48559,
+      "label_mode": "sbox",
+      "final_avg_rank": 253,
+      "traces_to_rank1": null,
+      "top5": [
+        {
+          "key": 68,
+          "score": -284930.32454156876
+        },
+        {
+          "key": 130,
+          "score": -284975.5827820301
+        },
+        {
+          "key": 97,
+          "score": -284975.8318543434
+        },
+        {
+          "key": 55,
+          "score": -285008.0549235344
+        },
+        {
+          "key": 190,
+          "score": -285066.4985804558
+        }
+      ]
+    }
+  ]
+}

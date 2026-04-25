@@ -1,0 +1,28 @@
+{
+  "input": "unknown_new_20k_raw.npz",
+  "output": "unknown_new_20k_raw_refal.npz",
+  "center": 520,
+  "window": 260,
+  "max_shift": 80,
+  "iters": 2,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 64.5025,
+  "shift_p95_abs": 140.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 47.7008,
+      "lag_p95_abs": 80.0,
+      "score_mean": 0.25718769431114197,
+      "delta_mean_abs": 47.7008
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 25.3511,
+      "lag_p95_abs": 74.0,
+      "score_mean": 0.3070480227470398,
+      "delta_mean_abs": 25.3511
+    }
+  ]
+}

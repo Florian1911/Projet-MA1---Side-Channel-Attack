@@ -1,0 +1,35 @@
+{
+  "input": "xor_byte0_ext_20k_run2_raw.npz",
+  "output": "xor_byte0_ext_20k_run2_al.npz",
+  "center": 1700,
+  "window": 220,
+  "max_shift": 20,
+  "iters": 3,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 14.87175,
+  "shift_p95_abs": 36.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 10.2393,
+      "lag_p95_abs": 19.049999999999272,
+      "score_mean": 0.15179061889648438,
+      "delta_mean_abs": 10.2393
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 5.1064,
+      "lag_p95_abs": 18.0,
+      "score_mean": 0.1813395470380783,
+      "delta_mean_abs": 5.1064
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 4.08455,
+      "lag_p95_abs": 17.0,
+      "score_mean": 0.1996561735868454,
+      "delta_mean_abs": 4.08455
+    }
+  ]
+}

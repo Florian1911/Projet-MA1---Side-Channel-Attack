@@ -1,0 +1,35 @@
+{
+  "model": "campaign_unknownB_localmlp/byte_11/model_b11.npz",
+  "dataset": "campaign_unknownB_localmlp_attack_localalign/byte_11/attack_hw_b11_local.npz",
+  "byte": 11,
+  "best_shift": 10,
+  "recovered_key_byte": 189,
+  "margin": 149.705078125,
+  "top5": [
+    {
+      "rank": 1,
+      "key": 189,
+      "score": -28265.44140625
+    },
+    {
+      "rank": 2,
+      "key": 100,
+      "score": -28415.146484375
+    },
+    {
+      "rank": 3,
+      "key": 250,
+      "score": -28421.349609375
+    },
+    {
+      "rank": 4,
+      "key": 179,
+      "score": -28423.08984375
+    },
+    {
+      "rank": 5,
+      "key": 204,
+      "score": -28423.298828125
+    }
+  ]
+}

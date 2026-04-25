@@ -1,0 +1,78 @@
+{
+  "npz": "dataset_aes_sca_highside.npz",
+  "model": "last_round_hw_invsbox = HW(InvSBox(C xor K10))",
+  "master_key_hex": "2B7E151628AED2A6ABF7158809CF4F3C",
+  "true_round10_key_hex": "D014F9A8C9EE2589E13F0CC8B6630CA6",
+  "results": [
+    {
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 1000,
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 142.125,
+      "blind_match": 0,
+      "recovered_k10_hex": "1865CDE99D5291AB129EB62F5C45DB40"
+    },
+    {
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 136.125,
+      "blind_match": 0,
+      "recovered_k10_hex": "B9B8CDE99D5291AB129EB62F5C45DB40"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 1000,
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 125.9375,
+      "blind_match": 0,
+      "recovered_k10_hex": "7CDB35182FE3B633D6FA171213EB448D"
+    },
+    {
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 139.6875,
+      "blind_match": 0,
+      "recovered_k10_hex": "7CF835EE2F04B68DD6FA6B1213EB808D"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 1000,
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 111.0625,
+      "blind_match": 0,
+      "recovered_k10_hex": "E0B5E917D2C2BD3EABB536DAA19929D3"
+    },
+    {
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 101.5625,
+      "blind_match": 0,
+      "recovered_k10_hex": "E0B530EED2C2AA3EABB536B9A1994819"
+    }
+  ],
+  "best": {
+    "source": "traces_a",
+    "preproc": "none",
+    "n_traces": 1000,
+    "rank1_count": 0,
+    "rank5_count": 1,
+    "mean_rank": 125.9375,
+    "blind_match": 0,
+    "recovered_k10_hex": "7CDB35182FE3B633D6FA171213EB448D"
+  }
+}

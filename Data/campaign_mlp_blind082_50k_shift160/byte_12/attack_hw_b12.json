@@ -1,0 +1,11 @@
+{
+  "input": "blind_082_50k_all.npz",
+  "output": "campaign_mlp_blind082_50k_shift160/byte_12/attack_hw_b12.npz",
+  "byte": 12,
+  "key": 0,
+  "window_start": 0,
+  "window_end": 122,
+  "window_center": 22,
+  "window_len": 122,
+  "snr_max": 0.0006106094208136315
+}

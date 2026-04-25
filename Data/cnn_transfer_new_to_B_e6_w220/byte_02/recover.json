@@ -1,0 +1,38 @@
+{
+  "model": "cnn_transfer_new_to_B_e6_w220/byte_02/model.keras",
+  "stats_npz": "cnn_transfer_new_to_B_e6_w220/byte_02/model.npz",
+  "attack_npz": "unknown_B_20k_aligned.npz",
+  "byte": 2,
+  "best_shift": -55,
+  "recovered_key_byte": 45,
+  "margin": 41.66303776264249,
+  "top5": [
+    {
+      "rank": 1,
+      "key": 45,
+      "score": -110551.53763724159
+    },
+    {
+      "rank": 2,
+      "key": 184,
+      "score": -110593.20067500423
+    },
+    {
+      "rank": 3,
+      "key": 203,
+      "score": -110593.34011460605
+    },
+    {
+      "rank": 4,
+      "key": 41,
+      "score": -110594.54857629139
+    },
+    {
+      "rank": 5,
+      "key": 115,
+      "score": -110594.69859315598
+    }
+  ],
+  "true_key_byte": 209,
+  "true_rank": 195
+}

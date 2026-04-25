@@ -1,0 +1,10 @@
+{
+  "input": "attack_unknown_20k.npz",
+  "output": "attack_unknown_20k_aligned_dbg.npz",
+  "align_shift": -66,
+  "align_score": 0.03319898425162047,
+  "align_key_guess": 164,
+  "align_byte": 0,
+  "align_max_shift": 250,
+  "n_traces_saved": 19934
+}

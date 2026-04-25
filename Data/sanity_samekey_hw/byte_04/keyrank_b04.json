@@ -1,0 +1,44 @@
+{
+  "model": "sanity_samekey_hw/byte_04/model_b04.npz",
+  "dataset": "sanity_samekey_hw/byte_04/attack_b04.npz",
+  "byte": 4,
+  "true_key": 68,
+  "n_use": 5000,
+  "repeats": 5,
+  "label_mode": "hw",
+  "final_avg_rank": 1,
+  "traces_to_rank1": 176,
+  "checkpoints_avg_rank": {
+    "10": 26.2,
+    "20": 24.8,
+    "50": 2.8,
+    "100": 2.2,
+    "200": 1.0,
+    "500": 1.0,
+    "1000": 1.0,
+    "2000": 1.0,
+    "5000": 1.0
+  },
+  "top5_final_scores_repeat1": [
+    {
+      "key": 68,
+      "score": -8049.159469515085
+    },
+    {
+      "key": 174,
+      "score": -9314.55024689436
+    },
+    {
+      "key": 55,
+      "score": -9320.176889121532
+    },
+    {
+      "key": 122,
+      "score": -9328.344524428248
+    },
+    {
+      "key": 74,
+      "score": -9333.555076256394
+    }
+  ]
+}

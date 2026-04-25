@@ -1,0 +1,35 @@
+{
+  "input": "aes_extdiff_5k_raw.npz",
+  "output": "aes_extdiff_5k_al.npz",
+  "center": 1700,
+  "window": 220,
+  "max_shift": 20,
+  "iters": 3,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 14.8106,
+  "shift_p95_abs": 36.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 10.1224,
+      "lag_p95_abs": 20.0,
+      "score_mean": 0.15069939196109772,
+      "delta_mean_abs": 10.1224
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 5.3376,
+      "lag_p95_abs": 18.0,
+      "score_mean": 0.17916642129421234,
+      "delta_mean_abs": 5.3376
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 4.1966,
+      "lag_p95_abs": 18.0,
+      "score_mean": 0.19686487317085266,
+      "delta_mean_abs": 4.1966
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "input": "attack_unknown_20k_localref.npz",
+  "output": "campaign_cross_session_local_same_attack/byte_03/attack_hw_b03.npz",
+  "byte": 3,
+  "key": 0,
+  "window_start": 1773,
+  "window_end": 1973,
+  "window_center": 1873,
+  "window_len": 200,
+  "snr_max": 0.0031478836500187166
+}

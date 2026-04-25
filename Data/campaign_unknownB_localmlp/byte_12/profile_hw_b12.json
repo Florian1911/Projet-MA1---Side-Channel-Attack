@@ -1,0 +1,11 @@
+{
+  "input": "unknown_B_calib5k_known.npz",
+  "output": "campaign_unknownB_localmlp/byte_12/profile_hw_b12.npz",
+  "byte": 12,
+  "key": 65,
+  "window_start": 0,
+  "window_end": 172,
+  "window_center": 22,
+  "window_len": 172,
+  "snr_max": 0.1074112016286525
+}

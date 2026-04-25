@@ -1,0 +1,10 @@
+{
+  "input": "dataset_aes_sca_no_uart.npz",
+  "output": "dataset_aes_sca_no_uart_aligned.npz",
+  "align_shift": 15,
+  "align_score": 0.1564245564131795,
+  "align_key_guess": 43,
+  "align_byte": 0,
+  "align_max_shift": 64,
+  "n_traces_saved": 985
+}

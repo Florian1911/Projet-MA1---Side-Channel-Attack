@@ -1,0 +1,35 @@
+{
+  "input": "dataset_lowside.npz",
+  "output": "dataset_lowside_aligned.npz",
+  "center": 394,
+  "window": 150,
+  "max_shift": 40,
+  "iters": 3,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 27.648,
+  "shift_p95_abs": 64.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 19.847,
+      "lag_p95_abs": 38.0,
+      "score_mean": 0.4635116159915924,
+      "delta_mean_abs": 19.847
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 11.293,
+      "lag_p95_abs": 38.0,
+      "score_mean": 0.7188807129859924,
+      "delta_mean_abs": 11.293
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 4.344,
+      "lag_p95_abs": 30.049999999999955,
+      "score_mean": 0.7574265003204346,
+      "delta_mean_abs": 4.344
+    }
+  ]
+}

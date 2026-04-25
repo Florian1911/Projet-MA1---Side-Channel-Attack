@@ -1,0 +1,20 @@
+{
+  "dataset": "exp_tune_sbox_s4242/byte_07/profile_b07.npz",
+  "n_total": 28984,
+  "n_train": 20290,
+  "n_val": 4347,
+  "n_test": 4347,
+  "n_classes": 256,
+  "poi": 700,
+  "h1": 1024,
+  "h2": 512,
+  "dropout": 0.25,
+  "epochs": 120,
+  "batch_size": 256,
+  "lr": 0.0008,
+  "l2": 3e-05,
+  "patience": 20,
+  "best_val_acc1": 0.006671267540832759,
+  "test_acc1": 0.003910743041177824,
+  "test_acc5": 0.017943409247757072
+}

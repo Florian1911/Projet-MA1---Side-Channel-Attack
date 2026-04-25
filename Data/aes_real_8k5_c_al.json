@@ -1,0 +1,28 @@
+{
+  "input": "aes_real_8k5_c.npz",
+  "output": "aes_real_8k5_c_al.npz",
+  "center": 3804,
+  "window": 180,
+  "max_shift": 80,
+  "iters": 2,
+  "ref": "median",
+  "mode": "hw_template",
+  "shift_mean_abs": 70.09576470588236,
+  "shift_p95_abs": 153.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 49.27023529411765,
+      "lag_p95_abs": 80.0,
+      "score_mean": 0.30689337849617004,
+      "delta_mean_abs": 49.27023529411765
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 28.18764705882353,
+      "lag_p95_abs": 79.0,
+      "score_mean": 0.3875460922718048,
+      "delta_mean_abs": 28.18764705882353
+    }
+  ]
+}

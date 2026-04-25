@@ -1,0 +1,10 @@
+{
+  "input": "attack_newkey_20k.npz",
+  "output": "attack_newkey_20k_aligned.npz",
+  "align_shift": -93,
+  "align_score": 0.033012033362243565,
+  "align_key_guess": 145,
+  "align_byte": 0,
+  "align_max_shift": 120,
+  "n_traces_saved": 19907
+}

@@ -1,0 +1,11 @@
+{
+  "input": "dataset_50k.npz",
+  "output": "campaign_aes16_big/byte_10/profile_hw_b10.npz",
+  "byte": 10,
+  "key": 21,
+  "window_start": 1366,
+  "window_end": 1566,
+  "window_center": 1466,
+  "window_len": 200,
+  "snr_max": 0.010654827905104615
+}

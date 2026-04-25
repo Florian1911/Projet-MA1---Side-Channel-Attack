@@ -1,0 +1,324 @@
+{
+  "best": {
+    "window": [
+      1700,
+      3300
+    ],
+    "preproc": "detrend",
+    "n_poi": 30,
+    "min_dist": 10,
+    "score_mode": "weighted",
+    "rank1": 0,
+    "rank_lt20": 2,
+    "mean_rank": 118.4375,
+    "median_rank": 102.5,
+    "ranks": [
+      103,
+      225,
+      2,
+      90,
+      78,
+      132,
+      41,
+      239,
+      10,
+      72,
+      186,
+      163,
+      102,
+      122,
+      231,
+      99
+    ]
+  },
+  "top8_final": [
+    {
+      "window": [
+        1700,
+        3300
+      ],
+      "preproc": "detrend",
+      "n_poi": 30,
+      "min_dist": 10,
+      "score_mode": "weighted",
+      "rank1": 0,
+      "rank_lt20": 2,
+      "mean_rank": 118.4375,
+      "median_rank": 102.5,
+      "ranks": [
+        103,
+        225,
+        2,
+        90,
+        78,
+        132,
+        41,
+        239,
+        10,
+        72,
+        186,
+        163,
+        102,
+        122,
+        231,
+        99
+      ]
+    },
+    {
+      "window": [
+        1700,
+        3300
+      ],
+      "preproc": "detrend",
+      "n_poi": 30,
+      "min_dist": 10,
+      "score_mode": "sum",
+      "rank1": 0,
+      "rank_lt20": 2,
+      "mean_rank": 118.9375,
+      "median_rank": 107.5,
+      "ranks": [
+        112,
+        224,
+        2,
+        82,
+        76,
+        137,
+        39,
+        238,
+        10,
+        66,
+        184,
+        170,
+        100,
+        125,
+        235,
+        103
+      ]
+    },
+    {
+      "window": [
+        1700,
+        3300
+      ],
+      "preproc": "detrend",
+      "n_poi": 40,
+      "min_dist": 10,
+      "score_mode": "weighted",
+      "rank1": 0,
+      "rank_lt20": 2,
+      "mean_rank": 125.1875,
+      "median_rank": 121.0,
+      "ranks": [
+        162,
+        240,
+        2,
+        129,
+        72,
+        117,
+        81,
+        234,
+        13,
+        93,
+        165,
+        152,
+        114,
+        71,
+        233,
+        125
+      ]
+    },
+    {
+      "window": [
+        1700,
+        3300
+      ],
+      "preproc": "detrend",
+      "n_poi": 60,
+      "min_dist": 10,
+      "score_mode": "weighted",
+      "rank1": 0,
+      "rank_lt20": 2,
+      "mean_rank": 126.3125,
+      "median_rank": 120.0,
+      "ranks": [
+        148,
+        233,
+        2,
+        117,
+        117,
+        117,
+        98,
+        249,
+        18,
+        95,
+        132,
+        166,
+        123,
+        63,
+        219,
+        124
+      ]
+    },
+    {
+      "window": [
+        0,
+        4000
+      ],
+      "preproc": "diff",
+      "n_poi": 10,
+      "min_dist": 20,
+      "score_mode": "weighted",
+      "rank1": 0,
+      "rank_lt20": 2,
+      "mean_rank": 132.0,
+      "median_rank": 132.5,
+      "ranks": [
+        105,
+        242,
+        138,
+        239,
+        18,
+        13,
+        91,
+        127,
+        102,
+        37,
+        175,
+        73,
+        149,
+        180,
+        179,
+        244
+      ]
+    },
+    {
+      "window": [
+        0,
+        4000
+      ],
+      "preproc": "diff",
+      "n_poi": 10,
+      "min_dist": 20,
+      "score_mode": "sum",
+      "rank1": 0,
+      "rank_lt20": 2,
+      "mean_rank": 133.4375,
+      "median_rank": 136.5,
+      "ranks": [
+        109,
+        241,
+        139,
+        240,
+        18,
+        15,
+        95,
+        134,
+        107,
+        36,
+        174,
+        82,
+        141,
+        179,
+        183,
+        242
+      ]
+    },
+    {
+      "window": [
+        1700,
+        3300
+      ],
+      "preproc": "detrend",
+      "n_poi": 60,
+      "min_dist": 10,
+      "score_mode": "sum",
+      "rank1": 0,
+      "rank_lt20": 1,
+      "mean_rank": 130.0625,
+      "median_rank": 129.5,
+      "ranks": [
+        160,
+        233,
+        2,
+        116,
+        138,
+        120,
+        110,
+        251,
+        22,
+        94,
+        127,
+        168,
+        132,
+        55,
+        216,
+        137
+      ]
+    },
+    {
+      "window": [
+        0,
+        4000
+      ],
+      "preproc": "diff",
+      "n_poi": 10,
+      "min_dist": 20,
+      "score_mode": "top5",
+      "rank1": 0,
+      "rank_lt20": 0,
+      "mean_rank": 138.375,
+      "median_rank": 154.0,
+      "ranks": [
+        93,
+        232,
+        192,
+        224,
+        42,
+        33,
+        119,
+        150,
+        127,
+        22,
+        165,
+        78,
+        158,
+        171,
+        166,
+        242
+      ]
+    }
+  ],
+  "phase1_best": {
+    "window": [
+      0,
+      4000
+    ],
+    "preproc": "diff",
+    "n_poi": 10,
+    "min_dist": 20,
+    "score_mode": "sum",
+    "rank1": 0,
+    "rank_lt20": 3,
+    "mean_rank": 113.75,
+    "ranks": [
+      20,
+      202,
+      230,
+      183,
+      15,
+      50,
+      10,
+      45,
+      63,
+      17,
+      166,
+      126,
+      83,
+      245,
+      230,
+      135
+    ]
+  },
+  "true_key_hex": "2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c"
+}

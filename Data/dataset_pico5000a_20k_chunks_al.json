@@ -1,0 +1,28 @@
+{
+  "input": "dataset_pico5000a_20k_chunks.npz",
+  "output": "dataset_pico5000a_20k_chunks_al.npz",
+  "center": 520,
+  "window": 260,
+  "max_shift": 80,
+  "iters": 2,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 29.80035,
+  "shift_p95_abs": 46.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 16.07605,
+      "lag_p95_abs": 27.0,
+      "score_mean": 0.6144305467605591,
+      "delta_mean_abs": 16.07605
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 13.9019,
+      "lag_p95_abs": 29.0,
+      "score_mean": 0.7795642614364624,
+      "delta_mean_abs": 13.9019
+    }
+  ]
+}

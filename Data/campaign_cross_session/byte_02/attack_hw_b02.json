@@ -1,0 +1,11 @@
+{
+  "input": "attack_unknown_20k.npz",
+  "output": "campaign_cross_session/byte_02/attack_hw_b02.npz",
+  "byte": 2,
+  "key": 0,
+  "window_start": 763,
+  "window_end": 963,
+  "window_center": 863,
+  "window_len": 200,
+  "snr_max": 0.0006825001996535413
+}

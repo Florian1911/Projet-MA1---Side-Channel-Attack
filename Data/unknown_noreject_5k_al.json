@@ -1,0 +1,35 @@
+{
+  "input": "unknown_noreject_5k.npz",
+  "output": "unknown_noreject_5k_al.npz",
+  "center": 800,
+  "window": 260,
+  "max_shift": 40,
+  "iters": 3,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 66.9718,
+  "shift_p95_abs": 118.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 30.6674,
+      "lag_p95_abs": 40.0,
+      "score_mean": 0.23970314860343933,
+      "delta_mean_abs": 30.6674
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 25.4326,
+      "lag_p95_abs": 40.0,
+      "score_mean": 0.4807727634906769,
+      "delta_mean_abs": 25.4326
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 19.8442,
+      "lag_p95_abs": 40.0,
+      "score_mean": 0.5709882974624634,
+      "delta_mean_abs": 19.8442
+    }
+  ]
+}

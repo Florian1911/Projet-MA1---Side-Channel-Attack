@@ -1,0 +1,164 @@
+{
+  "name": "strict_blind_B_cfg2_full_ranks",
+  "calib_npz": "unknown_B_calib5k_nokey.npz",
+  "attack_npz": "unknown_B_attack15k_nokey.npz",
+  "config": {
+    "decim": 2,
+    "coarse_top": 12,
+    "coarse_min_sep": 12,
+    "refine_radius": 12,
+    "score_percentile": 95.0
+  },
+  "true_key_hex": "A73CD15E924BF8166DE027B9417FC38A",
+  "rank1_count": 1,
+  "mean_rank": 141.6875,
+  "median_rank": 181.0,
+  "ranks": [
+    210,
+    94,
+    27,
+    1,
+    245,
+    10,
+    196,
+    254,
+    133,
+    10,
+    17,
+    247,
+    250,
+    178,
+    184,
+    211
+  ],
+  "bytes": [
+    {
+      "byte": 0,
+      "true_key": 167,
+      "top_key": 103,
+      "true_rank": 210,
+      "top_score": 0.0408127850390086,
+      "true_score": 0.02276138196583401
+    },
+    {
+      "byte": 1,
+      "true_key": 60,
+      "top_key": 151,
+      "true_rank": 94,
+      "top_score": 0.03406033622155577,
+      "true_score": 0.025693538814560643
+    },
+    {
+      "byte": 2,
+      "true_key": 209,
+      "top_key": 45,
+      "true_rank": 27,
+      "top_score": 0.035959477701346935,
+      "true_score": 0.028781904546282003
+    },
+    {
+      "byte": 3,
+      "true_key": 94,
+      "top_key": 94,
+      "true_rank": 1,
+      "top_score": 0.035806279504643795,
+      "true_score": 0.035806279504643795
+    },
+    {
+      "byte": 4,
+      "true_key": 146,
+      "top_key": 202,
+      "true_rank": 245,
+      "top_score": 0.037815907539419935,
+      "true_score": 0.02044397655310192
+    },
+    {
+      "byte": 5,
+      "true_key": 75,
+      "top_key": 148,
+      "true_rank": 10,
+      "top_score": 0.036361138114738144,
+      "true_score": 0.03159071178085156
+    },
+    {
+      "byte": 6,
+      "true_key": 248,
+      "top_key": 239,
+      "true_rank": 196,
+      "top_score": 0.03742754512000157,
+      "true_score": 0.022480202603411683
+    },
+    {
+      "byte": 7,
+      "true_key": 22,
+      "top_key": 29,
+      "true_rank": 254,
+      "top_score": 0.03421067610946245,
+      "true_score": 0.019587954241589645
+    },
+    {
+      "byte": 8,
+      "true_key": 109,
+      "top_key": 88,
+      "true_rank": 133,
+      "top_score": 0.03875890427763459,
+      "true_score": 0.02486253595788601
+    },
+    {
+      "byte": 9,
+      "true_key": 224,
+      "top_key": 182,
+      "true_rank": 10,
+      "top_score": 0.040268193621840954,
+      "true_score": 0.03373188229910823
+    },
+    {
+      "byte": 10,
+      "true_key": 39,
+      "top_key": 245,
+      "true_rank": 17,
+      "top_score": 0.0351425975297163,
+      "true_score": 0.030402430241149202
+    },
+    {
+      "byte": 11,
+      "true_key": 185,
+      "top_key": 7,
+      "true_rank": 247,
+      "top_score": 0.03632623662487188,
+      "true_score": 0.02066664253993399
+    },
+    {
+      "byte": 12,
+      "true_key": 65,
+      "top_key": 204,
+      "true_rank": 250,
+      "top_score": 0.03435653591397983,
+      "true_score": 0.01991416185086148
+    },
+    {
+      "byte": 13,
+      "true_key": 127,
+      "top_key": 61,
+      "true_rank": 178,
+      "top_score": 0.03633073788091522,
+      "true_score": 0.023225119446661446
+    },
+    {
+      "byte": 14,
+      "true_key": 195,
+      "top_key": 113,
+      "true_rank": 184,
+      "top_score": 0.03653310833952823,
+      "true_score": 0.02354725672578326
+    },
+    {
+      "byte": 15,
+      "true_key": 138,
+      "top_key": 110,
+      "true_rank": 211,
+      "top_score": 0.0357555813249974,
+      "true_score": 0.022423154122594737
+    }
+  ]
+}

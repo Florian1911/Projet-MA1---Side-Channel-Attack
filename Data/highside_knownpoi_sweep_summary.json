@@ -1,0 +1,117 @@
+{
+  "npz": "dataset_aes_sca_highside.npz",
+  "rows": [
+    {
+      "source": "traces",
+      "n_traces": 200,
+      "rank1_count": 14,
+      "rank5_count": 16,
+      "mean_rank": 1.125
+    },
+    {
+      "source": "traces",
+      "n_traces": 300,
+      "rank1_count": 14,
+      "rank5_count": 16,
+      "mean_rank": 1.125
+    },
+    {
+      "source": "traces",
+      "n_traces": 500,
+      "rank1_count": 15,
+      "rank5_count": 16,
+      "mean_rank": 1.0625
+    },
+    {
+      "source": "traces",
+      "n_traces": 700,
+      "rank1_count": 13,
+      "rank5_count": 16,
+      "mean_rank": 1.1875
+    },
+    {
+      "source": "traces",
+      "n_traces": 1000,
+      "rank1_count": 15,
+      "rank5_count": 16,
+      "mean_rank": 1.0625
+    },
+    {
+      "source": "traces_a",
+      "n_traces": 200,
+      "rank1_count": 16,
+      "rank5_count": 16,
+      "mean_rank": 1.0
+    },
+    {
+      "source": "traces_a",
+      "n_traces": 300,
+      "rank1_count": 13,
+      "rank5_count": 16,
+      "mean_rank": 1.25
+    },
+    {
+      "source": "traces_a",
+      "n_traces": 500,
+      "rank1_count": 16,
+      "rank5_count": 16,
+      "mean_rank": 1.0
+    },
+    {
+      "source": "traces_a",
+      "n_traces": 700,
+      "rank1_count": 13,
+      "rank5_count": 16,
+      "mean_rank": 1.1875
+    },
+    {
+      "source": "traces_a",
+      "n_traces": 1000,
+      "rank1_count": 14,
+      "rank5_count": 16,
+      "mean_rank": 1.1875
+    },
+    {
+      "source": "traces_b",
+      "n_traces": 200,
+      "rank1_count": 11,
+      "rank5_count": 16,
+      "mean_rank": 1.375
+    },
+    {
+      "source": "traces_b",
+      "n_traces": 300,
+      "rank1_count": 13,
+      "rank5_count": 16,
+      "mean_rank": 1.3125
+    },
+    {
+      "source": "traces_b",
+      "n_traces": 500,
+      "rank1_count": 15,
+      "rank5_count": 16,
+      "mean_rank": 1.0625
+    },
+    {
+      "source": "traces_b",
+      "n_traces": 700,
+      "rank1_count": 16,
+      "rank5_count": 16,
+      "mean_rank": 1.0
+    },
+    {
+      "source": "traces_b",
+      "n_traces": 1000,
+      "rank1_count": 14,
+      "rank5_count": 16,
+      "mean_rank": 1.125
+    }
+  ],
+  "best": {
+    "source": "traces_a",
+    "n_traces": 200,
+    "rank1_count": 16,
+    "rank5_count": 16,
+    "mean_rank": 1.0
+  }
+}

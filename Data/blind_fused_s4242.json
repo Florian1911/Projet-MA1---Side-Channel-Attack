@@ -1,0 +1,171 @@
+{
+  "campaign_a": "exp_tune_hw_s4242",
+  "campaign_b": "exp_tune_sbox_s4242",
+  "label_a": "hw",
+  "label_b": "sbox",
+  "confidence_mode": "margin_norm",
+  "bytes": [
+    {
+      "byte": 0,
+      "pick": "sbox",
+      "top1_key_a": 0,
+      "top1_key_b": 149,
+      "conf_a": 0.7668064558245947,
+      "conf_b": 0.9811443798578067,
+      "chosen_key": 149,
+      "chosen_conf": 0.9811443798578067
+    },
+    {
+      "byte": 1,
+      "pick": "sbox",
+      "top1_key_a": 159,
+      "top1_key_b": 185,
+      "conf_a": 1.5391111216207456,
+      "conf_b": 1.6562914548500725,
+      "chosen_key": 185,
+      "chosen_conf": 1.6562914548500725
+    },
+    {
+      "byte": 2,
+      "pick": "hw",
+      "top1_key_a": 97,
+      "top1_key_b": 43,
+      "conf_a": 0.806125649812807,
+      "conf_b": 0.6501324882023634,
+      "chosen_key": 97,
+      "chosen_conf": 0.806125649812807
+    },
+    {
+      "byte": 3,
+      "pick": "sbox",
+      "top1_key_a": 246,
+      "top1_key_b": 115,
+      "conf_a": 0.3278755945774883,
+      "conf_b": 0.8801068726767641,
+      "chosen_key": 115,
+      "chosen_conf": 0.8801068726767641
+    },
+    {
+      "byte": 4,
+      "pick": "sbox",
+      "top1_key_a": 172,
+      "top1_key_b": 65,
+      "conf_a": 0.7500029714669454,
+      "conf_b": 1.41527919983812,
+      "chosen_key": 65,
+      "chosen_conf": 1.41527919983812
+    },
+    {
+      "byte": 5,
+      "pick": "hw",
+      "top1_key_a": 22,
+      "top1_key_b": 122,
+      "conf_a": 1.5278695839199925,
+      "conf_b": 0.6576412002384414,
+      "chosen_key": 22,
+      "chosen_conf": 1.5278695839199925
+    },
+    {
+      "byte": 6,
+      "pick": "sbox",
+      "top1_key_a": 5,
+      "top1_key_b": 80,
+      "conf_a": 1.1916547803591861,
+      "conf_b": 1.5777132597225887,
+      "chosen_key": 80,
+      "chosen_conf": 1.5777132597225887
+    },
+    {
+      "byte": 7,
+      "pick": "sbox",
+      "top1_key_a": 6,
+      "top1_key_b": 246,
+      "conf_a": 0.5582463438616809,
+      "conf_b": 1.378455980246733,
+      "chosen_key": 246,
+      "chosen_conf": 1.378455980246733
+    },
+    {
+      "byte": 8,
+      "pick": "sbox",
+      "top1_key_a": 78,
+      "top1_key_b": 238,
+      "conf_a": 0.37082078897455095,
+      "conf_b": 2.2188289497357454,
+      "chosen_key": 238,
+      "chosen_conf": 2.2188289497357454
+    },
+    {
+      "byte": 9,
+      "pick": "hw",
+      "top1_key_a": 92,
+      "top1_key_b": 33,
+      "conf_a": 1.3008078140722747,
+      "conf_b": 0.06416703414523937,
+      "chosen_key": 92,
+      "chosen_conf": 1.3008078140722747
+    },
+    {
+      "byte": 10,
+      "pick": "sbox",
+      "top1_key_a": 44,
+      "top1_key_b": 25,
+      "conf_a": 0.5144227603403542,
+      "conf_b": 2.1775384815254712,
+      "chosen_key": 25,
+      "chosen_conf": 2.1775384815254712
+    },
+    {
+      "byte": 11,
+      "pick": "hw",
+      "top1_key_a": 189,
+      "top1_key_b": 227,
+      "conf_a": 2.3113912939474055,
+      "conf_b": 0.8617230067108457,
+      "chosen_key": 189,
+      "chosen_conf": 2.3113912939474055
+    },
+    {
+      "byte": 12,
+      "pick": "sbox",
+      "top1_key_a": 114,
+      "top1_key_b": 52,
+      "conf_a": 0.8023830233331745,
+      "conf_b": 1.581427366441702,
+      "chosen_key": 52,
+      "chosen_conf": 1.581427366441702
+    },
+    {
+      "byte": 13,
+      "pick": "hw",
+      "top1_key_a": 33,
+      "top1_key_b": 16,
+      "conf_a": 2.0136856161883725,
+      "conf_b": 0.9573572884111708,
+      "chosen_key": 33,
+      "chosen_conf": 2.0136856161883725
+    },
+    {
+      "byte": 14,
+      "pick": "hw",
+      "top1_key_a": 106,
+      "top1_key_b": 107,
+      "conf_a": 1.8563755887084057,
+      "conf_b": 1.1842432286043558,
+      "chosen_key": 106,
+      "chosen_conf": 1.8563755887084057
+    },
+    {
+      "byte": 15,
+      "pick": "sbox",
+      "top1_key_a": 248,
+      "top1_key_b": 168,
+      "conf_a": 0.13509512001213644,
+      "conf_b": 1.0625010756135107,
+      "chosen_key": 168,
+      "chosen_conf": 1.0625010756135107
+    }
+  ],
+  "recovered_key_hex": "95B96173411650F6EE5C19BD34216AA8",
+  "recovered_key_hex_spaced": "95 B9 61 73 41 16 50 F6 EE 5C 19 BD 34 21 6A A8"
+}

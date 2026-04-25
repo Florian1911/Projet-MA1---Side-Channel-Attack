@@ -1,0 +1,35 @@
+{
+  "model": "model_newkey_20k_mlp.npz",
+  "dataset": "attack_newkey_20k_hw.npz",
+  "byte": 1,
+  "best_shift": 54,
+  "recovered_key_byte": 114,
+  "margin": 120.32421875,
+  "top5": [
+    {
+      "rank": 1,
+      "key": 114,
+      "score": -35458.76171875
+    },
+    {
+      "rank": 2,
+      "key": 44,
+      "score": -35579.0859375
+    },
+    {
+      "rank": 3,
+      "key": 97,
+      "score": -35594.63671875
+    },
+    {
+      "rank": 4,
+      "key": 166,
+      "score": -35598.05078125
+    },
+    {
+      "rank": 5,
+      "key": 115,
+      "score": -35602.46484375
+    }
+  ]
+}

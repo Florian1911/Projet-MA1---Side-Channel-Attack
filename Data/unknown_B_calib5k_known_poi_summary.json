@@ -1,0 +1,138 @@
+{
+  "npz": "unknown_B_calib5k_known.npz",
+  "n_traces": 5000,
+  "window": [
+    0,
+    3968
+  ],
+  "bytes": [
+    {
+      "byte": 0,
+      "true_key": 167,
+      "rank": 1,
+      "top_key": 167,
+      "poi": 1219,
+      "true_score": 0.05986806501472778
+    },
+    {
+      "byte": 1,
+      "true_key": 60,
+      "rank": 1,
+      "top_key": 60,
+      "poi": 3628,
+      "true_score": 0.051762615866158046
+    },
+    {
+      "byte": 2,
+      "true_key": 209,
+      "rank": 1,
+      "top_key": 209,
+      "poi": 713,
+      "true_score": 0.05718757963409618
+    },
+    {
+      "byte": 3,
+      "true_key": 94,
+      "rank": 1,
+      "top_key": 94,
+      "poi": 1222,
+      "true_score": 0.050568120374771354
+    },
+    {
+      "byte": 4,
+      "true_key": 146,
+      "rank": 1,
+      "top_key": 146,
+      "poi": 2338,
+      "true_score": 0.059988652223798615
+    },
+    {
+      "byte": 5,
+      "true_key": 75,
+      "rank": 1,
+      "top_key": 75,
+      "poi": 102,
+      "true_score": 0.05137906197947277
+    },
+    {
+      "byte": 6,
+      "true_key": 248,
+      "rank": 1,
+      "top_key": 248,
+      "poi": 512,
+      "true_score": 0.0548588607673128
+    },
+    {
+      "byte": 7,
+      "true_key": 22,
+      "rank": 1,
+      "top_key": 22,
+      "poi": 1594,
+      "true_score": 0.054164515796088795
+    },
+    {
+      "byte": 8,
+      "true_key": 109,
+      "rank": 1,
+      "top_key": 109,
+      "poi": 2386,
+      "true_score": 0.05597505333502066
+    },
+    {
+      "byte": 9,
+      "true_key": 224,
+      "rank": 1,
+      "top_key": 224,
+      "poi": 306,
+      "true_score": 0.05649450822990474
+    },
+    {
+      "byte": 10,
+      "true_key": 39,
+      "rank": 1,
+      "top_key": 39,
+      "poi": 3131,
+      "true_score": 0.05212501369478344
+    },
+    {
+      "byte": 11,
+      "true_key": 185,
+      "rank": 1,
+      "top_key": 185,
+      "poi": 1491,
+      "true_score": 0.05575083361148018
+    },
+    {
+      "byte": 12,
+      "true_key": 65,
+      "rank": 1,
+      "top_key": 65,
+      "poi": 2479,
+      "true_score": 0.05204649415005192
+    },
+    {
+      "byte": 13,
+      "true_key": 127,
+      "rank": 1,
+      "top_key": 127,
+      "poi": 3621,
+      "true_score": 0.05294488180389787
+    },
+    {
+      "byte": 14,
+      "true_key": 195,
+      "rank": 2,
+      "top_key": 153,
+      "poi": 2996,
+      "true_score": 0.050110883984734206
+    },
+    {
+      "byte": 15,
+      "true_key": 138,
+      "rank": 1,
+      "top_key": 138,
+      "poi": 2617,
+      "true_score": 0.0548522810154872
+    }
+  ]
+}

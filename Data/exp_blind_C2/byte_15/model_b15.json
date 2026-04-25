@@ -1,0 +1,20 @@
+{
+  "dataset": "exp_blind_C2/byte_15/profile_b15.npz",
+  "n_total": 23984,
+  "n_train": 16790,
+  "n_val": 3597,
+  "n_test": 3597,
+  "n_classes": 256,
+  "poi": 300,
+  "h1": 256,
+  "h2": 128,
+  "dropout": 0.1,
+  "epochs": 80,
+  "batch_size": 256,
+  "lr": 0.001,
+  "l2": 1e-05,
+  "patience": 15,
+  "best_val_acc1": 0.007506255212677231,
+  "test_acc1": 0.003336113427856547,
+  "test_acc5": 0.01834862385321101
+}

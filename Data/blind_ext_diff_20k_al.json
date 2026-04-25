@@ -1,0 +1,35 @@
+{
+  "input": "blind_ext_diff_20k_raw.npz",
+  "output": "blind_ext_diff_20k_al.npz",
+  "center": 1700,
+  "window": 220,
+  "max_shift": 20,
+  "iters": 3,
+  "ref": "median",
+  "mode": "ref",
+  "shift_mean_abs": 14.32455,
+  "shift_p95_abs": 35.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 10.22455,
+      "lag_p95_abs": 20.0,
+      "score_mean": 0.14872266352176666,
+      "delta_mean_abs": 10.22455
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 4.1421,
+      "lag_p95_abs": 19.0,
+      "score_mean": 0.16259559988975525,
+      "delta_mean_abs": 4.1421
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 2.5092,
+      "lag_p95_abs": 17.0,
+      "score_mean": 0.16905102133750916,
+      "delta_mean_abs": 2.5092
+    }
+  ]
+}

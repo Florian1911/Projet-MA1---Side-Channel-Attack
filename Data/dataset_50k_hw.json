@@ -1,0 +1,11 @@
+{
+  "input": "dataset_50k.npz",
+  "output": "dataset_50k_hw.npz",
+  "byte": 0,
+  "key": 43,
+  "window_start": 186,
+  "window_end": 386,
+  "window_center": 286,
+  "window_len": 200,
+  "snr_max": 0.006149417126801293
+}

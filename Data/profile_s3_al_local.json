@@ -1,0 +1,34 @@
+{
+  "input": "profile_s3_al.npz",
+  "output": "profile_s3_al_local.npz",
+  "center": 1041,
+  "window": 220,
+  "max_shift": 20,
+  "iters": 3,
+  "ref": "median",
+  "shift_mean_abs": 19.461990059708462,
+  "shift_p95_abs": 43.0,
+  "iter_stats": [
+    {
+      "iter": 1,
+      "lag_mean_abs": 11.149838220087394,
+      "lag_p95_abs": 20.0,
+      "score_mean": 0.29403558373451233,
+      "delta_mean_abs": 11.149838220087394
+    },
+    {
+      "iter": 2,
+      "lag_mean_abs": 9.401380966676674,
+      "lag_p95_abs": 18.0,
+      "score_mean": 0.6763184070587158,
+      "delta_mean_abs": 9.401380966676674
+    },
+    {
+      "iter": 3,
+      "lag_mean_abs": 6.0239500984022145,
+      "lag_p95_abs": 17.0,
+      "score_mean": 0.6932953596115112,
+      "delta_mean_abs": 6.0239500984022145
+    }
+  ]
+}

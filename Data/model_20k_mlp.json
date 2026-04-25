@@ -1,0 +1,20 @@
+{
+  "dataset": "dataset_20k.npz",
+  "n_total": 19956,
+  "n_train": 13970,
+  "n_val": 2993,
+  "n_test": 2993,
+  "n_classes": 256,
+  "poi": 1024,
+  "h1": 512,
+  "h2": 256,
+  "dropout": 0.1,
+  "epochs": 120,
+  "batch_size": 256,
+  "lr": 0.001,
+  "l2": 1e-05,
+  "patience": 20,
+  "best_val_acc1": 0.0053458068827263614,
+  "test_acc1": 0.0053458068827263614,
+  "test_acc5": 0.01971266288005346
+}

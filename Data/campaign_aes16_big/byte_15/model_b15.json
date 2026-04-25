@@ -1,0 +1,20 @@
+{
+  "dataset": "campaign_aes16_big/byte_15/profile_hw_b15.npz",
+  "n_total": 49993,
+  "n_train": 34997,
+  "n_val": 7498,
+  "n_test": 7498,
+  "n_classes": 9,
+  "poi": 200,
+  "h1": 256,
+  "h2": 128,
+  "dropout": 0.1,
+  "epochs": 120,
+  "batch_size": 256,
+  "lr": 0.001,
+  "l2": 1e-05,
+  "patience": 20,
+  "best_val_acc1": 0.26407041877834087,
+  "test_acc1": 0.2650040010669512,
+  "test_acc5": 0.9358495598826354
+}

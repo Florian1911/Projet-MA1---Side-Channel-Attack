@@ -1,0 +1,184 @@
+{
+  "name": "strict_blind_B_cfg2_bootstrap8",
+  "calib_npz": "unknown_B_calib5k_nokey.npz",
+  "attack_npz": "unknown_B_attack15k_nokey.npz",
+  "config": {
+    "decim": 2,
+    "coarse_top": 12,
+    "coarse_min_sep": 12,
+    "refine_radius": 12,
+    "q": 95.0
+  },
+  "repeats": 8,
+  "sub_ratio": 0.7,
+  "recovered_key_hex": "94 5A D4 CC FB B7 9B 49 4B 01 B0 B1 26 48 0E 61",
+  "rank1_count": 0,
+  "top10_count": 0,
+  "top20_count": 1,
+  "mean_rank": 110.8125,
+  "median_rank": 105.0,
+  "ranks": [
+    149,
+    249,
+    30,
+    87,
+    239,
+    94,
+    109,
+    118,
+    15,
+    72,
+    47,
+    60,
+    116,
+    130,
+    157,
+    101
+  ],
+  "bytes": [
+    {
+      "byte": 0,
+      "top_key": 148,
+      "top_key_hex": "94",
+      "true_key": 167,
+      "true_rank": 149,
+      "in_top10": false,
+      "in_top20": false
+    },
+    {
+      "byte": 1,
+      "top_key": 90,
+      "top_key_hex": "5A",
+      "true_key": 60,
+      "true_rank": 249,
+      "in_top10": false,
+      "in_top20": false
+    },
+    {
+      "byte": 2,
+      "top_key": 212,
+      "top_key_hex": "D4",
+      "true_key": 209,
+      "true_rank": 30,
+      "in_top10": false,
+      "in_top20": false
+    },
+    {
+      "byte": 3,
+      "top_key": 204,
+      "top_key_hex": "CC",
+      "true_key": 94,
+      "true_rank": 87,
+      "in_top10": false,
+      "in_top20": false
+    },
+    {
+      "byte": 4,
+      "top_key": 251,
+      "top_key_hex": "FB",
+      "true_key": 146,
+      "true_rank": 239,
+      "in_top10": false,
+      "in_top20": false
+    },
+    {
+      "byte": 5,
+      "top_key": 183,
+      "top_key_hex": "B7",
+      "true_key": 75,
+      "true_rank": 94,
+      "in_top10": false,
+      "in_top20": false
+    },
+    {
+      "byte": 6,
+      "top_key": 155,
+      "top_key_hex": "9B",
+      "true_key": 248,
+      "true_rank": 109,
+      "in_top10": false,
+      "in_top20": false
+    },
+    {
+      "byte": 7,
+      "top_key": 73,
+      "top_key_hex": "49",
+      "true_key": 22,
+      "true_rank": 118,
+      "in_top10": false,
+      "in_top20": false
+    },
+    {
+      "byte": 8,
+      "top_key": 75,
+      "top_key_hex": "4B",
+      "true_key": 109,
+      "true_rank": 15,
+      "in_top10": false,
+      "in_top20": true
+    },
+    {
+      "byte": 9,
+      "top_key": 1,
+      "top_key_hex": "01",
+      "true_key": 224,
+      "true_rank": 72,
+      "in_top10": false,
+      "in_top20": false
+    },
+    {
+      "byte": 10,
+      "top_key": 176,
+      "top_key_hex": "B0",
+      "true_key": 39,
+      "true_rank": 47,
+      "in_top10": false,
+      "in_top20": false
+    },
+    {
+      "byte": 11,
+      "top_key": 177,
+      "top_key_hex": "B1",
+      "true_key": 185,
+      "true_rank": 60,
+      "in_top10": false,
+      "in_top20": false
+    },
+    {
+      "byte": 12,
+      "top_key": 38,
+      "top_key_hex": "26",
+      "true_key": 65,
+      "true_rank": 116,
+      "in_top10": false,
+      "in_top20": false
+    },
+    {
+      "byte": 13,
+      "top_key": 72,
+      "top_key_hex": "48",
+      "true_key": 127,
+      "true_rank": 130,
+      "in_top10": false,
+      "in_top20": false
+    },
+    {
+      "byte": 14,
+      "top_key": 14,
+      "top_key_hex": "0E",
+      "true_key": 195,
+      "true_rank": 157,
+      "in_top10": false,
+      "in_top20": false
+    },
+    {
+      "byte": 15,
+      "top_key": 97,
+      "top_key_hex": "61",
+      "true_key": 138,
+      "true_rank": 101,
+      "in_top10": false,
+      "in_top20": false
+    }
+  ]
+}

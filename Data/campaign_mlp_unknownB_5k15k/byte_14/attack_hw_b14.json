@@ -1,0 +1,11 @@
+{
+  "input": "unknown_B_attack15k_nokey.npz",
+  "output": "campaign_mlp_unknownB_5k15k/byte_14/attack_hw_b14.npz",
+  "byte": 14,
+  "key": 0,
+  "window_start": 1776,
+  "window_end": 1976,
+  "window_center": 1876,
+  "window_len": 200,
+  "snr_max": 0.0035562856559093205
+}

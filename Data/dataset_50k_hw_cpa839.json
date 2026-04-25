@@ -1,0 +1,11 @@
+{
+  "input": "dataset_50k.npz",
+  "output": "dataset_50k_hw_cpa839.npz",
+  "byte": 0,
+  "key": 43,
+  "window_start": 739,
+  "window_end": 939,
+  "window_center": 839,
+  "window_len": 200,
+  "snr_max": 0.002319638438815329
+}

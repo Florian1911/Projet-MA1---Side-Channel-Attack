@@ -1,0 +1,350 @@
+{
+  "name": "strict_blind_B_hw_hd_mix_bootstrap24",
+  "config": {
+    "decim": 2,
+    "coarse_top": 16,
+    "coarse_min_sep": 10,
+    "refine_radius": 16,
+    "q": 97.0,
+    "k_local": 5,
+    "repeats": 24,
+    "sub_ratio": 0.7,
+    "models": [
+      "hw",
+      "hdp",
+      "mix"
+    ]
+  },
+  "results": {
+    "zscore_sum": {
+      "recovered_key_hex": "5D 94 DC 6F 8C 0A 53 88 6D F6 B0 C6 F6 A8 77 63",
+      "rank1_count": 1,
+      "top10_count": 1,
+      "top20_count": 1,
+      "mean_rank": 137.5,
+      "median_rank": 138.0,
+      "ranks": [
+        202,
+        240,
+        232,
+        157,
+        240,
+        167,
+        81,
+        90,
+        1,
+        70,
+        47,
+        58,
+        235,
+        146,
+        104,
+        130
+      ],
+      "bytes": [
+        {
+          "byte": 0,
+          "top_key": 93,
+          "true_key": 167,
+          "true_rank": 202,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 1,
+          "top_key": 148,
+          "true_key": 60,
+          "true_rank": 240,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 2,
+          "top_key": 220,
+          "true_key": 209,
+          "true_rank": 232,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 3,
+          "top_key": 111,
+          "true_key": 94,
+          "true_rank": 157,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 4,
+          "top_key": 140,
+          "true_key": 146,
+          "true_rank": 240,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 5,
+          "top_key": 10,
+          "true_key": 75,
+          "true_rank": 167,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 6,
+          "top_key": 83,
+          "true_key": 248,
+          "true_rank": 81,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 7,
+          "top_key": 136,
+          "true_key": 22,
+          "true_rank": 90,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 8,
+          "top_key": 109,
+          "true_key": 109,
+          "true_rank": 1,
+          "top10": true,
+          "top20": true
+        },
+        {
+          "byte": 9,
+          "top_key": 246,
+          "true_key": 224,
+          "true_rank": 70,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 10,
+          "top_key": 176,
+          "true_key": 39,
+          "true_rank": 47,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 11,
+          "top_key": 198,
+          "true_key": 185,
+          "true_rank": 58,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 12,
+          "top_key": 246,
+          "true_key": 65,
+          "true_rank": 235,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 13,
+          "top_key": 168,
+          "true_key": 127,
+          "true_rank": 146,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 14,
+          "top_key": 119,
+          "true_key": 195,
+          "true_rank": 104,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 15,
+          "top_key": 99,
+          "true_key": 138,
+          "true_rank": 130,
+          "top10": false,
+          "top20": false
+        }
+      ]
+    },
+    "rank_vote": {
+      "recovered_key_hex": "5D 94 DC 6F 8C 0A 9B 88 6D 0A B0 9F F6 48 77 FE",
+      "rank1_count": 1,
+      "top10_count": 1,
+      "top20_count": 1,
+      "mean_rank": 134.3125,
+      "median_rank": 129.5,
+      "ranks": [
+        197,
+        231,
+        226,
+        138,
+        242,
+        79,
+        50,
+        121,
+        1,
+        88,
+        63,
+        60,
+        215,
+        169,
+        116,
+        153
+      ],
+      "bytes": [
+        {
+          "byte": 0,
+          "top_key": 93,
+          "true_key": 167,
+          "true_rank": 197,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 1,
+          "top_key": 148,
+          "true_key": 60,
+          "true_rank": 231,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 2,
+          "top_key": 220,
+          "true_key": 209,
+          "true_rank": 226,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 3,
+          "top_key": 111,
+          "true_key": 94,
+          "true_rank": 138,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 4,
+          "top_key": 140,
+          "true_key": 146,
+          "true_rank": 242,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 5,
+          "top_key": 10,
+          "true_key": 75,
+          "true_rank": 79,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 6,
+          "top_key": 155,
+          "true_key": 248,
+          "true_rank": 50,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 7,
+          "top_key": 136,
+          "true_key": 22,
+          "true_rank": 121,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 8,
+          "top_key": 109,
+          "true_key": 109,
+          "true_rank": 1,
+          "top10": true,
+          "top20": true
+        },
+        {
+          "byte": 9,
+          "top_key": 10,
+          "true_key": 224,
+          "true_rank": 88,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 10,
+          "top_key": 176,
+          "true_key": 39,
+          "true_rank": 63,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 11,
+          "top_key": 159,
+          "true_key": 185,
+          "true_rank": 60,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 12,
+          "top_key": 246,
+          "true_key": 65,
+          "true_rank": 215,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 13,
+          "top_key": 72,
+          "true_key": 127,
+          "true_rank": 169,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 14,
+          "top_key": 119,
+          "true_key": 195,
+          "true_rank": 116,
+          "top10": false,
+          "top20": false
+        },
+        {
+          "byte": 15,
+          "top_key": 254,
+          "true_key": 138,
+          "true_rank": 153,
+          "top10": false,
+          "top20": false
+        }
+      ]
+    }
+  },
+  "baseline_cfg2_ranks": [
+    210,
+    94,
+    27,
+    1,
+    245,
+    10,
+    196,
+    254,
+    133,
+    10,
+    17,
+    247,
+    250,
+    178,
+    184,
+    211
+  ]
+}

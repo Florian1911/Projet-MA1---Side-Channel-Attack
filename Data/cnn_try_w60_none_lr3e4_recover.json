@@ -1,0 +1,38 @@
+{
+  "model": "cnn_try_w60_none_lr3e4.keras",
+  "stats_npz": "cnn_try_w60_none_lr3e4.npz",
+  "attack_npz": "unknown_B_attack10k.npz",
+  "byte": 3,
+  "best_shift": 51,
+  "recovered_key_byte": 201,
+  "margin": 15.063313433311123,
+  "top5": [
+    {
+      "rank": 1,
+      "key": 201,
+      "score": -55295.181326355465
+    },
+    {
+      "rank": 2,
+      "key": 253,
+      "score": -55310.244639788776
+    },
+    {
+      "rank": 3,
+      "key": 2,
+      "score": -55310.856267726944
+    },
+    {
+      "rank": 4,
+      "key": 170,
+      "score": -55312.76028626286
+    },
+    {
+      "rank": 5,
+      "key": 34,
+      "score": -55313.934990836366
+    }
+  ],
+  "true_key_byte": 94,
+  "true_rank": 232
+}

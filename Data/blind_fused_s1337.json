@@ -1,0 +1,171 @@
+{
+  "campaign_a": "exp_tune_hw_s1337",
+  "campaign_b": "exp_tune_sbox_s1337",
+  "label_a": "hw",
+  "label_b": "sbox",
+  "confidence_mode": "margin_norm",
+  "bytes": [
+    {
+      "byte": 0,
+      "pick": "sbox",
+      "top1_key_a": 244,
+      "top1_key_b": 154,
+      "conf_a": 0.7190908365236499,
+      "conf_b": 1.582778152243669,
+      "chosen_key": 154,
+      "chosen_conf": 1.582778152243669
+    },
+    {
+      "byte": 1,
+      "pick": "sbox",
+      "top1_key_a": 180,
+      "top1_key_b": 34,
+      "conf_a": 0.10859885904956815,
+      "conf_b": 1.009309156755766,
+      "chosen_key": 34,
+      "chosen_conf": 1.009309156755766
+    },
+    {
+      "byte": 2,
+      "pick": "sbox",
+      "top1_key_a": 130,
+      "top1_key_b": 114,
+      "conf_a": 0.3646589813939276,
+      "conf_b": 2.46730056976621,
+      "chosen_key": 114,
+      "chosen_conf": 2.46730056976621
+    },
+    {
+      "byte": 3,
+      "pick": "sbox",
+      "top1_key_a": 126,
+      "top1_key_b": 180,
+      "conf_a": 1.2063361552403207,
+      "conf_b": 1.3395653857512164,
+      "chosen_key": 180,
+      "chosen_conf": 1.3395653857512164
+    },
+    {
+      "byte": 4,
+      "pick": "sbox",
+      "top1_key_a": 103,
+      "top1_key_b": 34,
+      "conf_a": 0.1905641119342263,
+      "conf_b": 0.25667360106382825,
+      "chosen_key": 34,
+      "chosen_conf": 0.25667360106382825
+    },
+    {
+      "byte": 5,
+      "pick": "sbox",
+      "top1_key_a": 12,
+      "top1_key_b": 130,
+      "conf_a": 1.4874758102582004,
+      "conf_b": 2.1018109785407613,
+      "chosen_key": 130,
+      "chosen_conf": 2.1018109785407613
+    },
+    {
+      "byte": 6,
+      "pick": "sbox",
+      "top1_key_a": 27,
+      "top1_key_b": 72,
+      "conf_a": 1.362834017762466,
+      "conf_b": 1.9022105688001105,
+      "chosen_key": 72,
+      "chosen_conf": 1.9022105688001105
+    },
+    {
+      "byte": 7,
+      "pick": "hw",
+      "top1_key_a": 6,
+      "top1_key_b": 197,
+      "conf_a": 1.9483748184495724,
+      "conf_b": 0.7537717425257744,
+      "chosen_key": 6,
+      "chosen_conf": 1.9483748184495724
+    },
+    {
+      "byte": 8,
+      "pick": "hw",
+      "top1_key_a": 78,
+      "top1_key_b": 89,
+      "conf_a": 0.6599554652950695,
+      "conf_b": 0.08083787609800885,
+      "chosen_key": 78,
+      "chosen_conf": 0.6599554652950695
+    },
+    {
+      "byte": 9,
+      "pick": "sbox",
+      "top1_key_a": 92,
+      "top1_key_b": 38,
+      "conf_a": 0.042480808401168337,
+      "conf_b": 1.1321048254275792,
+      "chosen_key": 38,
+      "chosen_conf": 1.1321048254275792
+    },
+    {
+      "byte": 10,
+      "pick": "sbox",
+      "top1_key_a": 180,
+      "top1_key_b": 27,
+      "conf_a": 1.3169520970227886,
+      "conf_b": 1.8386232853205444,
+      "chosen_key": 27,
+      "chosen_conf": 1.8386232853205444
+    },
+    {
+      "byte": 11,
+      "pick": "sbox",
+      "top1_key_a": 189,
+      "top1_key_b": 147,
+      "conf_a": 1.3863336428543263,
+      "conf_b": 2.236158565045269,
+      "chosen_key": 147,
+      "chosen_conf": 2.236158565045269
+    },
+    {
+      "byte": 12,
+      "pick": "sbox",
+      "top1_key_a": 255,
+      "top1_key_b": 217,
+      "conf_a": 0.9385474936836654,
+      "conf_b": 1.3276746256282754,
+      "chosen_key": 217,
+      "chosen_conf": 1.3276746256282754
+    },
+    {
+      "byte": 13,
+      "pick": "sbox",
+      "top1_key_a": 33,
+      "top1_key_b": 105,
+      "conf_a": 0.23132759665247998,
+      "conf_b": 1.5349321266061857,
+      "chosen_key": 105,
+      "chosen_conf": 1.5349321266061857
+    },
+    {
+      "byte": 14,
+      "pick": "hw",
+      "top1_key_a": 175,
+      "top1_key_b": 244,
+      "conf_a": 1.0953599318798501,
+      "conf_b": 0.16474085329506066,
+      "chosen_key": 175,
+      "chosen_conf": 1.0953599318798501
+    },
+    {
+      "byte": 15,
+      "pick": "sbox",
+      "top1_key_a": 248,
+      "top1_key_b": 26,
+      "conf_a": 1.0248921755165339,
+      "conf_b": 2.1544698687080244,
+      "chosen_key": 26,
+      "chosen_conf": 2.1544698687080244
+    }
+  ],
+  "recovered_key_hex": "9A2272B4228248064E261B93D969AF1A",
+  "recovered_key_hex_spaced": "9A 22 72 B4 22 82 48 06 4E 26 1B 93 D9 69 AF 1A"
+}

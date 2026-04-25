@@ -1,0 +1,20 @@
+{
+  "dataset": "exp_tune_hw_s2025/byte_01/profile_b01.npz",
+  "n_total": 28984,
+  "n_train": 20290,
+  "n_val": 4347,
+  "n_test": 4347,
+  "n_classes": 9,
+  "poi": 900,
+  "h1": 768,
+  "h2": 384,
+  "dropout": 0.2,
+  "epochs": 140,
+  "batch_size": 256,
+  "lr": 0.0007,
+  "l2": 3e-05,
+  "patience": 25,
+  "best_val_acc1": 0.25304807913503563,
+  "test_acc1": 0.2546583850931677,
+  "test_acc5": 0.911663216011042
+}

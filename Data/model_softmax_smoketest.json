@@ -1,0 +1,16 @@
+{
+  "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+  "n_total": 985,
+  "n_train": 691,
+  "n_val": 147,
+  "n_test": 147,
+  "n_classes": 256,
+  "poi": 256,
+  "epochs": 8,
+  "batch_size": 128,
+  "lr": 0.002,
+  "l2": 0.0001,
+  "best_val_acc1": 0.006802721088435374,
+  "test_acc1": 0.006802721088435374,
+  "test_acc5": 0.013605442176870748
+}

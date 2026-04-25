@@ -1,0 +1,830 @@
+{
+  "datasets": [
+    "dataset_aes_sca_no_uart.npz",
+    "dataset_aes_sca_no_uart_aligned.npz"
+  ],
+  "models": [
+    "hw_sbox",
+    "hd_pt",
+    "hd_inout",
+    "hw_in",
+    "bit0",
+    "bit7"
+  ],
+  "rows": [
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 143.875,
+      "recovered_key_hex": "F8F8E3668F24F98DF196C7A2CF83C371"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 154.6875,
+      "recovered_key_hex": "8975D13FDCB9FB7FD5A70D41981D45A5"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 2,
+      "mean_rank": 98.3125,
+      "recovered_key_hex": "5AB577C93250B2DD3B2EB519088563A9"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 146.5625,
+      "recovered_key_hex": "A4D5B1BFFD4E188A563982AC958E42D0"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 88.625,
+      "recovered_key_hex": "68F25E838B5C0BDE0C85AF0D79450B4D"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 131.25,
+      "recovered_key_hex": "678CE3841A34552072FF1F9F0423B4A5"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 139.75,
+      "recovered_key_hex": "E581FA881FD9E38DD4D2FDFF7282631B"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 140.375,
+      "recovered_key_hex": "A7A258C152EE2905238EEC60AE44C6DE"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 106.5,
+      "recovered_key_hex": "58DACE3FC196606E6E6E5BA008E02BC8"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 97.875,
+      "recovered_key_hex": "F4D5F09AB7F6738BE016278DDE71F42E"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 111.5625,
+      "recovered_key_hex": "14793FF5CB644A986A22B13676B073A4"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 167.5625,
+      "recovered_key_hex": "F26CEF9E1ADDF5ACFED71D272686D58B"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 161.8125,
+      "recovered_key_hex": "A2B22964960FE326341FFDBF729D5A1B"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 118.8125,
+      "recovered_key_hex": "3BA088C13EBC92054C2A4623C781CD5C"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 118.9375,
+      "recovered_key_hex": "EDDA7E93099CB190DA1D99962D812B9C"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 130.1875,
+      "recovered_key_hex": "F7EFB6D8F90B88A20789CBE9F4BED7D0"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 143.3125,
+      "recovered_key_hex": "B4D24034EDF7E35E3D6557DC923773AC"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 1000,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 153.25,
+      "recovered_key_hex": "C45B85E517DDD5DE894F9ABEC352994A"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 117.6875,
+      "recovered_key_hex": "0F3896820867CBB2D5A4F5968D2EA3D3"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 125.75,
+      "recovered_key_hex": "E1D5651FDC879E050708E00F715C7622"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 91.1875,
+      "recovered_key_hex": "85BF592D93BEF36CB9D20D5BA4192C89"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 117.6875,
+      "recovered_key_hex": "97A698BF2525C93D561882F694E8D7D8"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 2,
+      "mean_rank": 62.8125,
+      "recovered_key_hex": "BBEE328395458D24B5263A8BC012A0BF"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 131.1875,
+      "recovered_key_hex": "C0AFE38324FDC23BAE541FE497770E31"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 119.6875,
+      "recovered_key_hex": "7CC55C889165BC30E7D2EEFBA3896599"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 141.8125,
+      "recovered_key_hex": "F64C5864D2C7A3F2CF65A60381433FDE"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 117.3125,
+      "recovered_key_hex": "71547D795582F3EDB9117D961FD2C89F"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 122.0,
+      "recovered_key_hex": "A5D520C0A3BC8D90DC54CA1AA98FF4D1"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 1,
+      "rank5_count": 1,
+      "mean_rank": 76.625,
+      "recovered_key_hex": "32EF69775E648AFB66F7EC4D77169F5E"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 142.4375,
+      "recovered_key_hex": "E40B329D42BB771BD6505F8CCD3D93F0"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 146.1875,
+      "recovered_key_hex": "6ADD2341A1E91B3034D221744089631B"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 112.5625,
+      "recovered_key_hex": "3B6474F965BCA6E884560BD0CF81035C"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 104.8125,
+      "recovered_key_hex": "B04F7D32C75804E6B99C7D96EBD2DC40"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 140.4375,
+      "recovered_key_hex": "DA15B6ADC074B682D889C3DE539C88C4"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 112.0,
+      "recovered_key_hex": "2C290C8689337855DD281EA192F69AEA"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 164.9375,
+      "recovered_key_hex": "66E8173A42DCD586DAFE4295A560FC6F"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 140.75,
+      "recovered_key_hex": "B5A37166BBFAA8CF25381B39E197A2E9"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 159.625,
+      "recovered_key_hex": "3D39D192F025C9619CFF0F5B8B7F91C4"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 141.9375,
+      "recovered_key_hex": "9ADF5D317C8F246149FF778C247FF9A4"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 142.1875,
+      "recovered_key_hex": "F11DF8FAB697AFA52E1158AF2739C7BA"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 146.8125,
+      "recovered_key_hex": "7C3D24C976AD54DED07BF71448CAA2AA"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 119.375,
+      "recovered_key_hex": "099A72042DC4A14EF2C119DD7F310403"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 111.6875,
+      "recovered_key_hex": "91D470DF5EFA7A0AC2069573E115D91A"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 126.4375,
+      "recovered_key_hex": "00B8EB9E06C2306160B92E84A95EDAB3"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 150.1875,
+      "recovered_key_hex": "4844172EFE6D26BD0D86771BAFE74D71"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 114.75,
+      "recovered_key_hex": "99FC824D19A5877A9FD0BFD8829BF0FA"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 129.5625,
+      "recovered_key_hex": "37DA490F06069A9140E7B96FD58823B9"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 1,
+      "rank5_count": 1,
+      "mean_rank": 119.375,
+      "recovered_key_hex": "FD541C049BB46B161A8642887FFAA6BA"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 985,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 129.5,
+      "recovered_key_hex": "64D448DF5F4D9F0AD59CF439DA7CD92A"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 985,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 144.0,
+      "recovered_key_hex": "DC92B89E6AF128B8608B9ED5F862B73D"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 985,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 167.1875,
+      "recovered_key_hex": "DBFC8C46C01F7BBCC7E179AA7E7DCEE6"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 985,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 124.9375,
+      "recovered_key_hex": "894578ADA6ADE55ED0B4BDD8FA9BF7FA"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 985,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 110.625,
+      "recovered_key_hex": "515328BD8008FFAFE07E0798D5AC6D24"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 985,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 112.8125,
+      "recovered_key_hex": "FDE48A7DE464DACB60B965D3E3542B00"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 138.875,
+      "recovered_key_hex": "4F290438BB5789D60814A599D4BE6F54"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 132.5625,
+      "recovered_key_hex": "8C86D1D807FAF90AFCB498C8F1B4FCC2"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 140.375,
+      "recovered_key_hex": "0EF2843698EB24A3C58BEA74F595615A"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 111.875,
+      "recovered_key_hex": "23D6F7A1F68D30F8D5E0F924EDB4CD80"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 122.3125,
+      "recovered_key_hex": "7CFE05C934D7BCD08B7B5012486BA1BD"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 100.6875,
+      "recovered_key_hex": "2841727577C4295EB81A508AD673D2D6"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 123.375,
+      "recovered_key_hex": "CA476CE047010776B852FE14DF8342AF"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 103.3125,
+      "recovered_key_hex": "CC932BCC3FE758DE608BC2D49D3557B5"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 113.375,
+      "recovered_key_hex": "C893EEF4FEBF74D66252E73EAF6B694F"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 133.5625,
+      "recovered_key_hex": "6FFC68A2913AA7C04EC6B9D880C7B07B"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 138.875,
+      "recovered_key_hex": "44F849DA3F9CD346037EE812B1D4D177"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 123.75,
+      "recovered_key_hex": "CA4E2083F79CB8CC683C537C7F517312"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 985,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 125.5,
+      "recovered_key_hex": "F9472ADF23CB6CC6B93BDF5C1389F90D"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 985,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 100.8125,
+      "recovered_key_hex": "CCB57287C0AA272A988B9EC089CB27F7"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 985,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 141.125,
+      "recovered_key_hex": "FC058CA8C4C1741EACF3C35329F240E6"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 985,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 114.75,
+      "recovered_key_hex": "D7B3FFDF6EEB55A7CED3D52792E49394"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 985,
+      "model": "bit0",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 142.75,
+      "recovered_key_hex": "AC7F49B9D4513B7DC77EE847DED41D50"
+    },
+    {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 985,
+      "model": "bit7",
+      "rank1_count": 0,
+      "rank5_count": 0,
+      "mean_rank": 110.875,
+      "recovered_key_hex": "C9D8D5EB24BA9BA148F8259D9EC9DAA3"
+    }
+  ],
+  "best_per_dataset": {
+    "dataset_aes_sca_no_uart.npz": {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 1,
+      "rank5_count": 1,
+      "mean_rank": 76.625,
+      "recovered_key_hex": "32EF69775E648AFB66F7EC4D77169F5E"
+    },
+    "dataset_aes_sca_no_uart_aligned.npz": {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 1,
+      "rank5_count": 1,
+      "mean_rank": 119.375,
+      "recovered_key_hex": "FD541C049BB46B161A8642887FFAA6BA"
+    }
+  },
+  "best_by_model": {
+    "hw_sbox": {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "center_detrend",
+      "n_traces": 985,
+      "model": "hw_sbox",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 125.5,
+      "recovered_key_hex": "F9472ADF23CB6CC6B93BDF5C1389F90D"
+    },
+    "hd_pt": {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "model": "hd_pt",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 112.5625,
+      "recovered_key_hex": "3B6474F965BCA6E884560BD0CF81035C"
+    },
+    "hd_inout": {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "none",
+      "n_traces": 200,
+      "model": "hd_inout",
+      "rank1_count": 0,
+      "rank5_count": 2,
+      "mean_rank": 98.3125,
+      "recovered_key_hex": "5AB577C93250B2DD3B2EB519088563A9"
+    },
+    "hw_in": {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 200,
+      "model": "hw_in",
+      "rank1_count": 0,
+      "rank5_count": 1,
+      "mean_rank": 117.6875,
+      "recovered_key_hex": "97A698BF2525C93D561882F694E8D7D8"
+    },
+    "bit0": {
+      "dataset": "dataset_aes_sca_no_uart.npz",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "model": "bit0",
+      "rank1_count": 1,
+      "rank5_count": 1,
+      "mean_rank": 76.625,
+      "recovered_key_hex": "32EF69775E648AFB66F7EC4D77169F5E"
+    },
+    "bit7": {
+      "dataset": "dataset_aes_sca_no_uart_aligned.npz",
+      "preproc": "none",
+      "n_traces": 500,
+      "model": "bit7",
+      "rank1_count": 1,
+      "rank5_count": 1,
+      "mean_rank": 119.375,
+      "recovered_key_hex": "FD541C049BB46B161A8642887FFAA6BA"
+    }
+  },
+  "best_overall": {
+    "dataset": "dataset_aes_sca_no_uart.npz",
+    "preproc": "center_detrend",
+    "n_traces": 500,
+    "model": "bit0",
+    "rank1_count": 1,
+    "rank5_count": 1,
+    "mean_rank": 76.625,
+    "recovered_key_hex": "32EF69775E648AFB66F7EC4D77169F5E"
+  }
+}

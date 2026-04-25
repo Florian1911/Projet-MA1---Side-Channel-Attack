@@ -1,0 +1,20 @@
+{
+  "n_traces": 1000,
+  "trace_len": 2000,
+  "target_byte": 0,
+  "label_definition": "SBox(plaintext[0] xor key[0])",
+  "serial_port": "/dev/ttyACM0",
+  "baud": 115200,
+  "timebase": 8,
+  "num_samples": 2000,
+  "pre_trigger_samples": 200,
+  "trigger_threshold_mv_probe": 100,
+  "probe_attenuation_trig": 10,
+  "probe_attenuation_meas": 1,
+  "arm_delay_us": 80,
+  "pico_range_trig": 5,
+  "pico_range_meas": 1,
+  "dt_ns": 80.0,
+  "n_traces_saved": 1000,
+  "overflow_ratio": 0.006
+}

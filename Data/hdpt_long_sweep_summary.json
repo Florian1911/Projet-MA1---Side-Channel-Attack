@@ -1,0 +1,997 @@
+{
+  "model": "hd_pt = HW(SBOX(pt xor k) xor pt)",
+  "all_configs": [
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 960,
+        "win_end": 1120,
+        "win_len": 160,
+        "rank1_count": 1,
+        "rank5_count": 1,
+        "mean_rank": 80.25,
+        "recovered_key_hex": "A9127116F1530433D24ED41D3B6408A0"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 640,
+        "win_end": 1120,
+        "win_len": 480,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 101.375,
+        "recovered_key_hex": "62F0CF8EF153AB2462F70121630D51DE"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 700,
+      "best_window": {
+        "win_start": 1200,
+        "win_end": 1360,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 2,
+        "mean_rank": 137.8125,
+        "recovered_key_hex": "ED18DCD0D554E515A74E7C223E531912"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 1000,
+      "best_window": {
+        "win_start": 960,
+        "win_end": 1120,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 0,
+        "mean_rank": 87.625,
+        "recovered_key_hex": "7CADCD9F46E535D68C98D4E67479B17C"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 720,
+        "win_end": 960,
+        "win_len": 240,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 125.625,
+        "recovered_key_hex": "46A63516D0FA5DE0C5225E8193543CDF"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 640,
+        "win_end": 1120,
+        "win_len": 480,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 98.5625,
+        "recovered_key_hex": "62F0CF8EF153AB2462F70121635451DE"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 700,
+      "best_window": {
+        "win_start": 1200,
+        "win_end": 1360,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 2,
+        "mean_rank": 131.3125,
+        "recovered_key_hex": "ED18DCD0D554E515A74E7C223E531912"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "best_window": {
+        "win_start": 1800,
+        "win_end": 1960,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 1,
+        "mean_rank": 144.875,
+        "recovered_key_hex": "99BBE98B584D23DFD5171BD9EDDF5F7B"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 960,
+        "win_end": 1600,
+        "win_len": 640,
+        "rank1_count": 0,
+        "rank5_count": 1,
+        "mean_rank": 106.4375,
+        "recovered_key_hex": "639DE5FD6D3907428F85A72BF33DD3DC"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 720,
+        "win_end": 880,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 2,
+        "mean_rank": 119.375,
+        "recovered_key_hex": "6E05839BBAE9375EBE4311C9F250D8C0"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 700,
+      "best_window": {
+        "win_start": 120,
+        "win_end": 280,
+        "win_len": 160,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 87.75,
+        "recovered_key_hex": "6ED7F41A9F7B33A6146223F6DACC6678"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_a",
+      "preproc": "none",
+      "n_traces": 1000,
+      "best_window": {
+        "win_start": 720,
+        "win_end": 880,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 1,
+        "mean_rank": 103.3125,
+        "recovered_key_hex": "95C4C968DE549D4EF7438EF04BB7B490"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 1440,
+        "win_end": 1600,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 2,
+        "mean_rank": 103.9375,
+        "recovered_key_hex": "7C88E5098064F4C1EAB26748C8457B6F"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 1440,
+        "win_end": 1600,
+        "win_len": 160,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 111.8125,
+        "recovered_key_hex": "937E9C739E643E39EA7FEAFC9B659C6F"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 700,
+      "best_window": {
+        "win_start": 120,
+        "win_end": 280,
+        "win_len": 160,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 93.5,
+        "recovered_key_hex": "6EBEA01AD57BC1A6146223F6DAF866C1"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_a",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "best_window": {
+        "win_start": 120,
+        "win_end": 280,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 1,
+        "mean_rank": 114.0625,
+        "recovered_key_hex": "4070A0BF0DCF8E60F60B60DC92C218EE"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 1520,
+        "win_end": 2000,
+        "win_len": 480,
+        "rank1_count": 1,
+        "rank5_count": 1,
+        "mean_rank": 120.125,
+        "recovered_key_hex": "BDA1D1616AB65AFB528FC58800E45923"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 1560,
+        "win_end": 1720,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 1,
+        "mean_rank": 97.4375,
+        "recovered_key_hex": "4178829FE0EDDA8FA46291A7A8737956"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 700,
+      "best_window": {
+        "win_start": 1520,
+        "win_end": 2000,
+        "win_len": 480,
+        "rank1_count": 0,
+        "rank5_count": 0,
+        "mean_rank": 72.6875,
+        "recovered_key_hex": "E3788281D52A39DD22DFB3A73A09793A"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_b",
+      "preproc": "none",
+      "n_traces": 1000,
+      "best_window": {
+        "win_start": 1680,
+        "win_end": 1840,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 2,
+        "mean_rank": 121.0625,
+        "recovered_key_hex": "4126E7CDD563D7AB8FE54CBA9D4F9F35"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 1520,
+        "win_end": 2000,
+        "win_len": 480,
+        "rank1_count": 1,
+        "rank5_count": 1,
+        "mean_rank": 124.1875,
+        "recovered_key_hex": "BDA1D1616A1B5AFB9130B18892235923"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 1440,
+        "win_end": 1680,
+        "win_len": 240,
+        "rank1_count": 0,
+        "rank5_count": 1,
+        "mean_rank": 75.1875,
+        "recovered_key_hex": "4178829FE08C2522A48F3D26A8736F63"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 700,
+      "best_window": {
+        "win_start": 1440,
+        "win_end": 1680,
+        "win_len": 240,
+        "rank1_count": 0,
+        "rank5_count": 1,
+        "mean_rank": 89.5625,
+        "recovered_key_hex": "E3785B20172AD75229FEB3A7957390EC"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "traces_b",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "best_window": {
+        "win_start": 1680,
+        "win_end": 1840,
+        "win_len": 160,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 111.4375,
+        "recovered_key_hex": "6126DB2673D3D79227E515BA9D4F9F35"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 960,
+        "win_end": 1120,
+        "win_len": 160,
+        "rank1_count": 1,
+        "rank5_count": 1,
+        "mean_rank": 80.25,
+        "recovered_key_hex": "A9127116F1530433D24ED41D3B6408A0"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 640,
+        "win_end": 1120,
+        "win_len": 480,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 101.375,
+        "recovered_key_hex": "62F0CF8EF153AB2462F70121630D51DE"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 700,
+      "best_window": {
+        "win_start": 1200,
+        "win_end": 1360,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 2,
+        "mean_rank": 137.8125,
+        "recovered_key_hex": "ED18DCD0D554E515A74E7C223E531912"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "diff_ab",
+      "preproc": "none",
+      "n_traces": 1000,
+      "best_window": {
+        "win_start": 960,
+        "win_end": 1120,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 0,
+        "mean_rank": 87.625,
+        "recovered_key_hex": "7CADCD9F46E535D68C98D4E67479B17C"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 720,
+        "win_end": 960,
+        "win_len": 240,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 125.625,
+        "recovered_key_hex": "46A63516D0FA5DE0C5225E8193543CDF"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 640,
+        "win_end": 1120,
+        "win_len": 480,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 98.5625,
+        "recovered_key_hex": "62F0CF8EF153AB2462F70121635451DE"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 700,
+      "best_window": {
+        "win_start": 1200,
+        "win_end": 1360,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 2,
+        "mean_rank": 131.3125,
+        "recovered_key_hex": "ED18DCD0D554E515A74E7C223E531912"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "dataset_aes_sca_highside.npz",
+      "source": "diff_ab",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "best_window": {
+        "win_start": 1800,
+        "win_end": 1960,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 1,
+        "mean_rank": 144.875,
+        "recovered_key_hex": "99BBE98B584D23DFD5171BD9EDDF5F7B"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "highside_traces_calib500_known.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 960,
+        "win_end": 1120,
+        "win_len": 160,
+        "rank1_count": 1,
+        "rank5_count": 1,
+        "mean_rank": 80.25,
+        "recovered_key_hex": "A9127116F1530433D24ED41D3B6408A0"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "highside_traces_calib500_known.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 640,
+        "win_end": 1120,
+        "win_len": 480,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 101.375,
+        "recovered_key_hex": "62F0CF8EF153AB2462F70121630D51DE"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "highside_traces_calib500_known.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 720,
+        "win_end": 960,
+        "win_len": 240,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 125.625,
+        "recovered_key_hex": "46A63516D0FA5DE0C5225E8193543CDF"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "highside_traces_calib500_known.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 640,
+        "win_end": 1120,
+        "win_len": 480,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 98.5625,
+        "recovered_key_hex": "62F0CF8EF153AB2462F70121635451DE"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "highside_traces_a_calib500_known.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 960,
+        "win_end": 1600,
+        "win_len": 640,
+        "rank1_count": 0,
+        "rank5_count": 1,
+        "mean_rank": 106.4375,
+        "recovered_key_hex": "639DE5FD6D3907428F85A72BF33DD3DC"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "highside_traces_a_calib500_known.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 720,
+        "win_end": 880,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 2,
+        "mean_rank": 119.375,
+        "recovered_key_hex": "6E05839BBAE9375EBE4311C9F250D8C0"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "highside_traces_a_calib500_known.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 1440,
+        "win_end": 1600,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 2,
+        "mean_rank": 103.9375,
+        "recovered_key_hex": "7C88E5098064F4C1EAB26748C8457B6F"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "highside_traces_a_calib500_known.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 1440,
+        "win_end": 1600,
+        "win_len": 160,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 111.8125,
+        "recovered_key_hex": "937E9C739E643E39EA7FEAFC9B659C6F"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "highside_traces_b_calib500_known.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 1520,
+        "win_end": 2000,
+        "win_len": 480,
+        "rank1_count": 1,
+        "rank5_count": 1,
+        "mean_rank": 120.125,
+        "recovered_key_hex": "BDA1D1616AB65AFB528FC58800E45923"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "highside_traces_b_calib500_known.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 1560,
+        "win_end": 1720,
+        "win_len": 160,
+        "rank1_count": 0,
+        "rank5_count": 1,
+        "mean_rank": 97.4375,
+        "recovered_key_hex": "4178829FE0EDDA8FA46291A7A8737956"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "highside_traces_b_calib500_known.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 1520,
+        "win_end": 2000,
+        "win_len": 480,
+        "rank1_count": 1,
+        "rank5_count": 1,
+        "mean_rank": 124.1875,
+        "recovered_key_hex": "BDA1D1616A1B5AFB9130B18892235923"
+      }
+    },
+    {
+      "group": "highside",
+      "dataset": "highside_traces_b_calib500_known.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 1440,
+        "win_end": 1680,
+        "win_len": 240,
+        "rank1_count": 0,
+        "rank5_count": 1,
+        "mean_rank": 75.1875,
+        "recovered_key_hex": "4178829FE08C2522A48F3D26A8736F63"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 1200,
+        "win_end": 1440,
+        "win_len": 240,
+        "rank1_count": 0,
+        "rank5_count": 1,
+        "mean_rank": 98.4375,
+        "recovered_key_hex": "F96F59092DDBE3936F35AA21E422EC99"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 560,
+        "win_end": 880,
+        "win_len": 320,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 102.1875,
+        "recovered_key_hex": "09115750EFE837A6F595A0CFA297CC29"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 700,
+      "best_window": {
+        "win_start": 600,
+        "win_end": 760,
+        "win_len": 160,
+        "rank1_count": 2,
+        "rank5_count": 2,
+        "mean_rank": 108.125,
+        "recovered_key_hex": "FC0ACE16EFE8FDA6F56008CFE77F06FD"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 1000,
+      "best_window": {
+        "win_start": 480,
+        "win_end": 640,
+        "win_len": 160,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 90.5625,
+        "recovered_key_hex": "1C6B537F1AEF918906F7C2AA048C31E9"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 1200,
+        "win_end": 1440,
+        "win_len": 240,
+        "rank1_count": 0,
+        "rank5_count": 1,
+        "mean_rank": 98.375,
+        "recovered_key_hex": "F96F59092DDBE3936F35AA21E422EC99"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 560,
+        "win_end": 880,
+        "win_len": 320,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 101.75,
+        "recovered_key_hex": "09115750EFE837A6F595A0CFA297CC29"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 700,
+      "best_window": {
+        "win_start": 600,
+        "win_end": 760,
+        "win_len": 160,
+        "rank1_count": 2,
+        "rank5_count": 2,
+        "mean_rank": 108.6875,
+        "recovered_key_hex": "FCA3CE16EFE8FDA6F56008CFE77F06FD"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "best_window": {
+        "win_start": 1080,
+        "win_end": 1240,
+        "win_len": 160,
+        "rank1_count": 2,
+        "rank5_count": 2,
+        "mean_rank": 102.6875,
+        "recovered_key_hex": "838DCD16E19494EC2B91CDC4525B4F5A"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside_aligned.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 0,
+        "win_end": 160,
+        "win_len": 160,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 127.625,
+        "recovered_key_hex": "55C42CD7A8EE21890FEDA18888CB9D79"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside_aligned.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 1120,
+        "win_end": 1440,
+        "win_len": 320,
+        "rank1_count": 0,
+        "rank5_count": 2,
+        "mean_rank": 94.0625,
+        "recovered_key_hex": "4D912EAF2FF013F8A0B92D895E9ABEAD"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside_aligned.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 700,
+      "best_window": {
+        "win_start": 1200,
+        "win_end": 1360,
+        "win_len": 160,
+        "rank1_count": 1,
+        "rank5_count": 1,
+        "mean_rank": 96.875,
+        "recovered_key_hex": "16B9760E2DF413D1AB2EFCE51DC2ADBD"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside_aligned.npz",
+      "source": "traces",
+      "preproc": "none",
+      "n_traces": 1000,
+      "best_window": {
+        "win_start": 1080,
+        "win_end": 1320,
+        "win_len": 240,
+        "rank1_count": 1,
+        "rank5_count": 1,
+        "mean_rank": 111.5,
+        "recovered_key_hex": "60FB8FF1D57613F8AB4CDD891DEAFF20"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside_aligned.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 300,
+      "best_window": {
+        "win_start": 0,
+        "win_end": 160,
+        "win_len": 160,
+        "rank1_count": 1,
+        "rank5_count": 2,
+        "mean_rank": 123.125,
+        "recovered_key_hex": "55C42CD7B6EE21890F56E68888CB9D79"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside_aligned.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 500,
+      "best_window": {
+        "win_start": 1120,
+        "win_end": 1440,
+        "win_len": 320,
+        "rank1_count": 0,
+        "rank5_count": 2,
+        "mean_rank": 93.4375,
+        "recovered_key_hex": "4D912EAF2FF013F8A0B92D895E9ABEAD"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside_aligned.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 700,
+      "best_window": {
+        "win_start": 1200,
+        "win_end": 1360,
+        "win_len": 160,
+        "rank1_count": 1,
+        "rank5_count": 1,
+        "mean_rank": 96.875,
+        "recovered_key_hex": "16B9760E2DF413D1AB2EFCE542C2AD64"
+      }
+    },
+    {
+      "group": "lowside",
+      "dataset": "dataset_lowside_aligned.npz",
+      "source": "traces",
+      "preproc": "center_detrend",
+      "n_traces": 1000,
+      "best_window": {
+        "win_start": 1080,
+        "win_end": 1240,
+        "win_len": 160,
+        "rank1_count": 1,
+        "rank5_count": 1,
+        "mean_rank": 110.3125,
+        "recovered_key_hex": "60FB8FF1D5767EF8AB82F6891DEA9D20"
+      }
+    }
+  ],
+  "best_highside": {
+    "group": "highside",
+    "dataset": "dataset_aes_sca_highside.npz",
+    "source": "traces_a",
+    "preproc": "none",
+    "n_traces": 700,
+    "best_window": {
+      "win_start": 120,
+      "win_end": 280,
+      "win_len": 160,
+      "rank1_count": 1,
+      "rank5_count": 2,
+      "mean_rank": 87.75,
+      "recovered_key_hex": "6ED7F41A9F7B33A6146223F6DACC6678"
+    }
+  },
+  "best_lowside": {
+    "group": "lowside",
+    "dataset": "dataset_lowside.npz",
+    "source": "traces",
+    "preproc": "center_detrend",
+    "n_traces": 1000,
+    "best_window": {
+      "win_start": 1080,
+      "win_end": 1240,
+      "win_len": 160,
+      "rank1_count": 2,
+      "rank5_count": 2,
+      "mean_rank": 102.6875,
+      "recovered_key_hex": "838DCD16E19494EC2B91CDC4525B4F5A"
+    }
+  }
+}

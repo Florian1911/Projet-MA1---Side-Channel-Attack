@@ -1,0 +1,11 @@
+{
+  "input": "attack_newkey_20k_aligned.npz",
+  "output": "campaign_aes16_big/byte_11/attack_hw_b11.npz",
+  "byte": 11,
+  "key": 0,
+  "window_start": 12,
+  "window_end": 212,
+  "window_center": 112,
+  "window_len": 200,
+  "snr_max": 0.004986684120467937
+}

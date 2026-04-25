@@ -1,0 +1,20 @@
+{
+  "dataset": "campaign_multisession_mlp16_full/byte_14/profile_b14.npz",
+  "n_total": 15000,
+  "n_train": 10500,
+  "n_val": 2250,
+  "n_test": 2250,
+  "n_classes": 9,
+  "poi": 300,
+  "h1": 256,
+  "h2": 128,
+  "dropout": 0.1,
+  "epochs": 60,
+  "batch_size": 256,
+  "lr": 0.001,
+  "l2": 1e-05,
+  "patience": 12,
+  "best_val_acc1": 0.2568888888888889,
+  "test_acc1": 0.23377777777777778,
+  "test_acc5": 0.9297777777777778
+}

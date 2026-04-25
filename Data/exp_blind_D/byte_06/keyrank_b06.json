@@ -1,0 +1,46 @@
+{
+  "model": "exp_blind_D/byte_06/model_b06.npz",
+  "dataset": "exp_blind_D/byte_06/attack_b06.npz",
+  "byte": 6,
+  "true_key": 248,
+  "n_use": 20000,
+  "repeats": 5,
+  "label_mode": "hw",
+  "final_avg_rank": 204,
+  "traces_to_rank1": null,
+  "checkpoints_avg_rank": {
+    "10": 171.8,
+    "20": 108.4,
+    "50": 89.0,
+    "100": 86.8,
+    "200": 119.4,
+    "500": 104.8,
+    "1000": 88.6,
+    "2000": 115.8,
+    "5000": 161.4,
+    "10000": 162.4,
+    "20000": 204.0
+  },
+  "top5_final_scores_repeat1": [
+    {
+      "key": 5,
+      "score": -36240.4455294013
+    },
+    {
+      "key": 108,
+      "score": -36241.10646349192
+    },
+    {
+      "key": 232,
+      "score": -36286.464009583
+    },
+    {
+      "key": 253,
+      "score": -36300.09519422054
+    },
+    {
+      "key": 81,
+      "score": -36305.62543037534
+    }
+  ]
+}

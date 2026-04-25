@@ -1,0 +1,35 @@
+{
+  "model": "campaign_cross_session_local/byte_05/model_b05.npz",
+  "dataset": "campaign_cross_session_local/byte_05/attack_hw_b05.npz",
+  "byte": 5,
+  "best_shift": -34,
+  "recovered_key_byte": 35,
+  "margin": 60.24609375,
+  "top5": [
+    {
+      "rank": 1,
+      "key": 35,
+      "score": -35077.56640625
+    },
+    {
+      "rank": 2,
+      "key": 84,
+      "score": -35137.8125
+    },
+    {
+      "rank": 3,
+      "key": 188,
+      "score": -35139.08984375
+    },
+    {
+      "rank": 4,
+      "key": 32,
+      "score": -35142.56640625
+    },
+    {
+      "rank": 5,
+      "key": 3,
+      "score": -35144.75390625
+    }
+  ]
+}
