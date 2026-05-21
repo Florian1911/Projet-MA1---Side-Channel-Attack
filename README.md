@@ -51,24 +51,3 @@ Pour l'acquisition PicoScope, installer aussi les bibliotheques systeme PicoSDK 
 3. Verifier l'alignement et la qualite des traces (`scripts/preprocessing/fix_alignment.py`, `scripts/preprocessing/quality_check.py`, scripts SNR).
 4. Executer une attaque CPA ou ML (`scripts/attacks/cpa_attack.py`, `scripts/campaigns/full_aes16_pipeline.py`, `scripts/ml/train_mlp_numpy.py`, etc.).
 5. Comparer les rangs/correlations et produire les figures du rapport.
-
-## Citation
-
-Citation courte possible dans le rapport:
-
-```text
-Le code, les scripts d'acquisition et une partie des resultats experimentaux sont disponibles dans le depot GitHub du projet:
-https://github.com/Florian1911/Projet-MA1---Side-Channel-Attack
-```
-
-Reference BibTeX possible:
-
-```bibtex
-@misc{lefebvre2026sca,
-  author       = {Florian Lefebvre},
-  title        = {Projet MA1 - Side Channel Attack},
-  year         = {2026},
-  howpublished = {\url{https://github.com/Florian1911/Projet-MA1---Side-Channel-Attack}},
-  note         = {Code, firmware STM32, scripts d'acquisition et resultats experimentaux pour une attaque par analyse de consommation sur AES}
-}
-```
