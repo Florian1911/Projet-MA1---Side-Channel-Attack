@@ -400,13 +400,13 @@ def main():
         print(f"[MAIN] acquisition {N_TRACES} traces", flush=True)
         for i in range(N_TRACES):
             pt = os.urandom(16)
-            _, mv_a, mv_b, ct, overflow = acquire_one_trace(ser, pico, pt)
+            trace_diff, mv_a, mv_b, ct, overflow = acquire_one_trace(ser, pico, pt)
 
             pt_arr = np.frombuffer(pt, dtype=np.uint8)
             ct_arr = np.frombuffer(ct, dtype=np.uint8)
             label  = compute_label(pt_arr, KEY, byte_idx=0)
 
-            traces[i]      = mv_b          # ChB AC = signal de puissance pour CPA
+            traces[i]      = trace_diff    # ChA - ChB = tension aux bornes du shunt
             traces_a[i]    = mv_a
             traces_b[i]    = mv_b
             plaintexts[i]  = pt_arr
@@ -416,7 +416,8 @@ def main():
 
             if (i + 1) <= 3 or (i + 1) % 100 == 0:
                 print(f"{i + 1}/{N_TRACES} | overflow={overflow} | "
-                      f"chB_range=[{mv_b.min():.1f}, {mv_b.max():.1f}] mV",
+                      f"diff_range=[{trace_diff.min():.1f}, {trace_diff.max():.1f}] mV | "
+                      f"chA_mean={mv_a.mean():.1f} mV | chB_mean={mv_b.mean():.1f} mV",
                       flush=True)
     finally:
         print("[MAIN] fermeture devices", flush=True)
@@ -447,8 +448,8 @@ def main():
         "pre_trigger_samples": PRE_TRIGGER_SAMPLES,
         "measure_mode": "high_side_differential",
         "trigger_mode": "none_uart_sync",
-        "channel_a": "5V_side_of_shunt",
-        "channel_b": "card_side_of_shunt",
+        "channel_a": "card_side_of_shunt",
+        "channel_b": "supply_side_of_shunt",
         "trace_content": "ChA_mV_minus_ChB_mV",
         "probe_attenuation_a": PROBE_ATTENUATION_A,
         "probe_attenuation_b": PROBE_ATTENUATION_B,
