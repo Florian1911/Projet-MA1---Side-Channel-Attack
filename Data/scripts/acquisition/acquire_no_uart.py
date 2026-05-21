@@ -45,8 +45,7 @@ def _ensure_pico_runtime() -> None:
 
 _ensure_pico_runtime()
 
-from picosd
-.ps5000a import ps5000a as ps
+from picosdk.ps5000a import ps5000a as ps
 from picosdk.functions import assert_pico_ok, mV2adc
 
 

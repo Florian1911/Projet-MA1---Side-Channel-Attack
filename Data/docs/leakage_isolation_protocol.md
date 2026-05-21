@@ -17,9 +17,9 @@ then rebuilding and flashing.
 
 | Variant | File | Triggered operation | Expected strongest model |
 |---|---|---|---|
-| XOR-only | `main_no_uart_xor_key.c` | `state[b] = pt[b] xor key[b]` | `HW(pt xor key)` |
-| SBox-only control | `main_no_uart_sbox_only.c` | `state[b] = SBox(pt[b])` | no key recovery expected |
-| First-round SBox | `main_no_uart.c` | `state[b] = SBox(pt[b] xor key[b])` | `HW(SBox(pt xor key))` or HD transition |
+| XOR-only | `firmware/main_no_uart_xor_key.c` | `state[b] = pt[b] xor key[b]` | `HW(pt xor key)` |
+| SBox-only control | `firmware/main_no_uart_sbox_only.c` | `state[b] = SBox(pt[b])` | no key recovery expected |
+| First-round SBox | `firmware/main_no_uart.c` | `state[b] = SBox(pt[b] xor key[b])` | `HW(SBox(pt xor key))` or HD transition |
 
 The SBox-only control is intentionally key-independent. If it still gives key
 recovery, the result is probably caused by an artefact or plaintext/key sequence
@@ -32,7 +32,7 @@ Use the same command after each flash, changing only the output filename.
 Example for XOR-only:
 
 ```bash
-python base_saine_pico5000/acquire_pico5000a_no_uart.py \
+python setups/base_saine_pico5000/acquire_pico5000a_no_uart.py \
   --n-traces 1000 \
   --num-samples 8000 \
   --pre-trigger 1000 \

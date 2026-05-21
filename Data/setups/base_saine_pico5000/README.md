@@ -21,7 +21,7 @@ Ce dossier contient une base minimale et propre pour repartir de zero avec ton P
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r base_saine_pico5000/requirements.txt
+pip install -r setups/base_saine_pico5000/requirements.txt
 ```
 
 Si `picosdk` n'est pas detecte, installe aussi PicoSDK systeme et verifie `libpicoipp.so`.
@@ -29,7 +29,7 @@ Si `picosdk` n'est pas detecte, installe aussi PicoSDK systeme et verifie `libpi
 ## 3) Smoke test scope (obligatoire)
 
 ```bash
-python base_saine_pico5000/smoke_test_pico5000a.py
+python setups/base_saine_pico5000/smoke_test_pico5000a.py
 ```
 
 Attendu:
@@ -39,7 +39,7 @@ Attendu:
 ## 4) Preparation des plaintexts
 
 ```bash
-python base_saine_pico5000/generate_plaintexts.py --n 5000 --seed 1234
+python setups/base_saine_pico5000/generate_plaintexts.py --n 5000 --seed 1234
 ```
 
 Ensuite:
@@ -56,7 +56,7 @@ Ensuite:
 Commande type:
 
 ```bash
-python base_saine_pico5000/acquire_pico5000a_no_uart.py \
+python setups/base_saine_pico5000/acquire_pico5000a_no_uart.py \
   --n-traces 5000 \
   --num-samples 4000 \
   --pre-trigger 200 \

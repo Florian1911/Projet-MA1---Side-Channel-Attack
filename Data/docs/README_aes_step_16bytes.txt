@@ -8,7 +8,7 @@ New files:
 Protocol:
 1) Flash main_aes_step_16bytes_no_uart.c
 2) Acquire first test set (10k):
-   python acquire_no_uart.py --n-traces 10000 --num-samples 4000 --output aes_step_16b_10k.npz --probe-att-trig 10 --trig-mv-probe 1500
+   python scripts/acquisition/acquire_no_uart.py --n-traces 10000 --num-samples 4000 --output aes_step_16b_10k.npz --probe-att-trig 10 --trig-mv-probe 1500
 3) Analyze:
    python aes_step_16bytes_analysis.py --npz aes_step_16b_10k.npz --n-traces 10000 --win-start 50 --win-end 2000 --out-prefix aes_step_16b_10k
 

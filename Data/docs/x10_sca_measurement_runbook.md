@@ -27,7 +27,7 @@ Expected result:
 With x10 probes, a 3.3 V node appears as about 330 mV at the PicoScope BNC input. Use a 500 mV Pico range and probe attenuation 10.
 
 ```bash
-python acquire_dataset_highside.py \
+python scripts/acquisition/acquire_dataset_highside.py \
   --n-traces 200 \
   --output highside_x10_smoke_200.npz \
   --range-a-mv 500 \
@@ -63,7 +63,7 @@ python highside_campaign.py \
 ## 5. Larger capture if smoke test is clean
 
 ```bash
-python acquire_dataset_highside.py \
+python scripts/acquisition/acquire_dataset_highside.py \
   --n-traces 1000 \
   --output highside_x10_1k.npz \
   --range-a-mv 500 \

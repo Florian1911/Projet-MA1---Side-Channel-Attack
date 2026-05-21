@@ -8,7 +8,7 @@ New files:
 Protocol:
 1) Flash main_aes_step_4bytes_no_uart.c
 2) Acquire:
-   python acquire_no_uart.py --n-traces 5000 --num-samples 4000 --output aes_step_4b.npz --probe-att-trig 10 --trig-mv-probe 1500
+   python scripts/acquisition/acquire_no_uart.py --n-traces 5000 --num-samples 4000 --output aes_step_4b.npz --probe-att-trig 10 --trig-mv-probe 1500
 3) Analyze bytes 0..3:
    python aes_step_4bytes_analysis.py --npz aes_step_4b.npz --n-traces 5000 --win-start 50 --win-end 1000 --out aes_step_4b_analysis.png
 
