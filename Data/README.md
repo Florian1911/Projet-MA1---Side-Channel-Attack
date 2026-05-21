@@ -21,6 +21,19 @@ Ce depot regroupe les scripts Python, firmwares STM32 et notes experimentales ut
 
 Les datasets complets et captures brutes peuvent etre volumineux. Ils ne sont pas tous versionnes; le depot garde surtout le code, les petits resumes et les figures utiles.
 
+## Donnees experimentales
+
+L'espace de travail experimental complet occupe environ 200 Go localement, et peut atteindre environ 221 Go selon les campagnes et captures conservees. Cette taille provient principalement des traces PicoScope brutes (`.npz`, `.npy`, captures completes) et des nombreuses campagnes de tests.
+
+Pour garder le depot GitHub consultable, les donnees lourdes ne sont pas toutes incluses. Le depot contient principalement:
+
+- le code d'acquisition et d'analyse;
+- les firmwares STM32 utilises;
+- les scripts permettant de reproduire les traitements;
+- des resumes de resultats, figures et sorties legeres.
+
+Les mesures experimentales sont longues, car chaque campagne demande une acquisition physique trace par trace, des essais d'alignement, des verifications de stabilite et plusieurs relances lorsque le bruit, le trigger ou le montage degradent la qualite du signal.
+
 ## Installation Python
 
 ```bash
@@ -39,10 +52,23 @@ Pour l'acquisition PicoScope, installer aussi les bibliotheques systeme PicoSDK 
 4. Executer une attaque CPA ou ML (`scripts/attacks/cpa_attack.py`, `scripts/campaigns/full_aes16_pipeline.py`, `scripts/ml/train_mlp_numpy.py`, etc.).
 5. Comparer les rangs/correlations et produire les figures du rapport.
 
-## Lien a citer
+## Citation
 
-Depot GitHub:
+Citation courte possible dans le rapport:
 
 ```text
+Le code, les scripts d'acquisition et une partie des resultats experimentaux sont disponibles dans le depot GitHub du projet:
 https://github.com/Florian1911/Projet-MA1---Side-Channel-Attack
+```
+
+Reference BibTeX possible:
+
+```bibtex
+@misc{lefebvre2026sca,
+  author       = {Florian Lefebvre},
+  title        = {Projet MA1 - Side Channel Attack},
+  year         = {2026},
+  howpublished = {\url{https://github.com/Florian1911/Projet-MA1---Side-Channel-Attack}},
+  note         = {Code, firmware STM32, scripts d'acquisition et resultats experimentaux pour une attaque par analyse de consommation sur AES}
+}
 ```
