@@ -13,16 +13,19 @@ env/
 .idea/
 *.swp
 *.swo
+*.log
+rclone-drive-backup.log
 
-# Build outputs
-build/
-dist/
-*.egg-info/
-*.elf
-*.elf.in
-*.o
-*.a
-*.so
+# Local copy of the former Data workspace after flattening the repository
+Data/
+
+# Old root-level working notes/presentations kept locally but not published
+/Avancé/
+/vm/
+/Notes.txt
+/Protocole.txt
+/On garde model 50k hw.txt
+/*.odp
 
 # Large experiment datasets and model artifacts
 *.npz
@@ -34,11 +37,46 @@ dist/
 *.ckpt
 *.keras
 *.onnx
-*.bin
+*.csv
 
-# Local generated/temporary experiment outputs
-tmp*/
-Data/tmp_*
+# Large/generated acquisition outputs
+dataset*/
+dataset_*.json
+*_dataset*.json
+*_trace*.json
+*_traces*.json
+*_summary.json
+*_analysis.json
+*_convergence.json
+*_rank*.json
+*_keyrank*.json
+*_model*.json
+*_profile*.json
+*_recover*.json
+*_frame_scan.json
+*_model_compare*.json
+recovered_*.json
+
+# Generated figures and temporary plots
+*.png
+*.svg
+!results/report_results/figures/*.svg
+
+# STM32 build products
+build/
+Debug/
+Release/
+dist/
+*.egg-info/
+*.elf
+*.elf.in
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.a
+*.so
 
 # Large/reference documents that should not live in Git history
 *.pdf
